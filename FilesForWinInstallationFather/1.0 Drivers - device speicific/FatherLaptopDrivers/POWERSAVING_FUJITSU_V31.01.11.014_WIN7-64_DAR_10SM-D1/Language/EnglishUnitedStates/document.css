@@ -1,0 +1,434 @@
+/* framebody.css 2004.02 */
+/* for FrameBODY */
+/* All Rights Reserved,Copyright(C) FUJITSU LIMITED 2003-2004 */
+
+/* 階層ナビゲーション */
+p.levelnavi{
+	line-height:100%;
+	margin-bottom:3px;
+        font-weight:normal;
+	font-size:98%;
+	color:#000000;
+	font-family:sans-serif,Helvetica,Verdana,Arial;
+	}
+/* 階層区切りの記号をオレンジにするためのスタイル */
+span.separate{
+	color:#FFA500;
+	font-family:Helvetica,Arial,Verdana,sans-serif,Helvetica;
+	font-size:120%;
+	}
+.navi-bar{	
+	margin-left:-5px;
+	}
+/* 本文の基本マージン、フォントサイズ、文字間隔 、背景色*/
+body{	margin-left:20px;
+	margin-right:10px;
+	font-size:100%;
+	line-height:180%;
+	font-family: Verdana, Helvetica,Arial,sans-serif;
+	}
+/* トップページの背景イメージ*/
+.bgimg{
+	padding-bottom:40px;
+	background-image:url(images/top_infinity.gif);
+	background-repeat:no-repeat;
+        background-position: center top;
+     	} 
+/* リンクの色 */
+a:active,a:hover{
+	color:#FF0000;
+	}
+/* イラストの縦位置 */
+img{
+	vertical-align:middle;
+	}
+/* 段落の行送り */
+.ptext{
+	line-height:150%;
+	font-size:100%;
+	font-weight:normal;
+	color:#000000;
+	}
+/* 引用文 */
+.bqtext{
+	margin-left:25px;
+	line-height:150%;
+	font-size:100%;
+	font-weight:normal;
+	color:#000000;
+	}
+.h1toc{ /* h1の章目次 */
+	font-size:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	}
+/* h1～h6の見出し */
+.pHeading1{
+	line-height:180%;
+	color:#FFFFFF;
+	background-color:#333399;
+	text-align:left;
+	margin-top:2px;
+	margin-left:-10px;
+	margin-bottom:20px;
+	padding:20px;
+	font-weight:bold;
+	font-size:150%;
+	font-family: Helvetica,Arial,sans-serif,Verdana;
+	}
+.pHeading2{
+    	margin-top:20px;
+	margin-left:-8px;
+	padding:2px;
+	padding-left:8px;
+	background:url(images/bgimg_line.gif) repeat-y;
+ 	border-top:0px none #0033CC;
+	border-left:8px solid #0033CC;
+	border-right:0px none #0033CC;
+	border-bottom:1px solid #0033CC;
+	/* border-bottom:4px double #00CC66;N4対応不可 */
+	font-size:113%;
+	font-weight:bold;
+	color:#333399;
+	}
+.pHeading3{
+	margin-top:5px;
+	margin-left:-3px;
+	margin-bottom:-5px;
+	padding:2px;
+	padding-left:20px;
+	background-image:url(images/square_L3.gif); 
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	font-size:102%;
+	font-weight:bold;
+	color:#333399;
+	}
+.pHeading4{
+	margin-left:0px;
+	margin-bottom:-2px;
+	padding-top:3px;
+	padding-left:3px;
+	font-size:100%;
+	font-weight:bold;
+	color:#333399;
+	}
+/* 見出しに使うビュレット */
+.bullet1{
+	font-size:normal;
+	color:#008000;
+	}
+.bullet2{
+	font-size:normal;
+	color: #00BFFF;
+	}
+/* h1とh2のリード文 */
+.lead{
+	line-height:150%;
+	font-size:100%;
+	font-weight:normal;
+	color:#000000;
+	}
+/* ol、ulの左マージン */
+.listmargin{
+	margin-left:-20px;
+	}
+
+td .ollevel1{ /* 第1階層（数字を太字に） */
+	font-weight:bold;
+	font-size:100%;
+	}
+
+/* ol（番号付きリスト） */
+ol{	line-height:150%;
+	color:#0033CC;
+	}
+ol li{	margin-top:11px;
+	margin-bottom:2px;
+	}
+ol li li{margin-top:3px;
+	margin-bottom:3px;
+	}
+ol ul{margin-bottom:8px;
+	}
+
+table.point{	margin-top:5px;
+	}
+
+.pollevel1{ /* 第1階層（数字を太字に） */
+	font-weight:bold;
+	font-size:100%;
+	}
+.pollevel2,.ollevel3,.ollevel4{ /* 第2階層～第4階層 */
+	font-weight:normal;
+	list-style-image:none;
+	}
+.olbody{ /* 手順本文 */
+	margin-top:150%;
+	font-weight:normal;
+ 	font-size:101%;		
+        color:#000000;
+	}
+.olsupple{ /* 手順補足 */
+	padding:2px;
+	font-weight:normal;
+ 	font-size:100%;		
+        color:#000000;
+	}
+.olheader{ /* 手順内見出し */
+	font-size:105%;
+	color:#000000;
+	font-weight:normal;
+	background-color: #F0F8FF;
+	border-bottom:4px dotted #6699FF;
+	}
+.polname{ /* 各部名称部分 */
+	list-style-type:lower-alpha;
+	font-weight:bold;
+	}
+.olnamesupple{ /* 各部名称部分の補足 */
+	font-weight:normal;
+	color:#000000;
+	}
+table.point ol.psymol{ /* ポイント内  */
+	font-weight:normal;
+	list-style-image:none;
+	color:#0033CC;
+	}
+table.point ol.psymol2{ /* ポイント内  */
+	font-weight:normal;
+	list-style-image:none;
+	color:#0033CC;
+	}
+table.important ol.psymol{ /* 重要内  */
+	font-weight:normal;
+	list-style-image:none;
+	color: #CC6633;
+	}
+table.important ol.psymol2{ /* 重要内  */
+	font-weight:normal;
+	list-style-image:none;
+	color: #CC6633;
+	}
+/* ul（箇条書き） */
+ul{	line-height:150%;
+	}
+.pullevel1{ /* 第1階層 */
+	list-style-type:square;
+	list-style-image: url(images/circle-b.gif);
+	font-weight:normal;
+	color:#0033CC;
+	}
+.pullevel2{ /* 第2階層 */
+	list-style-type:square;
+	list-style-image:none;
+	font-size:100%;
+	font-weight:normal;
+	color:#0033CC;
+	}
+.pullevel3,.ullevel4{ /* 第3階層～第4階層 */
+	list-style-type:circle;
+	list-style-image:none;
+	font-weight:normal;
+	color:#FFA500;
+	}
+table.point ul.psymul{ /* point内  */
+	list-style-type:disc;
+	list-style-image:none;
+	font-weight:normal;
+	color:#0033CC;
+	margin-bottom:0px;
+	}
+table.point ul.psymul2{ /* point内  */
+	list-style-type:disc;
+	list-style-image:none;
+	font-weight:normal;
+	color:#0033CC;
+	margin-bottom:0px;
+	}
+table.important ul.psymul{ /* important内  */
+	list-style-type:square;
+	list-style-image:none;
+	font-weight:normal;
+	color:#CC6633;
+	margin-bottom:0px;
+	}
+table.important ul.psymul2{ /* important内2階層 */
+	list-style-type:disc;
+	list-style-image:none;
+	color:#CC6633;
+	margin-bottom:0px;
+	}
+.ulbody,.ulsupple{ /* 箇条書き本文、箇条書き補足 */
+	font-weight:normal;
+ 	font-size:100%;		
+	color:#000000;
+	}
+.boxulbody{ /* ポイント内  */
+	list-style-type:disc;
+ 	font-size:90%;		
+	font-weight:normal;
+	color:#3399FF;
+	}
+.leadul{/* h2のリード文で使う箇条書き */
+	list-style-type:disc;
+	list-style-image: url(images/circle-a.gif);
+	font-size:100%;
+	font-weight:normal;
+	color:#000000;
+	}
+/* dl(番号なしリスト） */
+dl{
+	line-height:150%;
+ }
+dt{
+	font-weight:bold;
+	color:#000000;
+	}
+dd{
+	font-weight:normal;
+	color:#000000;
+	margin-left:0px;
+	}
+/* ol、ul、dl内で使用するイメージ（Netscape4用） */
+.suppleimg{
+	margin-top:10px;
+	padding-bottom:20px;
+	}
+/* メッセージ_表 */
+table.message{
+	background-color:#F5F5F5;
+　　　　margin-top:8px;
+	margin-bottom:5px;
+	}
+/* メッセージ_文字列   */
+p.message{
+	padding:5px;
+	}
+/* 重要、ポイント、コラム */
+.box{
+	margin-bottom:15px; 
+}
+/* ポイント、コラム内のh1 */
+.boxh1{
+	line-height:150%;
+	font-size:100%;
+	font-weight:bold;
+	color:#000000;
+	}
+/* 重要内のh1 */
+.boxh1-j{
+	line-height:150%;
+	font-size:100%;
+	font-weight:bold;
+	color:#CC6633;
+	}
+/* 重要、ポイント、コラム内のh2 */
+.boxh2{
+	line-height:150%;
+	font-size:100%;
+	font-weight:normal;
+	color:#000000;
+	}
+/* PL */
+.pl{
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.plbody{
+	list-style-type:disc;
+	font-size:100%;
+	color:#FF0000;
+	}
+.plsupple{
+	list-style-type:disc;
+	font-weight:normal;
+	font-size:100%;
+	color:#FF0000;
+	}
+/* 表 */
+.tblborder0{ /* 罫線なしの表 */
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.tblborder{ /* 罫線ありの表 */
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+.caption{ /* キャプション */
+	margin-top:10px;
+	margin-bottom:0px;
+	font-size:90%;
+	font-weight:normal;
+	color:#3366CC;
+	}
+.thead{
+	line-height:150%;
+	font-size:100%;
+	text-align:center;
+	color:#000000;
+	background-color:#F0F8FF;
+	font-weight:bold;
+	}
+.note{
+	font-size:100%;
+	color:#000000;
+	}
+/* 奥付 */
+.colophone{
+	margin-left:10%;
+	margin-right:10%;
+	padding:2px;
+	text-align:center;
+	}
+.manualtitle{
+	line-height:150%;
+	font-size:120%;
+	font-weight:bold;
+	color:#006600;
+	}
+.colophonenote{
+	margin-top:10%;
+	margin-left:2%;
+	margin-right:2%;
+	list-style-type:square;
+	list-style-image: url(images/circle-b.gif);
+	font-weight:normal;
+	color:#000000;
+	}
+/* 文字修飾 */
+kbd{ /* キー入力例 */
+	font-family: Verdana, Helvetica,Arial,sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	}
+em{ /* 強調 */
+	font-style:normal;
+	font-weight:bold;
+	}
+strong{ /* さらに強い強調 */
+	font-weight:bold;
+	text-decoration:underline;
+	}
+.ins{ /* 挿入 */
+	color:#FF0000;
+	text-decoration:underline;
+	}
+.del{ /* 削除 */
+	color:#FF0000;
+	text-decoration:line-through;
+	}
+big{ /* 文字拡大 */
+	font-size:110%;
+	}
+small{ /* 文字縮小 */
+	font-size:90%;
+	}
+.reverse{ /* 文字反転 */
+	color:#FFFFFF;
+	background-color:#000000;
+	}
+.blackongray{ /* 文字反転 */
+	background-color:#CCCCCC;
+	}

@@ -1,0 +1,156 @@
+body {
+	background-color: White;
+	margin-top: 0px;
+	margin-left: 15px;
+	font-size:100%;
+}
+h1
+{
+	color:#333399;
+	font-size:250%;
+	text-align:left;
+	line-height:5px;
+
+}
+
+h2
+{
+	color:#333399;
+	font-size:120%;
+	margin-bottom:-1px;
+	border:1px solid #000000;
+}
+h3
+{
+	font-size:150%;
+	border:3px solid #000000;
+	text-align:left;
+	line-height:24px;
+	background-color:#003366;
+	color:White;
+}
+h6
+{
+	font-size:250%;
+	border:3px solid #000000;
+	text-align:left;
+	line-height:40px;
+	background-color:#003366;
+	color:White;
+	margin-bottom:-10px;
+}
+p
+{
+	border-left:2px double Blue;
+	border-bottom:2px double Blue;
+	border-right:2px double Blue;
+	border-top:2px double Blue;
+	margin:10px 10px 10px 10px;
+	padding:10px 10px 10px 30px;
+	text-align:left;
+	line-height:150%;
+}
+em
+{
+	font-size:110%;
+	}
+table
+{
+	width:100%;
+}
+td
+{
+	padding-left:10px;
+}
+th
+{
+	background-color:Lime;
+	
+}
+address{
+
+	clear:both;
+	text-align:right;	/*行揃え→右*/
+	border-top:2px solid #777777;
+}
+
+.page{
+	width:800px
+}
+.main
+{
+	float:left;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:10px;
+
+
+}
+.menu{
+	float:left;
+	width:150px;
+	padding-top:10px;
+	padding-left:10px;
+}
+.menu ul{
+	border-top:1px solid #003366;
+	border-left:1px solid #003366;
+	border-right:1px solid #003366;
+	border-bottom:1px solid #003366;
+	
+	margin:0px;
+	padding:0px;
+}
+.menu li{
+	list-style-image:none;
+	list-style-type:none;
+	margin:0px;
+	padding:5px 5px 5px;
+	line-height:230%;
+	text-align:left;
+}
+.menu a{
+	display:block;
+	width:100%;
+	color:#003366;
+	margin:0px;
+	padding:0px;
+
+}
+.menu a:hover{
+	background-color:#ffff99;
+	margin:0px;
+}
+.submenu ul
+{
+	border-top:0px solid #003366;
+	border-left:0px solid #003366;
+	border-right:0px solid #003366;
+	border-bottom:0px solid #003366;
+}
+.submenu li
+{
+	margin:10px;
+	line-height:150%;
+	font-size:100%
+
+}
+.kugiri{
+	border-bottom:1px dotted Pink;
+}
+.select{
+
+	background-color:#003366;
+	color:White;
+	font-style:oblique;
+}
+.floatphoto
+{
+	float:right;
+	margin-left:10px;
+}
+.name
+{
+	width:25%;
+}

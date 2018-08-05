@@ -1,0 +1,76 @@
+#pragma namespace("\\\\.\\root")
+
+instance of __Namespace {
+	name="Intel_ME";
+};
+
+#pragma namespace("\\\\.\\root\\Intel_ME")
+
+[Version ( "0.0.4" ), 
+    Description ( "A class Representing Intel(R) Manageability Engine (Intel(R) ME) information" ):Amended, dynamic: ToInstance, provider("IntelMEProv"):ToInstance]
+class ME_System : CIM_ComputerSystem {
+   
+   [ Description ("Intel(R) ME firmware version in format: Major.Minor.Revision.build}")]
+   string FWVersion; 
+
+	[Description ("Capabilities represents the supported features on this system"),
+      bitValues { "AMT", "Irwt", "iQST", "TDT", "SoftCreek", "VE", "DT", "NAND", "MPC", 
+		"ICCOverClocking", "PAV", "SPK", "RCA", "RPAT", "IPv6", "KVM", "Och", "VLan", "TLS", "CILA" }]
+   uint32 Capabilities;	
+
+
+	[Description ("EnabledCapabilities represents the enabled features on this system"),
+      bitValues { "AMT", "Irwt", "iQST", "TDT", "SoftCreek", "VE", "DT", "NAND", "MPC", 
+		"ICCOverClocking", "PAV", "SPK", "RCA", "RPAT", "IPv6", "KVM", "Och", "VLan", "TLS", "CILA" }]
+   uint32 EnabledCapabilities;	
+
+	[Description ("PlatformType represents the category the system belongs to"),
+      	ValueMap { "0", "1", "2", "3"},
+		Values { "Mobile", "Desktop", "Server", "Workstation" }]
+   uint32 PlatformType;
+
+	[Description ("UserSegmentType represents the market segment the system belongs to"),
+		ValueMap { "0", "1"},
+		Values { "Corporate", "Consumer" }]
+   uint32 UserSegmentType;
+
+	[Description ("ManageabilityMode represents the manageability mode. Every mode supports a different set of capabilities"),
+		ValueMap { "0", "1", "2", "3"},
+		Values { "None", "Unknown", "vPro", "Standard Manageability" }]
+   uint32 ManageabilityMode;
+	
+
+      [Description ( "Represents the status of the chipset CryptoFuse, when disabled, Intel(R) ME will not perform any encryption operations" )]
+   boolean CryptoFuseEnabled;
+   
+   [Description ( "Receives local  FW Update counters")  : Amended, static, implemented]
+   uint32 getFwUpdateOverrideParams(
+   		[OUT, Description ("FW Update override counter")] uint32 Counter, 
+   		[OUT, Description ("FW Update override qualifier"),
+   		ValueMap { "0", "1", "2" }, 
+	        Values { "ALWAYS", "NEVER", "RESTRICTED"}] uint32 OverrideQualifier); 
+   
+   [Description("Returns the cause for the last Intel(R) ME Reset operation"): Amended, static, implemented]
+   uint32 getLastMEResetReason(
+	[OUT, Description("A description of the last Intel(R) ME reset reason"), 
+	ValueMap { "0", "1", "2", "3" }, 
+       Values { "Power-Up", "FW-Reset", "System-Reset", "Unknown" }]
+	uint32 ReasonCode);
+   
+	[Description ("Specifies the list of ACPI states Intel(R) ME is operational in"): Amended, static, implemented]  
+   uint32 getCurrentPowerPolicy(
+	   [OUT, Description("A description of the power policy")]
+	   string PowerPolicy);
+
+ [Description ("Indicates whether the Firmware Update capability is currently enabled"): Amended, static, implemented]
+  uint32 IsFirmwareUpdateEnabled([OUT] boolean enabled);
+
+[Description ("Specifies the list of supported features on this system"): Amended, static, implemented]  
+   uint32 getCapabilities(
+	   [OUT, Description("An array of strings defining system capabilities. Should match the bitvalues of the system Capabilities")]
+	   string Capabilities[],
+	   [OUT, Description("An array of strings defining system capabilities. Should match the bitvalues of the system Enabled Capabilities")]
+	   string EnabledCapabilities[]);
+
+	  	
+};

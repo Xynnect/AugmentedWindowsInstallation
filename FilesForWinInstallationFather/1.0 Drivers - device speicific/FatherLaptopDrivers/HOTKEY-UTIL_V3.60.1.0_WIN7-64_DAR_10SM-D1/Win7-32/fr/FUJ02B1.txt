@@ -1,0 +1,186 @@
+=====================================================================
+ Pilote de périphérique FUJ02B1 V1.23                        
+=====================================================================
+ Instructions du logiciel
+=====================================================================
+
+ Ces instructions décrivent comment installer le pilote de périphérique 
+ FUJ02B1.
+
+ Première installation :
+ 
+ Lorsque vous installez le pilote de périphérique FUJ02B1 pour la 
+ première fois, assurez-vous de  suivre les instructions données dans 
+ la section « Procédure de nouvelle installation » ci-dessous.
+
+ Mise à jour du pilote : 
+
+ Lorsque vous faites la mise à jour d'une version antérieure du pilote   
+ de périphérique FUJ02B1 déjà installée, assurez-vous de suivre les 
+ instructions données dans la section « Procédure de mise à jour » 
+ ci-dessous. 
+
+ Remarque : Le terme « sélectionner » utilisé dans les descriptions 
+ signifie qu'il faut « cliquer sur l'élément approprié avec le bouton 
+ gauche de la souris ». En fonction de la configuration de votre 
+ ordinateur, il se peut que le terme « cliquer » signifie 
+ « double-cliquer » dans ce document.
+  
+ Toutes les procédures doivent être exécutées dans l'ordre indiqué, 
+ à partir de l'étape 1.
+
+ Configuration de système nécessaire : 
+
+ Le pilote de périphérique FUJ02B1 V1.23 est compatible uniquement 
+ avec les systèmes d'exploitation suivants :
+  Windows(R) 7 Édition Starter
+  Windows(R) 7 Édition Familiale de Base
+  Windows(R) 7 Édition Familiale Supérieure
+  Windows(R) 7 Édition Professionnelle
+  Windows(R) 7 Édition Entreprise
+  Windows(R) 7 Édition Ultime
+
+
+=====================================================================
+ Procédure de nouvelle installation
+=====================================================================
+
+ ATTENTION : Pour installer le pilote de périphérique FUJ02B1, vous 
+ devez d'abord ouvrir une session en tant qu'administrateur. 
+
+ * Si la fenêtre « Contrôle du compte utilisateur » apparaît pendant 
+   l'installation, cliquez sur [Continuer] pour continuer le processus. 
+
+ Étape 1. Exécutez les opérations suivantes permettant d'accéder 
+ au Gestionnaire de périphériques : 
+
+ a) Ouvrez le Panneau de configuration en cliquant sur [Démarrer] -> 
+    Panneau de configuration.
+ b) Dans le Panneau de configuration, cliquez sur « Système et 
+    Entretien ». 
+ c) Dans le Gestionnaire de périphériques, cliquez sur « Mise 
+    à jour des pilotes de périphériques ». 
+
+ Étape 2. Dans la liste du Gestionnaire de périphériques, sous 
+ « Autres périphériques », ouvrez les propriétés du périphérique 
+ inconnu en double-cliquant sur « Périphérique inconnu ». 
+
+ REMARQUE : Si « Périphérique inconnu » n'apparaît pas dans la liste, 
+ il n'est pas nécessaire d'installer le pilote FUJ02B1. Cliquez sur 
+ le bouton [Annuler] et quittez la procédure.
+
+ REMARQUE : Si plusieurs périphériques apparaissent dans la liste, 
+ appliquez cette procédure pour chacun d'entre eux (en commençant 
+ depuis l'étape 2) jusqu'à ce que l'installation du pilote FUJ02B1 
+ soit terminée. Si la fenêtre d'installation du pilote FUJ02B1 ne 
+ s'affiche pas bien que tous les périphériques inconnus aient été 
+ traités selon cette procédure (étape 2 et suivantes), il n'est pas 
+ nécessaire d'installer le pilote de périphérique FUJ02B1. Cliquez 
+ sur le bouton [Annuler] et quittez la procédure. 
+
+ Étape 3. Exécutez l'Assistant de mise à jour conformément à la 
+ procédure suivante : 
+
+ a) Dans la fenêtre Propriétés du périphérique inconnu, cliquez 
+    sur l'onglet Pilote.
+ b) Cliquez sur le bouton [Mise à jour de pilote]. L'Assistant de 
+    mise à jour des pilotes démarrera.
+
+ Étape 4. Installez le pilote de périphérique FUJ02B1 conformément 
+ à la procédure suivante : 
+
+ a) Sélectionnez « Recherche de pilote sur mon ordinateur ».
+ b) Sur l'écran qui suit, indiquez l'emplacement où se trouve le 
+    pilote du périphérique FUJ02B1
+    puis cliquez sur [Suivant].
+ c) Si le pilote de périphérique FUJ02B1 est correctement détecté, 
+    l'installation
+    commencera. Une fois l'installation terminée, cliquez sur
+    [Terminer] pour fermer l'assistant.
+
+ REMARQUE : Si un message indiquant que « Windows n'a pas pu 
+ trouver le pilote pour votre périphérique » apparaît, cela 
+ signifie que le périphérique que vous avez sélectionné dans 
+ la liste du Gestionnaire de périphériques (étape 2) ne correspond 
+ pas. Cliquez sur [Annuler] pour fermer l'Assistant de mise à jour 
+ des pilotes.
+
+ Si plusieurs périphériques inconnus apparaissent dans la liste, 
+ appliquez la procédure ci-dessus pour chacun d'entre eux 
+ (en commençant depuis l'étape 2) jusqu'à ce que l'installation 
+ du pilote FUJ02B1 soit terminée. Si le pilote de périphérique 
+ FUJ02B1 n'est pas détecté bien que tous les périphériques inconnus 
+ aient été traités, il n'est pas nécessaire d'installer le pilote 
+ de périphérique FUJ02B1. Cliquez sur le bouton [Annuler] et 
+ quittez la procédure. 
+
+=====================================================================
+ Procédure de mise à jour
+=====================================================================
+
+ ATTENTION : Pour installer le pilote de périphérique FUJ02B1, 
+ vous devez d'abord ouvrir une session en tant qu'administrateur.
+
+ * Si la fenêtre « Contrôle du compte utilisateur » apparaît pendant 
+   l'installation, cliquez sur [Continuer] pour poursuivre. 
+
+ Étape 1. Exécutez les opérations suivantes permettant d'accéder 
+ au Gestionnaire de périphériques : 
+
+ a) Ouvrez le Panneau de configuration en cliquant sur [Démarrer] -> 
+    Panneau de configuration.
+ b) Dans le Panneau de configuration, cliquez sur « Système et Entretien ». 
+ c) Ensuite, cliquez sur « Mise à jour des pilotes de périphériques ».
+
+ Étape 2. Dans le Gestionnaire de périphériques, ouvrez les propriétés 
+ du pilote de périphérique FUJ02B1 en double-cliquant sur « Pilote de 
+ périphérique Fujitsu FUJ02B1 » sous « Périphériques système ».
+
+ REMARQUE : Si « Pilote du périphérique Fujitsu FUJ02B1 » n'apparaît 
+ pas, vous devez installer ce pilote à nouveau en suivant les 
+ instructions données dans la section « Procédure de nouvelle 
+ installation » ci-dessus. 
+
+ Étape 3. Exécutez l'Assistant de mise à jour conformément à la 
+ procédure suivante :  
+
+ a) Dans la fenêtre Propriétés du périphérique inconnu, cliquez 
+    sur l'onglet Pilote.
+ b) Cliquez sur le bouton [Mise à jour de pilote]. L'Assistant 
+    de mise à jour des pilotes démarrera.
+
+ Étape 4. Faites la mise à jour du pilote de périphérique Fujitsu 
+ FUJ02B1 conformément à la procédure suivante : 
+
+ a) Sélectionnez « Recherche de pilote sur mon ordinateur ».
+ b) Sur l'écran suivant, indiquez l'emplacement où se trouve le 
+    pilote du périphérique FUJ02B1 puis cliquez sur [Suivant].  
+ c) Si le pilote de périphérique FUJ02B1 est correctement détecté, 
+    l'installation commencera. Une fois l'installation terminée, 
+    cliquez sur [Terminer] pour fermer l'assistant.
+
+ REMARQUE : Si un message indiquant que « Windows n'a pas pu trouver 
+ le pilote pour votre périphérique » apparaît, cela signifie que le 
+ périphérique que vous avez sélectionné dans la liste du Gestionnaire 
+ de périphériques (étape 2) ne correspond pas. Cliquez sur [Annuler] 
+ pour fermer l'Assistant de mise à jour des pilotes.
+
+ Si plusieurs périphériques apparaissent dans la liste, appliquez 
+ la procédure ci-dessus pour chacun d'entre eux (en commençant depuis 
+ l'étape 2) jusqu'à ce que l'installation du pilote FUJ02B1 soit terminée. 
+ Si le pilote de périphérique FUJ02B1 n'est pas détecté bien que 
+ tous les périphériques inconnus aient été traités, il n'est pas 
+ nécessaire d'installer le pilote de périphérique FUJ02B1. Cliquez 
+ sur le bouton [Annuler] et quittez la procédure. 
+
+ REMARQUE : Si un message indiquant que « L'Assistant de mise à jour 
+ matérielle ne peut pas poursuivre » apparaît, il n'est pas nécessaire 
+ de mettre à jour le pilote de périphérique FUJ02B1. Cliquez sur
+ [Terminer] pour fermer l'Assistant de mise à jour matérielle. 
+
+=====================================================================
+ Microsoft, Windows et Windows Vista sont des marques déposées ou
+ des marques de commerce de la société Microsoft aux États-Unis et/ou 
+ dans d'autres pays.
+
+ Tous droits réservés, Copyright (C) FUJITSU LIMITED 1998-2006.

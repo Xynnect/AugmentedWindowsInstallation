@@ -1,0 +1,1590 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>Power Saving Utility Manual</title>
+
+<link rel=Stylesheet type="text/css" media=all href=document.css>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-believe-normal-left:yes;}
+h1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.levelnavi, li.levelnavi, div.levelnavi
+	{margin-right:0mm;
+	margin-bottom:2.25pt;
+	margin-left:0mm;
+	font-size:12.0pt;}
+p.message, li.message, div.message
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.navi-bar, li.navi-bar, div.navi-bar
+	{margin-right:0mm;
+	margin-left:-3.75pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bgimg, li.bgimg, div.bgimg
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ptext, li.ptext, div.ptext
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bqtext, li.bqtext, div.bqtext
+	{margin-right:0mm;
+	margin-left:18.75pt;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.h1toc, li.h1toc, div.h1toc
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:15.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pheading1, li.pheading1, div.pheading1
+	{margin-top:1.5pt;
+	margin-right:0mm;
+	margin-bottom:15.0pt;
+	margin-left:-7.5pt;
+	line-height:180%;
+	background:#333399;
+	font-size:18.0pt;
+	font-weight:bold;}
+p.pheading2, li.pheading2, div.pheading2
+	{margin-top:15.0pt;
+	margin-right:0mm;
+	margin-left:-6.0pt;
+	border:none;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pheading3, li.pheading3, div.pheading3
+	{margin-top:3.75pt;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:-2.25pt;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pheading4, li.pheading4, div.pheading4
+	{margin-right:0mm;
+	margin-bottom:0mm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.bullet1, li.bullet1, div.bullet1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bullet2, li.bullet2, div.bullet2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.lead, li.lead, div.lead
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.listmargin, li.listmargin, div.listmargin
+	{margin-right:0mm;
+	margin-left:-15.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pollevel1, li.pollevel1, div.pollevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pollevel2, li.pollevel2, div.pollevel2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel3, li.ollevel3, div.ollevel3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel4, li.ollevel4, div.ollevel4
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olbody, li.olbody, div.olbody
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olsupple, li.olsupple, div.olsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olheader, li.olheader, div.olheader
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:aliceblue;
+	border:none;
+	font-size:12.5pt;
+	font-family:"Times New Roman";}
+p.polname, li.polname, div.polname
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.olnamesupple, li.olnamesupple, div.olnamesupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel1, li.pullevel1, div.pullevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel2, li.pullevel2, div.pullevel2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel3, li.pullevel3, div.pullevel3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ullevel4, li.ullevel4, div.ullevel4
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ulbody, li.ulbody, div.ulbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ulsupple, li.ulsupple, div.ulsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.boxulbody, li.boxulbody, div.boxulbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.leadul, li.leadul, div.leadul
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.suppleimg, li.suppleimg, div.suppleimg
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.box, li.box, div.box
+	{margin-right:0mm;
+	margin-bottom:11.25pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.boxh1, li.boxh1, div.boxh1
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.boxh1-j, li.boxh1-j, div.boxh1-j
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.boxh2, li.boxh2, div.boxh2
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pl, li.pl, div.pl
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.plbody, li.plbody, div.plbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.plsupple, li.plsupple, div.plsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.tblborder0, li.tblborder0, div.tblborder0
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.tblborder, li.tblborder, div.tblborder
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.caption, li.caption, div.caption
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:0mm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.thead, li.thead, div.thead
+	{margin-right:0mm;
+	margin-left:0mm;
+	text-align:center;
+	line-height:150%;
+	background:aliceblue;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.note, li.note, div.note
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.colophone, li.colophone, div.colophone
+	{margin-right:654.5pt;
+	margin-left:654.5pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.manualtitle, li.manualtitle, div.manualtitle
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:14.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.colophonenote, li.colophonenote, div.colophonenote
+	{margin-top:.5pt;
+	margin-right:130.9pt;
+	margin-left:130.9pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ins, li.ins, div.ins
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.del, li.del, div.del
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.reverse, li.reverse, div.reverse
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:black;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.blackongray, li.blackongray, div.blackongray
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:#CCCCCC;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel1, li.ollevel1, div.ollevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel11, li.ollevel11, div.ollevel11
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel12, li.ollevel12, div.ollevel12
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel13, li.ollevel13, div.ollevel13
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel14, li.ollevel14, div.ollevel14
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel15, li.ollevel15, div.ollevel15
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel16, li.ollevel16, div.ollevel16
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel17, li.ollevel17, div.ollevel17
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel18, li.ollevel18, div.ollevel18
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel19, li.ollevel19, div.ollevel19
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel110, li.ollevel110, div.ollevel110
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+span.ulbody1
+	{color:black;
+	font-weight:normal;}
+span.olbody1
+	{color:black;
+	font-weight:normal;}
+span.olsupple1
+	{color:black;
+	font-weight:normal;}
+span.ulsupple1
+	{color:black;
+	font-weight:normal;}
+p.ollevel111, li.ollevel111, div.ollevel111
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ -->
+</style>
+<![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:15.0pt;}
+</style>
+<![endif]>
+<meta name=auther content=Fujitsu>
+</head>
+
+<body lang=JA link=blue vlink=blue style='margin-left:15.0pt;margin-right:7.5pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=right style='margin:0mm;margin-bottom:.0001pt;
+text-align:right;line-height:180%'><a name=pagetop></a><span lang=EN-US
+style='font-family:Arial'><img width=95 height=46 src="images/top_FJ-logo.gif"
+alt="FUJITSU LIMITED" title="FUJITSU LIMITED" border=0></span></p>
+
+<h1 style='margin-top:1.5pt;margin-right:0mm;margin-bottom:15.0pt;margin-left:
+-7.5pt;line-height:180%;background:#333399'><span lang=EN-US style='font-size:
+18.0pt;line-height:180%;font-family:Arial;color:white;letter-spacing:-.2pt'>Power
+Saving Utility Manual</span></h1>
+
+<p class=MsoNormal style='line-height:180%'><span lang=EN-US style='font-family:
+Arial;letter-spacing:-.2pt'>By using the Power Saving Utility, you can easily
+switch your PC to power saving mode. The power saving mode reduces power
+consumption so as to extend battery life. </span></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><span lang=EN-US
+style='font-size:13.5pt;line-height:180%;font-family:Arial;color:#333399;
+letter-spacing:-.2pt'>What you can do with Power Saving Utility</span></h2>
+
+</div>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>You can
+     switch between power saving mode and normal mode by using the Power Saving
+     Button.</span><span class=ulbody1><span lang=EN-US style='font-family:
+     Verdana'><a href="Manual.html#wp1216784"><span style='font-family:Arial;
+     text-decoration:none'><img border=0 width=16 height=13
+     src="images/alow_jumplink.gif" alt=Image title=Image></span><span
+     style='font-family:Arial'>Go to instructions</span></a></span></span><span
+     lang=EN-US style='font-family:Arial'> </span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>You can
+     switch between power saving mode and normal mode by tapping the icon in
+     the Notification Area at the bottom-right corner of the screen.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="Manual.html#wp1190547"><span style='font-family:Arial;text-decoration:
+     none'><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></span><span style='font-family:Arial'>Go to
+     instructions</span></a></span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>You can
+     set up the schemes for each device under power saving mode</span><span
+     lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="Manual.html#wp1192212"><span style='font-family:Arial;text-decoration:
+     none'><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></span><span style='font-family:Arial'>Go to
+     instructions</span></a></span></span><span lang=EN-US style='font-family:
+     Arial'> </span></li>
+</ul>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1182222></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'>System Requirements</span></h2>
+
+</div>
+
+<h3 style='margin-top:3.75pt;margin-right:0mm;margin-bottom:0mm;margin-left:
+-2.25pt;margin-bottom:.0001pt;line-height:180%;background:white'><a
+name=wp1181309></a><span lang=EN-US style='font-size:12.0pt;line-height:180%;
+font-family:Arial;color:#333399'>PC</span></h3>
+
+<ul type=square>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     lang=EN-US style='font-family:Arial'>Fujitsu LifeBook Series</span></li>
+</ul>
+
+<h3 style='margin-top:3.75pt;margin-right:0mm;margin-bottom:0mm;margin-left:
+-2.25pt;margin-bottom:.0001pt;line-height:180%;background:white'><a
+name=wp1181313></a><span lang=EN-US style='font-size:12.0pt;line-height:180%;
+font-family:Arial;color:#333399'>OS</span></h3>
+
+<ul type=square>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Windows</span></span><span
+     class=ulbody1><sup><span lang=EN-US style='font-family:Arial'>&reg;</span></sup></span><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'> </span></span><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>7 Home Basic 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Windows</span></span><span
+     class=ulbody1><sup><span lang=EN-US style='font-family:Arial'>&reg;</span></sup></span><span
+     class=ulbody1><span lang=IT style='font-family:Arial'> 7 Home Premium
+     64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Windows</span></span><span
+     class=ulbody1><sup><span lang=EN-US style='font-family:Arial'>&reg;</span></sup></span><span
+     class=ulbody1><span lang=IT style='font-family:Arial'> 7 Professional
+     64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Windows</span></span><span
+     class=ulbody1><sup><span lang=EN-US style='font-family:Arial'>&reg;</span></sup></span><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'> </span></span><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>7 Enterprise 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Windows</span></span><span
+     class=ulbody1><sup><span lang=EN-US style='font-family:Arial'>&reg;</span></sup></span><span
+     class=ulbody1><span lang=IT style='font-family:Arial'> 7 Ultimate 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows Vista<sup>&reg;</sup> Ultimate 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows Vista<sup>&reg;</sup> Home Premium</span></span><span lang=EN-US
+     style='font-family:Arial;color:#0033CC'> </span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'>&nbsp;64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows Vista<sup>&reg;</sup> Home Basic</span></span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'> 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows Vista<sup>&reg;</sup> Business</span></span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'> 64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows Vista<sup>&reg;</sup> Enterprise</span></span><span class=ulbody1><span
+     lang=EN-US style='font-family:Arial'> </span></span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'>64bit</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows<sup>&reg;</sup> XP Home Edition</span></span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'> 64bit</span></span><span class=ulbody1><span
+     lang=EN-US style='font-family:Arial'> Service Pack 2</span></span></li>
+ <li class=MsoNormal style='margin-right:7.5pt;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup>
+     Windows<sup>&reg;</sup> XP Professional</span></span><span class=ulbody1><span
+     lang=IT style='font-family:Arial'> 64bit</span></span><span class=ulbody1><span
+     lang=EN-US style='font-family:Arial'> Service Pack 2</span></span></li>
+</ul>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1192212></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Setting up the schemes for each device
+under power saving mode</span></h2>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>In this setting, you set up the brightness of the display
+or power consumption level of each device under power saving mode. You also can
+set up whether or not to display a message on screen when you switch modes or
+when you start up under power saving mode. When device does not work properly
+you can initialize the device in this setting.</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=82 height=28
+  src="images/juuyou.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:#FFFAF7;border:outset #FF3300 1.0pt'
+   bordercolorlight="#FF9933">
+   <tr>
+    <td style='border:inset #FF3300 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=square>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'><span
+         lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>Only a user who
+         has an Administrator account can set up power saving mode. Limited
+         User cannot make setting up.</span><span lang=EN-US style='font-family:
+         Arial'> </span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Double-click the Power Saving Utility icon</span></b><span
+     class=olbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>
+     (</span></span><span lang=EN-US style='font-family:Arial'><img border=0
+     width=18 height=18 id=wp1196505 src="images/icon1ad.jpg" alt=Image></span><span
+     class=olbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>/</span></span><span
+     lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+     id=wp1196529 src="images/icon2ae.jpg" alt=Image></span><span
+     class=olbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>)
+     </span></span><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>in the Notification Area at bottom-right of the screen. The [Power
+     Saving Utility Setting] window appears.</span></b></li>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Set up the schemes for each device under power saving mode.</span></b></li>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ol style='margin-top:0mm' start=1 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>Click the [Scheme under power saving mode] cell for
+      the device to set up.</span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=746 height=527 id=wp1214622
+src="images/Image1_0.jpg" alt=Image></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><br>
+</span><span lang=EN-US style='font-family:Arial;color:black'><img border=0
+width=16 height=26 id=wp1216202 src="images/k108.jpg" alt=Image></span><span
+lang=EN-US style='font-family:Arial;color:#0033CC;letter-spacing:-.2pt'>appears
+on the right side of selected cell.</span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ol style='margin-top:0mm' start=2 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:2.25pt;
+      line-height:150%'><span class=olbody1><span lang=EN-US style='font-family:
+      Arial'>Click </span></span><span lang=EN-US style='font-family:Arial;
+      color:black'><img border=0 width=16 height=26 id=wp1214629
+      src="images/k108af.jpg" alt=Image></span><span lang=EN-US
+      style='font-family:Arial;letter-spacing:-.2pt'>and select a scheme under
+      power saving mode.</span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:2.25pt;
+margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+color:#0033CC'><img border=0 width=746 height=527 id=wp1214638
+src="images/Image1.jpg" alt=Image></span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Set whether or not to display a message on screen when you switch
+     modes or when you start up under power saving mode.</span></b></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><b><span lang=EN-US
+style='font-family:Arial;color:#0033CC'><img border=0 width=746 height=527
+id=wp1214114 src="images/Image1ag.jpg" alt=Image></span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=1 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Display a message when starting up under
+      power saving mode.&quot;</span></b><span lang=EN-US style='font-family:
+      Arial'> </span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial;color:windowtext'>If you click </span></span><span
+lang=EN-US style='font-family:Arial'><img border=0 width=15 height=15
+id=wp1214104 src="images/xp0128.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>into </span></span><img border=0 width=15 height=15
+id=wp1214107 src="images/xp0127.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>, </span></span><span style='letter-spacing:-.2pt'>setting
+status for each device under power saving mode is displayed when Windows starts
+up under power saving mode.</span></span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=2 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Display a confirmation message when modes are
+      switched.&quot;</span></b></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial;color:windowtext'>If you click </span></span><span
+lang=EN-US style='font-family:Arial'><img border=0 width=15 height=15
+id=wp1215243 src="images/xp0128ah.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>into </span></span><img border=0 width=15 height=15
+id=wp1215246 src="images/xp0127ai.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>, </span></span><span style='letter-spacing:-.2pt'>setting
+status (restricted devices/function) for each device under power saving mode is
+displayed when switching normal mode to power saving mode, and setting status
+(restriction removed device/function) for each device under normal mode (free
+status) is displayed when switching power saving mode to normal mode.</span></span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=3 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Display a message when switching of modes
+      failed.&quot;</span></b></li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial;color:windowtext'>If you click </span></span><span
+lang=EN-US style='font-family:Arial'><img border=0 width=15 height=15
+id=wp1215775 src="images/xp0128aj.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>into </span></span><img border=0 width=15 height=15
+id=wp1215778 src="images/xp0127ak.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>, </span></span><span style='letter-spacing:-.2pt'>information
+for the device failing in switching modes is displayed when switching of modes
+failed.</span></span></p>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=4 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;The ECO indicator turns on when battery
+      consumption is low.&quot;</span></b></li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial;color:windowtext'>If you click </span></span><span
+lang=EN-US style='font-family:Arial'><img border=0 width=15 height=15
+src="images/xp0128aj.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>into </span></span><img border=0 width=15 height=15
+src="images/xp0127ak.jpg" alt=Image><span class=ulsupple1><span
+style='color:windowtext'>, the ECO indicator</span></span><span
+style='letter-spacing:-.2pt'> turns on when battery consumption is low. This
+function is effective only on the product what have the ECO indicator.</span></span></p>
+
+<ol style='margin-top:0mm' start=4 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Click [OK] button.</span></b><b><span lang=EN-US style='font-family:
+     Arial'> </span></b></li>
+</ol>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#3366FF;line-height:150%'><span
+         lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>Take the
+         following actions in case device does not work properly after
+         switching back to normal mode:</span></li>
+    </ul>
+    <ul style='margin-top:0mm' type=disc>
+     <ol style='margin-top:0mm' start=1 type=1>
+      <li class=MsoNormal style='color:#3366FF;margin-top:8.25pt;margin-bottom:
+          1.5pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+          letter-spacing:-.2pt'>Click [Device Initialization] button.</span></li>
+     </ol>
+    </ul>
+    <div>
+    <p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+    1.5pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US
+    style='font-family:Arial;color:#3366FF;letter-spacing:-.2pt'>A window for
+    switching confirmation appears.</span></p>
+    </div>
+    <ul style='margin-top:0mm' type=disc>
+     <ol style='margin-top:0mm' start=2 type=1>
+      <li class=MsoNormal style='color:#3366FF;margin-top:8.25pt;margin-bottom:
+          1.5pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+          letter-spacing:-.2pt'>Click [OK] button.</span><span lang=EN-US
+          style='font-family:Arial'> </span></li>
+     </ol>
+    </ul>
+    <div>
+    <p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+    1.5pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US
+    style='font-family:Arial;color:#3366FF;letter-spacing:-.2pt'>Each device is
+    initialized; power saving mode is cancelled and disabled device is enabled.
+    </span><span lang=EN-US style='font-family:Arial;color:#3366FF'><br>
+    <span class=olsupple1><span style='color:#3366FF'>Power Saving Utility icon
+    in Notification Area at bottom-right of the screen turns into </span></span><img
+    border=0 width=18 height=18 id=wp1218404 src="images/icon2al.jpg"
+    alt=Image><span class=olsupple1><span style='color:#3366FF'>(Normal Mode).</span></span><br>
+    <span style='letter-spacing:-.2pt'>[Power Saving Utility Setup] window is
+    closed.</span></span></p>
+    </div>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1217526></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Switching between Power Saving Mode and Normal Mode</span></h2>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>You can switch between power saving mode and normal mode
+using one of the following two methods:</span></p>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>Switch by
+     pressing Power Saving Button on computer.</span><span class=ulbody1><span
+     lang=EN-US style='font-family:Arial'><a href="Manual.html#wp1216784"><span
+     style='text-decoration:none'><img border=0 width=16 height=13
+     src="images/alow_jumplink.gif" alt=Image title=Image></span>Go to
+     instructions</a></span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>Switch
+     from the icon in Notification Area at bottom-right of the screen.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'><a
+     href="Manual.html#wp1190547"><span style='text-decoration:none'><img
+     border=0 width=16 height=13 src="images/alow_jumplink.gif" alt=Image
+     title=Image></span>Go to instructions</a></span></span><span lang=EN-US
+     style='font-family:Arial'> </span></li>
+</ul>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=82 height=28
+  src="images/juuyou.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:#FFFAF7;border:outset #FF3300 1.0pt'
+   bordercolorlight="#FF9933">
+   <tr>
+    <td style='border:inset #FF3300 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=square>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'><span
+         lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>Only a user who
+         has Administrator account can switch between power saving mode and
+         normal node. &quot;Limited User&quot; cannot make switching.</span><span
+         lang=EN-US style='font-family:Arial'> </span></li>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'><span
+         lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>If a device
+         is in use, switching of modes must be done after using the device.
+         Otherwise the device may not shut down.</span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<h2 style='line-height:180%'><a name=wp1216784></a><span lang=EN-US
+style='font-size:13.5pt;line-height:180%;font-family:Arial;color:#333399'>Switching
+with Power Saving Button</span></h2>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Press the Instant / Power Saving button.<br>
+     </span></b><b><span lang=EN-US style='font-family:Arial'><br>
+     Refer to the system user's guide for the location of the Instant/Power
+     Saving button.</span></b></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><span class=olsupple1><span
+lang=EN-US style='font-family:Arial'>When setting to display a message when
+switching modes is made in accordance with <a href="Manual.html#wp1192212"><span
+style='text-decoration:none'><img border=0 width=16 height=13
+src="images/alow_jumplink.gif" alt=Image title=Image></span>&quot;Setting up
+the schemes of each device under power saving mode&quot;</a>, the following
+confirmation message is displayed.</span></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><b><span lang=EN-US
+style='font-family:Arial;color:#0033CC'><img border=0 width=525 height=407
+id=wp1193157 src="images/Image2.jpg" alt=Image></span></b></p>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:36.0pt'>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+    2.25pt;margin-left:36.0pt;text-indent:-18.0pt;line-height:150%'><span
+    lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:Symbol;
+    color:#0033CC'>&middot;</span><span lang=EN-US style='font-size:7.0pt;
+    line-height:150%;color:#0033CC'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+    lang=EN-US style='font-size:7.0pt;line-height:150%;color:#3366FF'>&nbsp;&nbsp;&nbsp;&nbsp;
+    </span><span class=ulbody1><span lang=EN-US style='font-family:Arial;
+    color:#3366FF'>If you click </span></span><span lang=EN-US
+    style='font-family:Arial;color:#3366FF'><img border=0 width=15 height=15
+    id=wp1215335 src="images/xp0127am.jpg" alt=Image><span class=ulbody1><span
+    style='color:#3366FF'>for &quot;Display a confirmation message when
+    switching of mode was done.&quot; into </span></span><img border=0
+    width=15 height=15 id=wp1215338 src="images/xp0128an.jpg" alt=Image><span
+    class=ulbody1><span style='color:#3366FF'>, this window will not appear
+    again.</span></span></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><span class=olbody1><span lang=EN-US style='font-family:
+     Arial'>Click [OK] button.</span></span></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><span class=olsupple1><span lang=EN-US
+style='font-family:Arial'>A progress indicator for switching mode appears.</span></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=476 height=78 id=wp1203256
+src="images/Image5.jpg" alt=Image></span></b></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;letter-spacing:-.2pt'>When mode is switched, the icon in Notification
+Area at bottom-right on the screen is changed:</span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ul style='margin-top:0mm' type=disc>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching power saving mode to normal mode: </span><span
+      lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+      id=wp1206039 src="images/icon1ao.jpg" alt=Image></span><span
+      class=ulbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>-&gt;
+      </span></span><span lang=EN-US style='font-family:Arial'><img border=0
+      width=18 height=18 id=wp1203264 src="images/icon2ap.jpg" alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching normal mode to power saving mode: </span><span
+      lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+      id=wp1206050 src="images/icon2aq.jpg" alt=Image></span><span
+      class=ulbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>-&gt;
+      </span></span><span lang=EN-US style='font-family:Arial'><img border=0
+      width=18 height=18 id=wp1206032 src="images/icon1ar.jpg" alt=Image></span></li>
+ </ul>
+</ol>
+
+<h2 style='line-height:180%'><a name=wp1190547></a><span lang=EN-US
+style='font-size:13.5pt;line-height:180%;font-family:Arial'>Switching with the
+icon in Notification Area at bottom-right on the screen</span></h2>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Click the icon in Notification Area at bottom-right on the screen.</span></b></li>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching normal mode to power saving mode:
+      click </span><span lang=EN-US style='font-family:Arial'><img border=0
+      width=18 height=18 id=wp1207304 src="images/icon2as.jpg" alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching power saving mode to normal mode: click
+      </span><span lang=EN-US style='font-family:Arial'><img border=0 width=18
+      height=18 id=wp1207311 src="images/icon1at.jpg" alt=Image></span></li>
+ </ul>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Select the following menu at the displayed menu:</span></b></li>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching normal mode to power saving mode:</span></li>
+ </ul>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial;color:windowtext'>&nbsp;Select </span></span><span
+lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>&quot;Switch to power
+saving mode.&quot;</span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching power saving mode to normal mode:</span></li>
+ </ul>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;letter-spacing:-.2pt'>&nbsp;Select &quot;Switch to normal mode.&quot;</span></p>
+
+</div>
+
+<div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:0mm;
+     margin-bottom:.0001pt;line-height:150%'><b><span lang=EN-US
+     style='font-family:Arial;color:windowtext;letter-spacing:-.2pt'>When </span></b><span
+     class=olsupple1><span lang=EN-US style='font-family:Arial;color:windowtext'>setting
+     to display a message when switching modes is made in accordance with </span></span><span
+     class=olsupple1><span lang=EN-US style='font-family:Arial'><a
+     href="Manual.html#wp1192212"><span style='text-decoration:none'><img
+     border=0 width=16 height=13 src="images/alow_jumplink.gif" alt=Image
+     title=Image></span>&quot;Setting up the schemes of each device under power
+     saving mode&quot;</a>, the following confirmation message is displayed.</span></span></li>
+</ol>
+
+</div>
+
+<div>
+
+<ol style='margin-top:0mm' start=4 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:0mm;
+     margin-bottom:.0001pt;line-height:150%'><b><span lang=EN-US
+     style='font-family:Arial'><img border=0 width=525 height=407 id=wp1193224
+     src="images/Image2au.jpg" alt=Image></span></b></li>
+</ol>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:36.0pt'>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+    2.25pt;margin-left:36.0pt;text-indent:-18.0pt;line-height:150%'><span
+    lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:Symbol;
+    color:#0033CC'>&middot;</span><span lang=EN-US style='font-size:7.0pt;
+    line-height:150%;color:#0033CC'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+    lang=EN-US style='font-size:7.0pt;line-height:150%;color:#3366FF'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span><span class=ulbody1><span lang=EN-US style='font-family:Arial;
+    color:#3366FF'>If you click </span></span><span lang=EN-US
+    style='font-family:Arial;color:#3366FF'><img border=0 width=15 height=15
+    id=wp1223078 src="images/xp0127am.jpg" alt=Image><span class=ulbody1><span
+    style='color:#3366FF'>for &quot;Display a confirmation message when
+    switching of mode was done.&quot; into </span></span><img border=0
+    width=15 height=15 id=wp1223079 src="images/xp0128an.jpg" alt=Image><span
+    class=ulbody1><span style='color:#3366FF'>, this window will not appear
+    again.</span></span></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><span class=olbody1><span lang=EN-US style='font-family:
+     Arial'>Click [OK] button.</span></span></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><span class=olsupple1><span lang=EN-US
+style='font-family:Arial'>A progress indicator for switching mode appears.</span></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=476 height=78 id=wp1206261
+src="images/Image5az.jpg" alt=Image></span></b></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><br>
+</span></b><b><span lang=EN-US style='font-family:Arial;letter-spacing:-.2pt'>When
+mode is switched, the icon in Notification Area at bottom-right on the screen
+is changed:</span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching power saving mode to normal mode: </span><span
+      lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+      id=wp1207318 src="images/icon1ay.jpg" alt=Image></span><span
+      class=ulbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>-&gt;
+      </span></span><span lang=EN-US style='font-family:Arial'><img border=0
+      width=18 height=18 id=wp1207321 src="images/icon2az.jpg" alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>When switching normal mode to power saving mode: </span><span
+      lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+      id=wp1207325 src="images/icon2ba.jpg" alt=Image></span><span
+      class=ulbody1><span lang=EN-US style='font-family:Arial;color:windowtext'>-&gt;
+      </span></span><span lang=EN-US style='font-family:Arial'><img border=0
+      width=18 height=18 id=wp1207328 src="images/icon1bb.jpg" alt=Image></span></li>
+ </ul>
+</ol>
+
+<h2 style='line-height:180%'><a name=wp1195541></a><span lang=EN-US
+style='font-size:13.5pt;line-height:180%;font-family:Arial;color:#333399'>If
+switching fails</span></h2>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial'>When
+setting is made to display a message when switching fails in accordance with <a
+href="Manual.html#wp1192212"><span style='text-decoration:none'><img border=0
+width=16 height=13 src="images/alow_jumplink.gif" alt=Image title=Image></span>&quot;Setting
+up the schemes of each device under power saving mode&quot;</a>, the following
+confirmation message is displayed. When the message is displayed, you can
+verify the information of the device that failed.<br>
+After confirming the contents, click [OK].</span></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=525 height=406
+id=wp1222931 src="images/Image4.jpg" alt=Image></span></p>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#3366FF;line-height:150%'><span
+         class=ulbody1><span lang=EN-US style='font-family:Arial;color:#3366FF'>If
+         you click </span></span><span lang=EN-US style='font-family:Arial'><img
+         border=0 width=15 height=15 id=wp1222936 src="images/xp0127bc.jpg"
+         alt=Image><span class=ulbody1><span style='color:#3366FF'>for
+         &quot;Display a message when mode switching failed&quot; into </span></span><img
+         border=0 width=15 height=15 id=wp1222939 src="images/xp0128bd.jpg"
+         alt=Image><span class=ulbody1><span style='color:#3366FF'>, this
+         window will not appear again, even though switching of modes failed.</span></span></span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>When mode switching is done while a device (e.g., S-Multi
+drive, CD/DVD drive) is in use, the following message may appear on the screen:</span></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=490 height=182
+id=wp1223077 src="images/OSERROR.jpg" alt=Image></span></p>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial'>When
+that happens, click [OK] button.</span></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1218589></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>If PC starts up under power saving mode</span></h2>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>If you shut down Windows Vista under power saving mode,
+it starts up under power saving mode and a scheme limitation window for each
+device is displayed.</span></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=525 height=407
+id=wp1220843 src="images/Image6.jpg" alt=Image></span></p>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial'>After
+confirming the contents, click [OK]</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#3366FF;line-height:150%'><span
+         class=ulbody1><span lang=EN-US style='font-family:Arial;color:#3366FF'>If
+         you click </span></span><span lang=EN-US style='font-family:Arial'><img
+         border=0 width=15 height=15 id=wp1220438 src="images/xp0127be.jpg"
+         alt=Image><span class=ulbody1><span style='color:#3366FF'>for &quot;Display
+         a confirmation message when starting up under power saving mode.&quot;
+         into </span></span><img border=0 width=15 height=15 id=wp1220429
+         src="images/xp0128bf.jpg" alt=Image><span class=ulbody1><span
+         style='color:#3366FF'>, this window will not appear again, even though
+         you start up Windows Vista under power saving mode.</span></span></span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1191366></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Icon in Notification Area at bottom-right
+on the screen</span></h2>
+
+</div>
+
+<div style='margin-top:7.5pt'>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-size:11.0pt;line-height:180%;font-family:Arial'>About
+the icon in Notification Area at bottom-right on the screen.</span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0 width="100%"
+ style='width:100.0%;border:solid windowtext 1.0pt'>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:aliceblue;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=thead><span lang=EN-US style='font-family:Arial'>Icon </span></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:aliceblue;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=thead><span lang=EN-US style='font-family:Arial'>Description </span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+  id=wp1196663 src="images/icon1.jpg" alt=Image></span></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p style='line-height:180%'><span lang=EN-US style='font-family:Arial'>PC is
+  set under power saving mode.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+  id=wp1192322 src="images/icon2.jpg" alt=Image></span></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p style='line-height:180%'><span lang=EN-US style='font-family:Arial'>PC is
+  set under normal mode.</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1200773></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'>Precautions</span></h2>
+
+</div>
+
+<ul type=square>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-family:Arial;letter-spacing:-.2pt'>Even though one PC is used under
+     plural user accounts, power saving mode has only one setting per PC.
+     Therefore, if another user logs on to the PC with another user account
+     under power saving mode, the PC keeps power saving mode.</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-family:Arial;letter-spacing:-.2pt'>Mode switching can be done only
+     in accordance with the methods instructed in this manual. PC's state
+     change to Standby/Resume/Hibernation or Reboot/Logoff will never
+     automatically make<s>s</s> a change of present mode.</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-family:Arial;letter-spacing:-.2pt'>If the condition of
+     hardware is changed intentionally after or during mode switching, this
+     software does not reset the hardware settings.</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:0mm;
+margin-left:36.0pt;margin-bottom:.0001pt;line-height:150%'><span class=ulbody1><span
+lang=EN-US style='font-family:Arial'><a href="Manual.html#wp1217526"><span
+style='text-decoration:none'><img border=0 width=16 height=13
+src="images/alow_jumplink.gif" alt=Image title=Image></span>Go to instructions</a></span></span></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1212041></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'>Trademarks and Copyrights</span></h2>
+
+</div>
+
+<p style='line-height:180%'><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>Windows is a trademark of the Microsoft group of
+companies.<br>
+Microsoft and Windows Vista are registered trademarks of Microsoft Corporation
+in the United States and/or other countries.</span><span lang=EN-US
+style='font-family:Arial'><br>
+Power Saving Utility is a product name of Fujitsu Limited.<br>
+<span style='letter-spacing:-.2pt'>All other company names or products names
+mentioned herein are trademarks or registered trademarks of the respective
+companies.</span></span></p>
+
+<p align=right style='text-align:right;line-height:180%'><span lang=EN-US
+style='font-family:Arial'><a href="#pagetop"><span style='text-decoration:none'><img
+border=0 width=14 height=14 src="images/alow_top.gif" alt=Image title=Image></span></a></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%'>
+ <tr style='height:.75pt'>
+  <td width="100%" colspan=2 style='width:100.0%;background:mediumblue;
+  padding:0mm 0mm 0mm 0mm;height:.75pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-size:1.0pt;line-height:180%;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='height:5.25pt'>
+  <td width="100%" colspan=2 style='width:100.0%;padding:0mm 0mm 0mm 0mm;
+  height:5.25pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='height:7.5pt'>
+  <td style='padding:0mm 0mm 0mm 0mm;height:7.5pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+  <td style='padding:0mm 0mm 0mm 0mm;height:7.5pt'>
+  <p class=MsoNormal align=right style='margin:0mm;margin-bottom:.0001pt;
+  text-align:right;line-height:180%'><span lang=EN-US style='font-size:8.0pt;
+  line-height:180%;font-family:Verdana'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:3.0pt'>
+  <td width="100%" colspan=2 style='width:100.0%;padding:0mm 0mm 0mm 0mm;
+  height:3.0pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=center style='margin:0mm;margin-bottom:.0001pt;
+text-align:center;line-height:180%'><span lang=EN-US style='font-size:11.0pt;
+line-height:180%;font-family:Arial;color:black'>All Rights Reserved,
+Copyright&copy; FUJITSU LIMITED 2005-2010</span></p>
+
+</div>
+
+</body>
+
+</html>

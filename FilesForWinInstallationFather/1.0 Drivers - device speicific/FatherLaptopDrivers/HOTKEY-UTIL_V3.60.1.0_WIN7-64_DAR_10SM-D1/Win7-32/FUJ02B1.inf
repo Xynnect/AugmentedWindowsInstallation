@@ -1,0 +1,83 @@
+;==============================================================================
+; [FUJ02B1.INF]
+;  Fujitsu FUJ02B1 Device Driver INF File
+;------------------------------------------------------------------------------
+; All Rights Reserved, Copyright (C) FUJITSU LIMITED. 1998-2009.
+;==============================================================================
+
+
+[Version]
+Signature="$CHICAGO$"
+Class=System
+CLASSGUID={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%FJPSD%
+DriverVer=06/01/2009,1.23
+CatalogFile=fuj02b1.cat
+
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+
+[SourceDisksNames]
+1 = %FUJ02B1.DiskName%,,,
+
+
+[SourceDisksFiles]
+fuj02b1.sys = 1
+
+
+[Manufacturer]
+%FUJ02B1.Manufacture%=FJPSD
+
+
+[FJPSD]
+%FUJ02B1.DeviceDesc%=FUJ02B1.InstallSet,ACPI\FUJ02B1
+
+
+[FUJ02B1.InstallSet]
+CopyFiles=FUJ02B1.InstallFile.Driver
+AddReg=FUJ02B1.InstallReg.Add
+
+
+[FUJ02B1.InstallSet.NT]
+CopyFiles=FUJ02B1.InstallFile.Driver
+AddReg=FUJ02B1.InstallReg.Add
+
+
+[FUJ02B1.InstallFile.Driver]
+fuj02b1.sys
+
+
+[FUJ02B1.InstallReg.Add]
+HKR,,DevLoader,,*NTKERN
+HKR,,NTMPDriver,,fuj02b1.sys
+
+
+[FUJ02B1.InstallSet.NT.Services]
+AddService=FUJ02B1, 0x00000002, FUJ02B1.AddService
+
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+FUJ02B1.InstallFile.Driver=10,system32\drivers
+
+
+;==============================================================================
+; Strings
+;------------------------------------------------------------------------------
+[FUJ02B1.AddService]
+DisplayName    = %FUJ02B1.DeviceDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\FUJ02B1.sys
+
+;==============================================================================
+; Strings
+;------------------------------------------------------------------------------
+[Strings]
+FJPSD="FUJITSU"
+FUJ02B1.Manufacture="Fujitsu Limited"
+FUJ02B1.DeviceDesc="Fujitsu FUJ02B1 Device Driver"
+FUJ02B1.DiskName="Fujitsu Drivers Disk"

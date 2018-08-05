@@ -1,0 +1,158 @@
+=====================================================================
+ FUJ02B1 Device Driver V1.23                        
+=====================================================================
+ Software Instructions
+=====================================================================
+
+ These instructions describe how to set up the FUJ02B1 Device Driver.
+
+ First Installation:
+ 
+ When first installing the FUJ02B1 Device Driver, be sure to follow
+ the instructions under "New Installation Procedures" below.
+
+ Driver Update: 
+
+ When updating a previously installed older version of the FUJ02B1 
+ Device Driver, be sure to follow the instructions under "Updating
+ Procedures" below. 
+
+ Note: The term "select" in the descriptions is used to represent
+ "click the left mouse button on the applicable item". Depending
+ upon your computer settings, you may need to read "double-click"
+ as "click" in this document.
+  
+ All procedures should be performed in order from Step 1.
+
+ System Requirements: 
+
+ FUJ02B1 Device Driver V1.23 only supports following operating systems:
+  Windows(R) 7 Starter
+  Windows(R) 7 Home Basic
+  Windows(R) 7 Home Premium
+  Windows(R) 7 Professional
+  Windows(R) 7 Enterprise
+  Windows(R) 7 Ultimate
+
+
+=====================================================================
+ New Installation Procedures
+=====================================================================
+
+ ATTENTION: In order to install the FUJ02B1 Device Driver, you must
+ first log on as the Administrator. 
+
+ * If "User Account Control" appears during installation, click
+   [Continue] to proceed with your installation. 
+
+ Step 1. Open the Device Manager according to the following procedure: 
+
+ a) Open the Control Panel by clicking [Start] -> Control Panel.
+ b) Click "System and Maintenance" on the Control Panel. 
+ c) Under Device Manager, click "Update Device Drivers". 
+
+ Step 2. Under "Other devices" on the Device Manager list, open the
+ properties of the unknown device by double-clicking "Unknown device". 
+
+ NOTE: If "Unknown device" is not shown on the list, there is no need
+ to install the FUJ02B1 Device Driver. Click the [Cancel] button and
+ exit.
+
+ NOTE: If more than one unknown device is listed, process each one
+ according to this procedures (starting with Step 2) until 
+ installation of the FUJ02B1 Device Driver has been completed. If the
+ installation of the FUJ02B1 Device Driver does not appear to install
+ even though all the unknown devices have been processed according to
+ the procedure (Step 2 and later), there is no need to install the
+ FUJ02B1 Device Driver. Click the [Cancel] button and exit. 
+
+ Step 3. Start the Wizard according to the following procedure: 
+
+ a) Select the Driver tab in the Unknown device Properties window.
+ b) Select the [Update Driver] button. The Driver Software Update
+    Wizard will begin running.
+
+ Step 4. Install the FUJ02B1 Device Driver according to the following
+ procedure: 
+
+ a) Select "Browse my computer for driver software".
+ b) On the next screen, specify the location where the FUJ02B1 Device
+    Driver is stored and click [Next].
+ c) If the FUJ02B1 Device Driver is properly detected, installation
+    will proceed. When the installation has been completed, click
+    [Finish] to close the wizard.
+
+ NOTE: If a message stating "Windows could not find driver software
+ for your device" appears, the unknown device that you selected from
+ the list of the Device Manager on Step 2 is not the FUJ02B1 Device
+ Driver. Click [Cancel] to close the Device Driver Update Wizard.
+
+ If more than one unknown device is listed, process each one
+ according to the above procedures (starting with Step 2) until
+ installation of the FUJ02B1 Device Driver has been completed. If the
+ FUJ02B1 Device Driver is not detected even though all unknown
+ devices have been processed, then there is no need to install the
+ FUJ02B1 Device Driver. Click the [Cancel] button and exit. 
+
+=====================================================================
+ Updating Procedures
+=====================================================================
+
+ ATTENTION: For installation of the FUJ02B1 Device Driver, you must
+ first log on as the Administrator.
+
+ * If "User Account Control" appears during installation, click
+   [Continue] to continue installation. 
+
+ Step 1. Open the Device Manager according the following procedure: 
+
+ a) Open the Control Panel by clicking [Start] -> Control Panel.
+ b) Click "System and Maintenance" on the Control Panel. 
+ c) Then, click "Update Device Driver".
+
+ Step 2. In the Device Manager, open the properties of the Fujitsu
+ FUJ02B1 device driver by double-clicking "Fujitsu FUJ02B1 Device
+ Driver" under "System devices".
+
+ NOTE: If "Fujitsu FUJ02B1 Device Driver" is not shown, you must
+ newly install the Fujitsu FUJ02B1 Device Driver according to the
+ instructions above in "New Installation Procedures". 
+
+ Step 3. Start the Wizard according to the following procedure:  
+
+ a) Select the Driver tab in the Unknown device Properties window.
+ b) Select the [Update Driver] button. The Driver Software Update
+    Wizard will begin running.
+
+ Step 4. Update the Fujitsu FUJ02B1 Device Driver according to the
+ following procedure: 
+
+ a) Select "Browse my computer for driver software".
+ b) On the next screen, specify the location where the FUJ02B1 Device
+    Driver is stored and click [Next].  
+ c) If the FUJ02B1 Device Driver is properly detected, installation
+    will proceed. When the installation has been completed, click
+    [Finish] to close the wizard.
+
+ NOTE: If a message stating "Windows could not find driver software
+ for your device" appears, the unknown device that you selected from
+ the list of the Device Manager on Step 2 is not the FUJ02B1 Device
+ Driver. Click [Cancel] to close the Device Driver Update Wizard.
+
+ If more than one unknown device is listed, process each one
+ according to the above procedures (starting at Step 2) until
+ installation of the FUJ02B1 Device Driver has been completed. If
+ the FUJ02B1 Device Driver is not detected even though all unknown
+ devices have been processed, then there is no need to install the
+ FUJ02B1 Device Driver. Click the [Cancel] button and exit. 
+
+ NOTE: If a message stating "Hardware Update Wizard cannot proceed"
+ appears, there is no need to update FUJ02B1 Device Driver. Click
+ [Finish] to close the Hardware Update Wizard. 
+
+=====================================================================
+ Microsoft, Windows, and Windows Vista are trademarks or registered
+ trademarks of Microsoft Corporation in the United States and/or
+ other countries.
+
+All Rights Reserved, Copyright (C) FUJITSU LIMITED 1998-2006.

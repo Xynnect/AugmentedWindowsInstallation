@@ -1,0 +1,139 @@
+
+Fujitsu Computer Systems Corporation
+
+**********************************************************************                         
+
+FUJ02E3 Device Driver V1.00/V1.10                                                              
+**********************************************************************
+
+This document explains how to install and update the FUJ02E3 Device Driver. When first installing the the FUJ02E3 Device Driver, be sure to follow the instructions below. 
+
+All procedures should be done in order from Step 1.  
+
+NOTE: Depending upon your computer settings, you may need to read "double-click" as "click" in this document. 
+
+***********************************************************************
+
+Operating System Requirements: 
+
+FUJ02E3 Device Driver V1.00/V1.10 is only for Microsoft Windows XP Home Edition, Microsoft Windows XP Professional, Microsoft Windows XP Professional x64 Edition, and Microsoft Windows 2000 Professional. 
+
+=======================================================================
+
+Installation for Microsoft Windows XP Home Edition, XP Professional and XP Professional x64 Edition
+
+=======================================================================
+
+ATTENTION: For the installation of the FUJ02E3 Device Driver, you will need to log on as the Administrator. 
+
+Step 1. 
+
+Access the Device Manager according to the following procedure: 
+
+A) Open the Control Panel: Click [Start] -> Control Panel.
+B) Open System Properties: From the Control Panel, double-click System. 
+C) Select the Hardware tab in System Properties.
+D) Click the [Device Manager] button. 
+
+NOTE: If System does not appear, refer to the explanation on the screen. Then click "Switch to Classic View" and double-click System. 
+
+
+Step 2.
+
+Open Properties of the unknown device under Other Devices on the Device Manager list according to the following procedure: 
+
+A) Under Other Devices, double-click Unknown Device. 
+
+NOTE: If Unknown Device is not shown on the list, then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit. If more than one unknown device is listed, process each one according to this procedure (Step 2 and later) until installation of the FUJ02E3 Device Driver has been completed. If the installation of the FUJ02E3 Device Driver does not appear to install even though all the unknown devices have been processed according to the procedure (Step 2 and later), then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit. 
+
+
+Step 3.
+
+Start the Hardware Update wizard according to the following procedure:  
+
+A) Click the Driver tab in Properties of the Unknown Device.
+
+B) Click the Update Driver tab.
+
+C) The Hardware Update Wizard will begin running.
+
+
+Step 4.
+
+Install FUJ02E3 Device Driver according to the following procedure: 
+
+A) If the Hardware Update Wizard asks "Can Windows connect to Windows Update to search for software?", select the "No, not this time" option.  Then click the [Next] button (This applies only to Windows XP with SP2).
+
+B) If the FUJ02E3 Device Driver is stored on a floppy disk or CD-ROM, click "Install the Software Automatically (recommended)", then click [Next].
+
+C) If the FUJ02E3 Device Driver is stored on the hard drive, click "Install From a List or Specific Location (Advanced)", then click [Next]. On the next screen, select the "Include this location in the search:" option. Specify the location where the FUJ02E3 Device Driver is to be stored and click [Next]. 
+
+D) If the FUJ02E3 Device Driver is properly detected, installation will proceed. When the installation has been completed, click [Finish] to close the wizard.
+
+NOTE: If the wizard cannot find the software on your computer, then a message will appear noting that the unknown device that you selected on the list in the Device Manager of Step 2 is not the FUJ02E3 Device Driver. Click [Cancel] to close the Hardware Update Wizard. If more than one unknown device is listed, process each one according to the above procedure (Step 2 and later) until installation of the FUJ02E3 Device Driver has been completed. If the FUJ02E3 Device Driver is not detected even though all unknown devices have been processed, then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit.
+
+
+=======================================================================
+
+Installation for Microsoft Windows 2000 Professional
+
+=======================================================================
+
+ATTENTION: For installation of the FUJ02E3 Device Driver, you will need to log on as the Administrator.
+
+Step 1.
+
+Access the Device Manager according the following procedure: 
+
+A) Open the control panel: Click [Start] -> Settings -> Control Panel. 
+
+B) Open System Properties: From the Control Panel, double-click System. 
+
+C) Select the Hardware tab in System Properties.
+
+D) Click the [Device Manager] button. 
+
+
+Step 2.
+
+Open Properties of the unknown device under Other Devices on the Device Manager list according to the following procedure: 
+
+A) Under Other Devices, double-click Unknown Device.
+
+NOTE: If Unknown Device is not shown on the list, then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit. If more than one Unknown Device is listed, process each unknown device according to this procedure (Step 2 and later) until the installation of the FUJ02E3 Device Driver has been completed. If the FUJ02E3 Device Driver is not detected even though all unknown devices have been processed, then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit.
+ 
+
+Step 3.
+
+Run the wizard according to the following procedure:  
+
+A) Click the Driver tab in the Properties of the Unknown Device. 
+
+B) Click the Update Driver tab. 
+
+C) The Update Device Driver Wizard will begin running. 
+
+
+Step 4.
+
+Install FUJ02E3 Device Driver according to the following procedure: 
+
+A) In the first window of the Update Device Driver Wizard, click [Next]. 
+
+B) Click Search for a Suitable Driver for my Device (recommended), then click Next. 
+
+C) Specify the location where the FUJ02E3 Device Driver is to be stored (Specify Floppy Disk, if it is stored in floppy disk; specify CD-ROM, if it is stored in CD-ROM), then click [Next].  
+
+D) If the FUJ02E3 Device Driver is properly detected, the next window will announce that the driver has been detected. After the announcement appears, click [Next]. 
+
+E) Installation of the FUJ02E3 Device Driver will begin. 
+
+F) When the installation has completed, click [Finish] to close the Update Device Driver Wizard. 
+
+NOTE: If the wizard cannot find the software on your computer, a message will appear noting that the unknown device that you selected on the list in the Device Manager of Step 2 is not the FUJ02E3 Device Driver. Click [Cancel] to close the Hardware Update Wizard.  If more than one unknown device is listed, process each one according to this procedure (Step 2 and later) until installation of the FUJ02E3 Device Driver has been completed. If the FUJ02E3 Device Driver is not detected even though all unknown devices have been processed, then there is no need to install the FUJ02E3 Device Driver. Click the [Cancel] button and exit.
+
+
+-------------------------------------------------------------------------
+Microsoft and Windows are registered trademarks of Microsoft Corporation in the United States and/or other countries.
+
+All Rights Reserved, Copyright (C) FUJITSU LIMITED 2004-2006

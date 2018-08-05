@@ -1,0 +1,2 @@
+#pragma namespace("\\\\.\\root")
+#pragma deleteinstance ("__Namespace.Name='Intel_ME'", FAIL)

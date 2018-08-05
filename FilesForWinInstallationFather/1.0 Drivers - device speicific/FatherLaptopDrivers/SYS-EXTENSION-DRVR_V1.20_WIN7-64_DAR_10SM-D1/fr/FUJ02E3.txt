@@ -1,0 +1,182 @@
+
+===================================================================
+ FUJITSU America, Inc
+===================================================================
+ Pilote de périphérique FUJ02E3 V1.20
+===================================================================
+
+ Ce document explique comment installer et mettre à jour le pilote 
+ de périphérique FUJ02E3. Lorsque vous installez le pilote de 
+ périphérique FUJ02E3 pour la première fois, assurez-vous de suivre 
+ les instructions données dans la section « Procédure de nouvelle 
+ installation » ci-dessous. Si vous faites la mise à jour de la 
+ version antérieure V1.00 du pilote de périphérique FUJ02E3 avec la 
+ présente version, assurez-vous de suivre les instructions données 
+ dans la section « Procédure de mise à jour » ci-dessous. 
+
+ Toutes les procédures doivent être exécutées dans l'ordre indiqué, 
+ à partir de l'étape 1.  
+
+ REMARQUE : Dans ce document, le terme « sélectionner » signifie qu'il 
+ faut « cliquer ou double-cliquer sur l'élément approprié avec le bouton 
+ gauche de la souris. » Selon la configuration de votre ordinateur, 
+ il se peut que le terme « cliquer » signifie « double-cliquer » dans 
+ ce document.
+
+===================================================================
+ Système d'exploitation nécessaire :
+===================================================================
+
+ Le pilote de périphérique V1.20 est réservé aux systèmes suivants :
+
+  Windows(R) 7 Édition Starter
+  Windows(R) 7 Édition Familiale de Base
+  Windows(R) 7 Édition Familiale Supérieure
+  Windows(R) 7 Édition Professionnelle
+  Windows(R) 7 Édition Entreprise
+  Windows(R) 7 Édition Ultime
+
+
+===================================================================
+ Procédure de nouvelle installation
+===================================================================
+
+ ATTENTION : Pour installer le pilote de périphérique FUJ02E3, vous 
+ devez d'abord ouvrir une session en tant qu'administrateur.
+
+ REMARQUE : Si une fenêtre « Contrôle du compte utilisateur » apparaît 
+ pendant l'installation, cliquez sur [Continuer] pour continuer 
+ l'installation.
+
+ Étape 1. Exécutez les opérations suivantes permettant d'accéder au 
+ Gestionnaire de périphériques :
+
+ a) Ouvrez le Panneau de configuration en cliquant sur [Démarrer] -> 
+    Paramètres -> 
+    Panneau de configuration.
+ b) Dans le Panneau de configuration, sélectionnez Système et Entretien.
+ c) Dans le Gestionnaire de périphériques, cliquez sur [Mise à jour 
+    des pilotes de périphériques].
+
+ Étape 2. Dans le Gestionnaire de périphériques, ouvrez les propriétés 
+ du « Périphérique inconnu » dans «444 Autres périphériques » en 
+ double-cliquant sur « Périphérique inconnu. » Remarque : Recherchez 
+ également un « Périphérique inconnu » dans Périphériques système.
+
+ REMARQUE : Si « Périphérique inconnu » n'apparaît pas dans la liste, 
+ il n'est pas nécessaire d'installer le pilote de périphérique FUJ02E3. 
+ Cliquez sur [Annuler] et quittez la procédure. Si plusieurs 
+ périphériques apparaissent dans la liste, appliquez la procédure 
+ ci-dessus pour chacun d'entre eux (en commençant depuis l'étape 2) 
+ jusqu'à ce que l'installation du pilote FUJ02E3 soit terminée. Si 
+ la fenêtre d'installation du pilote FUJ02E3 ne s'affiche pas bien 
+ que tous les périphériques inconnus aient été traités selon la 
+ procédure ci-dessus (en commençant depuis l'étape 2), il n'est pas 
+ nécessaire d'installer le pilote de périphérique FUJ02E3. Cliquez 
+ sur [Annuler] et quittez la procédure. 
+
+
+ Étape 3. Exécutez l'Assistant de mise à jour de pilote conformément 
+ à la procédure suivante :
+
+ a) Dans la fenêtre Propriétés du périphérique inconnu, cliquez sur 
+    l'onglet Pilote.
+ b) Cliquez sur le bouton [Mise à jour de pilote]. L'Assistant de 
+    mise à jour des pilotes démarrera.
+
+ Étape 4. Installez le pilote de périphérique FUJ02E3 conformément 
+ à la procédure suivante :
+
+ a) Sélectionnez « Recherche de pilote sur mon ordinateur ». 
+ b) Sur l'écran suivant, indiquez l'emplacement où se trouve le pilote 
+    du périphérique FUJ02E3
+    puis cliquez sur [Suivant].
+ c) Si le pilote de périphérique FUJ02E3 est correctement détecté, 
+    l'installation commencera. 
+ d) Lorsque l'installation est terminée, cliquez sur [Terminer] 
+    pour fermer l'assistant.
+
+ REMARQUE : Si un message indiquant que « Windows n'a pas pu trouver 
+ le pilote pour votre périphérique » apparaît, cela signifie que le 
+ périphérique que vous avez sélectionné  dans la liste du Gestionnaire 
+ de périphériques (étape 2) ne correspond pas. Cliquez sur [Annuler] 
+ pour fermer l'Assistant de mise à jour de pilote. Si plusieurs 
+ périphériques inconnus apparaissent dans la liste, traitez chacun 
+ d'eux selon la procédure ci-dessus (à partir de l'étape 2), jusqu'à 
+ ce que l'installation du pilote FUJ02E3 soit terminée. Si le pilote 
+ de périphérique FUJ02E3 n'est pas détecté bien que tous les périphériques 
+ inconnus aient été traités, il n'est pas nécessaire d'installer 
+ le pilote FUJ02E3. Cliquez sur le bouton [Annuler] et quittez la 
+ procédure.
+
+===================================================================
+ Procédure de mise à jour
+===================================================================
+
+ ATTENTION : Pour installer le pilote de périphérique FUJ02E3, vous 
+ devez d'abord ouvrir une session en tant qu'administrateur.
+
+ REMARQUE : Si une fenêtre « Contrôle du compte utilisateur » 
+ apparaît pendant l'installation, cliquez sur [Continuer] pour 
+ continuer l'installation.
+
+ Étape 1. Exécutez les opérations suivantes permettant d'accéder au 
+ Gestionnaire de périphériques : 
+
+ a) Ouvrez le Panneau de configuration en cliquant sur [Démarrer] -> 
+    Paramètres -> Panneau de configuration.
+ b) Dans le Panneau de configuration, sélectionnez Système et Entretien.
+ c) Dans le Gestionnaire de périphériques, cliquez sur [Mise à jour des 
+    pilotes de périphériques].
+
+ Étape 2. Dans le Gestionnaire de périphériques, sous « Périphériques 
+ système », ouvrez les propriétés du pilote de périphérique FUJ02E3 
+ en double-cliquant sur le pilote FUJ02E3.
+
+ REMARQUE : Si « Pilote du périphérique Fujitsu FUJ02E3 » n'apparaît 
+ pas, vous devez à nouveau installer ce pilote. Procédez conformément 
+ aux instructions données dans la section « Procédure de mise à jour » 
+ ci-dessous.
+
+ Étape 3. Exécutez l’assistant conformément à la procédure suivante :
+
+ a) Dans la fenêtre Propriétés du périphérique inconnu, cliquez sur 
+    l'onglet Pilote.
+ b) Cliquez sur le bouton [Mise à jour de pilote]. L'Assistant de 
+    mise à jour des pilotes démarrera.
+
+ Étape 4. Faites la mise à jour du pilote de périphérique Fujitsu 
+ FUJ02E3 conformément à la procédure suivante :
+
+ a) Sélectionnez « Recherche de pilote sur mon ordinateur ». 
+ b) Sur l'écran suivant, indiquez l'emplacement où se trouve le 
+    pilote du périphérique FUJ02E3 puis cliquez sur [Suivant].
+ c) Si le pilote de périphérique FUJ02E3 est correctement détecté, 
+    l'installation commencera. 
+ d) Lorsque l'installation est terminée, cliquez sur [Terminer] 
+    pour fermer l'assistant.
+
+ REMARQUE : Si un message indiquant que « Windows n'a pas pu trouver 
+ le pilote pour votre périphérique » apparaît, cela signifie que le 
+ périphérique inconnu que vous avez sélectionné dans la liste du 
+ Gestionnaire de périphériques (étape 2) ne correspond pas. Cliquez 
+ sur [Annuler] pour fermer l'Assistant de mise à jour de pilote. Si 
+ plusieurs périphériques inconnus apparaissent dans la liste, traitez 
+ chacun d'eux selon la procédure ci-dessus (à partir de l'étape 2), 
+ jusqu'à ce que l'installation du pilote FUJ02E3 soit terminée. Si le
+ pilote de périphérique FUJ02E3 n'est pas détecté bien que tous les 
+ périphériques inconnus aient été traités, il n'est pas nécessaire 
+ d'installer le pilote FUJ02E3. Cliquez sur le bouton [Annuler] et 
+ quittez la procédure.
+
+ REMARQUE : Si un message indiquant que « L'Assistant de mise à jour 
+ matérielle ne peut pas poursuivre » apparaît, il n'est pas nécessaire 
+ de mettre à jour le pilote de périphérique FUJ02E3. Cliquez sur 
+ [Terminer] pour fermer l'Assistant de mise à jour matérielle. 
+
+===================================================================
+ Microsoft, Windows et Windows Vista sont des marques déposées ou
+ des marques de commerce de la société Microsoft aux États-Unis et/ou 
+ dans d'autres pays.
+
+ Tous droits réservés, Copyright (C) FUJITSU LIMITED 1998-2006

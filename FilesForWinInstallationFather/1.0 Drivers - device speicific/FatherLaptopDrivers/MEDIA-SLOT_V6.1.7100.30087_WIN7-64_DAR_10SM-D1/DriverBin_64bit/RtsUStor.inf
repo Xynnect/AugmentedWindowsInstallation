@@ -1,0 +1,229 @@
+; Installation inf for the Realtek USB Card Reader
+;
+; (c) Copyright 2006 Realtek 
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+provider=%VENDOR%
+DriverVer=05/08/2009,6.1.7100.30087
+CatalogFile=RtsUStor.cat
+
+[SourceDisksNames]
+1=%Disk_Description%
+
+[SourceDisksFiles]
+RtsUStor.sys=1
+RtsUStor.dll = 1
+RtsUStoricon.dll = 1
+
+[Manufacturer]
+%MfgName%=DeviceList,NTamd64
+
+[DeviceList.NTamd64]
+%USB\VID_0BDA&PID_0103.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0103   
+%USB\VID_0BDA&PID_0104.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0104   
+%USB\VID_0BDA&PID_0105.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0105
+%USB\VID_0BDA&PID_0125.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0125
+%USB\VID_0BDA&PID_0106.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0106   
+%USB\VID_0BDA&PID_0107.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0107   
+%USB\VID_0BDA&PID_0108.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0108   
+%USB\VID_0BDA&PID_0111.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0111
+%USB\VID_0BDA&PID_0113.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0113   
+%USB\VID_0BDA&PID_0115.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0115
+%USB\VID_0BDA&PID_0116.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0116
+%USB\VID_0BDA&PID_0117.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0117
+%USB\VID_0BDA&PID_0118.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0118
+%USB\VID_0BDA&PID_0120.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0120
+%USB\VID_0BDA&PID_0121.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0121
+%USB\VID_0BDA&PID_0136.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0136
+%USB\VID_0BDA&PID_0138.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0138
+%USB\VID_0BDA&PID_0151.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0151
+%USB\VID_0BDA&PID_0152.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0152&MI_00 
+%USB\VID_0BDA&PID_0153.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0153       
+%USB\VID_0BDA&PID_0155.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0155
+%USB\VID_0BDA&PID_0156.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0156
+%USB\VID_0BDA&PID_0157.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0157
+%USB\VID_0BDA&PID_0158.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0158
+%USB\VID_0BDA&PID_0159.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0159
+; %USB\VID_0BDA&PID_0161.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0161    
+; %USB\VID_0BDA&PID_0168.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0168    
+; %USB\VID_0BDA&PID_0169.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0169    
+%USB\VID_0BDA&PID_0171.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0171
+%USB\VID_0BDA&PID_0176.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0176    
+%USB\VID_0BDA&PID_0178.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0178    
+%USB\VID_0BDA&PID_0181.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0181
+%USB\VID_0BDA&PID_0185.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0185
+%USB\VID_0BDA&PID_0186.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0186
+
+%USB\VID_0BDA&PID_0163.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0163&MI_00
+%USB\VID_0BDA&PID_0161.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0161&MI_01
+%USB\VID_0BDA&PID_0168.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0168&MI_01
+%USB\VID_0BDA&PID_0166.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0166&MI_01
+;%USB\VID_0BDA&PID_0167.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0167&MI_00
+%USB\VID_0BDA&PID_0167.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0167
+%USB\VID_0BDA&PID_0169.DeviceDesc%=RSUSBSTOR, USB\VID_0BDA&PID_0169&MI_01
+
+;%USB\VID_0B05&PID_170B.DeviceDesc%=RSUSBSTOR, USB\VID_0B05&PID_170B
+;%USB\VID_07B8&PID_E001.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E001
+;%USB\VID_07B8&PID_E002.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E002
+;%USB\VID_07B8&PID_E003.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E003
+;%USB\VID_07B8&PID_E004.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E004
+;%USB\VID_07B8&PID_E005.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E005
+;%USB\VID_07B8&PID_E006.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E006
+;%USB\VID_07B8&PID_E007.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E007
+;%USB\VID_07B8&PID_E008.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E008
+;%USB\VID_07B8&PID_E009.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E009
+;%USB\VID_07B8&PID_E00A.DeviceDesc%=RSUSBSTOR, USB\VID_07B8&PID_E00A
+;%USB\VID_1019&PID_0F52.DeviceDesc%=RSUSBSTOR, USB\VID_1019&PID_0F52
+;%USB\VID_1019&PID_0F62.DeviceDesc%=RSUSBSTOR, USB\VID_1019&PID_0F62
+;%USB\VID_1019&PID_0F64.DeviceDesc%=RSUSBSTOR, USB\VID_1019&PID_0F64
+;%USB\VID_1019&PID_0F67.DeviceDesc%=RSUSBSTOR, USB\VID_1019&PID_0F67
+;%USB\VID_1019&PID_0F71.DeviceDesc%=RSUSBSTOR, USB\VID_1019&PID_0F71
+;%USB\VID_0A48&PID_500A.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_500A
+;%USB\VID_0A48&PID_500F.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_500F
+;%USB\VID_0A48&PID_5010.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5010
+;%USB\VID_0A48&PID_5011.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5011
+;%USB\VID_0A48&PID_5014.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5014
+;%USB\VID_0A48&PID_5020.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5020
+;%USB\VID_0A48&PID_5021.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5021
+;%USB\VID_0A48&PID_5022.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5022
+;%USB\VID_0A48&PID_5023.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5023
+;%USB\VID_0A48&PID_5024.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5024
+;%USB\VID_0A48&PID_5025.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_5025
+;%USB\VID_0A48&PID_323A.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_323A
+;%USB\VID_0A48&PID_323B.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_323B
+;%USB\VID_0A48&PID_323C.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_323C
+;%USB\VID_0A48&PID_3302.DeviceDesc%=RSUSBSTOR, USB\VID_0A48&PID_3302&MI_00
+;%USB\VID_054C&PID_01BD.DeviceDesc%=RSUSBSTOR, USB\VID_054C&PID_01BD
+;%USB\VID_054C&PID_034C.DeviceDesc%=RSUSBSTOR, USB\VID_054C&PID_034C
+;%USB\VID_054C&PID_0382.DeviceDesc%=RSUSBSTOR, USB\VID_054C&PID_0382
+;%USB\VID_0644&PID_0300.DeviceDesc%=RSUSBSTOR, USB\VID_0644&PID_0300
+
+[DestinationDirs]
+RtsUStor.CopyList = 10,System32\Drivers
+RtsCopyFilesSection = 11             ;10,SysWOW64
+
+[RSUSBSTOR.ntamd64]
+CopyFiles=RtsUStor.CopyList
+
+[DefaultInstall]
+CopyFiles = RtsUStor.CopyList, RtsCopyFilesSection
+[RtsUStor.CopyList]
+RtsUStor.sys
+
+[RtsCopyFilesSection]
+RtsUStor.dll
+RtsUStoricon.dll
+
+[RSUSBSTOR.ntamd64.CoInstallers]
+CopyFiles=RtsCopyFilesSection
+AddReg=Rts.ntamd64.CoInstallers_AddReg
+ 
+[Rts.ntamd64.CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"RtsUStor.dll, Rts5121CoInstaller"
+
+[RSUSBSTOR.ntamd64.Services]
+Addservice = RSUSBSTOR, 0x00000002, RSUSBSTOR.AddService
+[DefaultInstall.Services]
+AddService = RSUSBSTOR, 0x00000002, RSUSBSTOR.AddService
+
+[RSUSBSTOR.AddService]
+DisplayName    = %RSUSBSTOR.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\RtsUStor.sys
+AddReg         = RSUSBSTOR.AddReg
+LoadOrderGroup = Base
+
+
+[RSUSBSTOR.AddReg]
+;HKR,,DevLoader,,*ntkern
+;HKR,,NTMPDriver,,RtsUStor.sys
+HKR,"Parameters","DebugLevel",0x10001,5
+
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+VENDOR="Realtek"
+MfgName="Realtek"
+Disk_Description="Realtek 5121 Driver Disk"
+USB\VID_0BDA&PID_0103.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0104.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0106.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0107.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0108.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0113.DeviceDesc="Realtek USB 2.0 Card Reader"
+
+USB\VID_0BDA&PID_0120.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0121.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0151.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0136.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0138.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0152.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0153.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0158.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0159.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0111.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0116.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0118.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0161.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0163.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0168.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0166.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0167.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0169.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0105.DeviceDesc="Realtek USB 2.0 Card Reader Download Mode"
+USB\VID_0BDA&PID_0125.DeviceDesc="Realtek USB 2.0 Card Reader Download Mode"
+USB\VID_0BDA&PID_0171.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0176.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0178.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0181.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0185.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0186.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0156.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0115.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0117.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0157.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0BDA&PID_0155.DeviceDesc="Realtek USB 2.0 Card Reader"
+USB\VID_0B05&PID_170B.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E001.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E002.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E003.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E004.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E005.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E006.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E007.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E008.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E009.DeviceDesc = "USB Mass Storage Device"
+USB\VID_07B8&PID_E00A.DeviceDesc = "USB Mass Storage Device"
+USB\VID_1019&PID_0F62.DeviceDesc = "USB Mass Storage Device"
+USB\VID_1019&PID_0F64.DeviceDesc = "USB Mass Storage Device"
+USB\VID_1019&PID_0F67.DeviceDesc = "USB Mass Storage Device"
+USB\VID_1019&PID_0F52.DeviceDesc = "USB Mass Storage Device"
+USB\VID_1019&PID_0F71.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_500A.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_500F.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5010.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5011.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5014.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5020.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5021.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5022.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5023.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5024.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_5025.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_323A.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_323B.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_323C.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0A48&PID_3302.DeviceDesc = "USB Mass Storage Device"
+USB\VID_0644&PID_0300.DeviceDesc = "USB Mass Storage Device"
+USB\VID_054C&PID_01BD.DeviceDesc = "Sony Card Reader(01BD)"
+USB\VID_054C&PID_0382.DeviceDesc = "Sony Card Reader(0382)"
+USB\VID_054C&PID_034C.DeviceDesc = "Sony Card Reader(034C)"
+RSUSBSTOR.SvcDesc="RtsUStor.Sys Realtek USB Card Reader"

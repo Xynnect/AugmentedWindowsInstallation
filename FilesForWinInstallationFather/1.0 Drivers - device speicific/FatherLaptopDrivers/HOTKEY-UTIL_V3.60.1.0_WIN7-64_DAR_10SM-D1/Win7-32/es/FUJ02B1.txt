@@ -1,0 +1,175 @@
+=====================================================================
+ Controlador de dispositivo FUJ02B1 V1.23
+=====================================================================
+ Instrucciones del software
+=====================================================================
+
+ En estas instrucciones, se describe cómo instalar el Controlador de 
+ dispositivo FUJ02B1.
+
+ Al instalar por primera vez:
+ 
+ Al instalar el Controlador de dispositivo FUJ02B1 por primera vez,
+ asegúrese de seguir las instrucciones que se explican más adelante, 
+ en la sección  "Procedimientos para una instalación nueva".
+
+ Al actualizar el controlador: 
+
+ Al actualizar una versión anterior del Controlador de dispositivo FUJ02B1
+ ya instalada, asegúrese de seguir las instrucciones que se explican más 
+ adelante, en la sección  "Procedimientos para actualización". 
+
+ Nota: En las siguientes indicaciones, el término "seleccione" se refiere 
+ a "haga clic con el botón primario del mouse sobre el elemento en 
+ cuestión". Según la configuración de su computadora, es posible que 
+ deba hacer "doble clic" donde se indica que "haga clic".
+ 
+ Todos los procedimientos deben llevarse a cabo en orden desde el paso 1.
+
+ Requisitos del sistema: 
+
+ El Controlador de dispositivo FUJ02B1 V1.23 sólo admite los siguientes 
+ sistemas operativos:
+ Windows(R) 7 Starter
+ Windows(R) 7 Home Basic
+ Windows(R) 7 Home Premium
+ Windows(R) 7 Professional
+ Windows(R) 7 Enterprise
+ Windows(R) 7 Ultimate
+
+
+=====================================================================
+ Procedimientos para una instalación nueva
+=====================================================================
+
+ ATENCIÓN: Para instalar el Controlador de dispositivo FUJ02B1, debe
+ iniciar sesión como Administrador. 
+
+ * Si se muestra "Control de cuenta de usuario" durante la instalación, 
+ haga clic en [Continuar] para proseguir con la instalación. 
+
+ Paso 1. Abra el Administrador de dispositivos como se indica a continuación: 
+
+ a) Abra el Panel de control haciendo clic en [Inicio] -> Panel de control.
+ b) Haga clic en "Sistema y mantenimiento" en el Panel de control. 
+ c) En el Administrador de dispositivos, haga clic en "Actualizar 
+ controladores de dispositivo". 
+
+ Paso 2. En "Otros dispositivos" de la lista del Administrador de 
+ dispositivos, abra las propiedades del dispositivo desconocido haciendo 
+ doble clic en "Dispositivo desconocido". 
+
+ NOTA: Si "Dispositivo desconocido" no aparece en la lista, no es necesario
+ instalar el Controlador de dispositivo FUJ02B1. Haga clic en el botón 
+ [Cancelar] y salga de la aplicación.
+
+ NOTA: Si hay más de un dispositivo desconocido en la lista, procese cada 
+ uno de ellos como se indica en este procedimiento (a partir del paso 2) 
+ hasta que la instalación del Controlador de dispositivo FUJ02B1 se haya 
+ completado. Si la instalación del Controlador de dispositivo FUJ02B1 no 
+ se ha detectado incluso tras haber procesado todos los dispositivos 
+ desconocidos como se indica en el procedimiento (paso 2 y posteriores), 
+ no es necesario instalar el Controlador de dispositivo FUJ02B1. Haga 
+ clic en el botón [Cancelar] y salga de la aplicación. 
+
+ Paso 3. Inicie el Asistente como se indica a continuación: 
+
+ a) Seleccione la ficha Controlador en la ventana Propiedades del 
+    dispositivo desconocido.
+ b) Seleccione el botón [Actualizar controlador]. El Asistente para 
+    actualizar el software de controlador comienza a ejecutarse.
+
+ Paso 4. Instale el Controlador de dispositivo FUJ02B1 como se indica
+ a continuación: 
+
+ a) Seleccione "Buscar software de controlador en mi computadora".
+ b) En la pantalla siguiente, especifique la ubicación donde
+    se encuentra almacenado el Controlador de dispositivo FUJ02B1 y haga 
+    clic en [Siguiente].
+ c) Si el Controlador de dispositivo FUJ02B1 se ha detectado correctamente, 
+    la instalación se llevará a cabo. Cuando la instalación se haya completado, 
+    haga clic en [Finalizar] para cerrar el asistente.
+
+ NOTA: Si se muestra el mensaje "Windows no pudo encontrar el software de 
+ controlador para su dispositivo", el dispositivo desconocido que seleccionó 
+ de la lista Administrador de dispositivos en el paso 2 no es el Controlador 
+ de dispositivo FUJ02B1. Haga clic en [Cancelar] para cerrar el Asistente 
+ para actualizar el controlador de dispositivo.
+
+ Si hay más de un dispositivo desconocido en la lista, procese cada uno
+ de ellos como se indicó en el procedimiento anterior (a partir del 
+ paso 2) hasta que la instalación del Controlador de dispositivo FUJ02B1 
+ se haya completado. Si el Controlador de dispositivo FUJ02B1 no se ha 
+ detectado incluso tras haber procesado todos los dispositivos desconocidos, 
+ no es necesario instalar el Controlador de dispositivo FUJ02B1. Haga clic 
+ en el botón [Cancelar] y salga de la aplicación. 
+
+=====================================================================
+ Procedimientos para actualización
+=====================================================================
+
+ ATENCIÓN: Para instalar el Controlador de dispositivo FUJ02B1, debe
+ iniciar sesión como Administrador.
+
+ * Si se muestra "Control de cuenta de usuario" durante la instalación, 
+ haga clic en [Continuar] para proseguir con la instalación. 
+
+ Paso 1. Abra el Administrador de dispositivos como se indica a continuación: 
+
+ a) Abra el Panel de control haciendo clic en [Inicio] -> Panel de control.
+ b) Haga clic en "Sistema y mantenimiento" en el Panel de control. 
+ c) Luego haga clic en "Actualizar controlador de dispositivo".
+
+ Paso 2. En el Administrador de dispositivos, abra las propiedades del
+ Controlador de dispositivo FUJ02B1 de Fujitsu haciendo doble clic en 
+ "Controlador de dispositivo FUJ02B1 de Fujitsu"
+ en "Dispositivos de sistema".
+
+ NOTA: Si "Controlador de dispositivo FUJ02B1 de Fujitsu" no aparece, debe
+ instalar nuevamente el Controlador de dispositivo FUJ02B1 de Fujitsu como se 
+ indica en las instrucciones anteriores, "Procedimientos para una instalación 
+ nueva". 
+
+ Paso 3. Inicie el Asistente como se indica a continuación: 
+
+ a) Seleccione la ficha Controlador en la ventana Propiedades del dispositivo 
+    desconocido.
+ b) Seleccione el botón [Actualizar controlador]. El Asistente para actualizar 
+    el software de controlador comienza a ejecutarse.
+
+ Paso 4. Actualice el Controlador de dispositivo FUJ02B1 de Fujitsu como se 
+ indica a continuación: 
+
+ a) Seleccione "Buscar software de controlador en mi computadora".
+ b) En la pantalla siguiente, especifique la ubicación donde
+    se encuentra almacenado el Controlador de dispositivo FUJ02B1 y haga 
+    clic en [Siguiente]. 
+ c) Si el Controlador de dispositivo FUJ02B1 se ha detectado correctamente, 
+    la instalación se llevará a cabo. Cuando la instalación se haya completado, 
+    haga clic en [Finalizar] para cerrar el asistente.
+
+ NOTA: Si se muestra el mensaje "Windows no pudo encontrar el software de 
+ controlador para su dispositivo", el dispositivo desconocido que seleccionó 
+ de la lista Administrador de dispositivos en el paso 2 no es el Controlador 
+ de dispositivo FUJ02B1. Haga clic en [Cancelar] para cerrar el Asistente 
+ para actualizar el controlador de  dispositivo.
+
+ Si hay más de un dispositivo desconocido en la lista, procese cada uno
+ de ellos como se indicó en el procedimiento anterior (a partir del paso 2) 
+ hasta que la instalación del Controlador de dispositivo FUJ02B1 se haya 
+ completado. Si el Controlador de dispositivo FUJ02B1 no se ha detectado 
+ incluso tras haber procesado todos los dispositivos desconocidos, no es 
+ necesario instalar el Controlador de dispositivo FUJ02B1. Haga clic en el 
+ botón [Cancelar] y salga de la aplicación. 
+
+ NOTA: Si se muestra el mensaje "El Asistente de actualización de hardware 
+ no puede continuar", no es necesario actualizar el Controlador de 
+ dispositivo FUJ02B1. Haga clic en [Finalizar] para cerrar el Asistente 
+ para actualización de hardware. 
+
+=====================================================================
+ Microsoft, Windows y Windows Vista son marcas comerciales o marcas 
+ comerciales registradas de Microsoft Corporation en los Estados Unidos 
+ oen otros países.
+
+Todos los derechos reservados. (C) FUJITSU LIMITED 1998-2006.

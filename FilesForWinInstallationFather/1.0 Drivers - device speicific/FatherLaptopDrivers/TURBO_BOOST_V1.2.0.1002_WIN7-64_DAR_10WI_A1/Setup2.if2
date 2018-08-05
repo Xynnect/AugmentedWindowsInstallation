@@ -1,0 +1,123 @@
+; Action list for IIPS
+
+[Variables]
+product=Intel(R) Turbo Boost Technology Driver
+installDir=%ProgFilesDir%\Intel\%product%
+IIPSVer=%getdriverversion(IIPS)%
+
+[Groups]
+ARP=NOT IsCmd(noarp)
+IIPS=NOT IsCmd(nodrv) AND IfDrvExists(IIPS)
+HDMI=NOT IsCmd(nodrv) AND IfDrvExists(HDMI)
+HDMI_HD=NOT IsCmd(nodrv) AND IfDrvExists(HDMI_HD)
+MEDIA=IsGroupSel(HDMI_HD) AND IfExists(%source%\Media\Media.cab) AND IsOS(VISTA,0x060001FF)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Setup files             ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[File]
+operation=copyonly
+mode=overwrite
+source=%setup%
+destination=%installDir%\uninstall\Setup.exe
+sequence=500
+
+[Folder]
+operation=copy
+mode=overwrite
+source=%source%\lang
+destination=%installDir%\uninstall
+sequence=505
+
+[File]
+operation=copy
+mode=overwrite
+source=%source%\x64\Drv64.exe
+destination=%installDir%\uninstall\x64\Drv64.exe
+condition=Is64
+sequence=510
+usequence=11000
+
+[File]
+operation=copyonly
+mode=ifnewer
+source=%source%\difxapi.dll
+destination=%system%\difxapi.dll
+condition=NOT Is64
+error=ignore
+sequence=515
+
+[File]
+operation=copyonly
+mode=ifnewer
+source=%source%\x64\difxapi.dll
+destination=%system64%\difxapi.dll
+condition=Is64
+error=ignore
+sequence=515
+
+[Uninstall]
+name={D6C630BF-8DBB-4042-8562-DC9A52CB6E7E}
+display=%product%
+display_mui=@%installDir%\Uninstall\Setup.exe,-1157
+command=%installDir%\Uninstall\setup.exe -uninstall -iips
+location=%installDir%
+estimatedsize=3605
+publisher=Intel Corporation
+icon=%installDir%\Uninstall\Setup.exe,0
+modify=no
+repair=no
+version=%IIPSVer%
+sequence=520
+group=ARP
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+; IIPS
+
+[inf]
+name=IIPS
+sequence=-4
+usequence=10000
+group=IIPS
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;
+; HDMI
+
+[File]
+operation=copy
+source=%source%\Media\Media.cab
+destination=%windir%\Media
+decompress=yes
+error=ignore
+sequence=-4
+usequence=1002
+group=MEDIA
+
+[inf]
+name=HDMI
+sequence=-3
+usequence=10001
+group=HDMI
+
+[inf]
+name=HDMI_HD
+sequence=-3
+usequence=10001
+group=HDMI_HD
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; These actions run on uninstall ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Folder]
+operation=deleteonuninstall
+destination=%installDir%\uninstall\x64
+delete_if_not_empty=yes
+condition=Is64
+usequence=11010
+

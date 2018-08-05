@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" ?>
+  <dpinst>
+
+    <!-- English -->
+    <language code="0x0409">
+      <dpinstTitle>Synaptics Pointing Device Driver Installation</dpinstTitle>
+      <welcomeTitle>Welcome</welcomeTitle>
+      <welcomeIntro>Welcome to the Synaptics Pointing Device Driver Setup program.  This program will install the Synaptics Pointing Device Driver on your computer. </welcomeIntro>
+      <eulaHeaderTitle>Review the terms of the license agreement</eulaHeaderTitle>
+      <eulaYesButton>I accept this agreement</eulaYesButton>
+      <eulaNoButton>I do not accept this agreement</eulaNoButton>
+      <installHeaderTitle>Please wait while Setup finishes installing the driver.</installHeaderTitle>
+      <finishTitle>Setup complete</finishTitle>
+      <finishText>Setup has finished installing the Synaptics Pointing Device driver.</finishText>
+      <eula type="txt" path="Eula0409ENU.tx_"/>
+    </language>
+
+    <!-- Czech -->
+    <language code="0x0405">
+      <dpinstTitle>Instalace ovladače polohovacího zařízení Synaptics</dpinstTitle>
+      <welcomeTitle>Vítejte</welcomeTitle>
+      <welcomeIntro>Vítejte v  programu pro instalaci ovladače polohovacího zařízení Synaptics. Tento program provede instalaci ovladače polohovacího zařízení Synaptics do vašeho počítače. </welcomeIntro>
+      <eulaHeaderTitle>Přečtěte si podmínky licenčního ujednání</eulaHeaderTitle>
+      <eulaYesButton>Přijímám toto ujednání</eulaYesButton>
+      <eulaNoButton>Nepřijímám toto ujednání</eulaNoButton>
+      <installHeaderTitle>Počkejte na dokončení instalace ovladače.</installHeaderTitle>
+      <finishTitle>Instalace je hotová</finishTitle>
+      <finishText>Byla dokončena instalace ovladače polohovacího zařízení Synaptics.</finishText>
+      <eula type="txt" path="Eula0405CSY.tx_"/>
+    </language>
+
+    <!-- Greek -->
+    <language code="0x0408">
+      <dpinstTitle>Εγκατάσταση προγράμματος οδήγησης της συσκευής κατάδειξης της Synaptics</dpinstTitle>
+      <welcomeTitle>Καλώς ήλθατε</welcomeTitle>
+      <welcomeIntro>Καλώς ήλθατε στο πρόγραμμα εγκατάστασης του προγράμματος οδήγησης της συσκευής κατάδειξης της Synaptics. Αυτό το πρόγραμμα θα εγκαταστήσει το πρόγραμμα οδήγησης της συσκευής κατάδειξης της Synaptics στον υπολογιστή σας. </welcomeIntro>
+      <eulaHeaderTitle>Μελετήστε τους όρους της άδειας χρήσης</eulaHeaderTitle>
+      <eulaYesButton>Αποδέχομαι την παρούσα συμφωνία</eulaYesButton>
+      <eulaNoButton>Δεν αποδέχομαι την παρούσα συμφωνία</eulaNoButton>
+      <installHeaderTitle>Περιμένετε μέχρι να ολοκληρωθεί η εγκατάσταση του προγράμματος οδήγησης.</installHeaderTitle>
+      <finishTitle>Το πρόγραμμα εγκατάστασης ολοκληρώθηκε</finishTitle>
+      <finishText>Το πρόγραμμα εγκατάστασης ολοκλήρωσε την εγκατάσταση του προγράμματος οδήγησης της συσκευής κατάδειξης της Synaptics.</finishText>
+      <eula type="txt" path="Eula0408ELL.tx_"/>
+    </language>
+
+    <!-- Hungary -->
+    <language code="0x040E">
+      <dpinstTitle>Synaptics mutatóeszköz illesztőprogram telepítése</dpinstTitle>
+      <welcomeTitle>Üdvözöljük</welcomeTitle>
+      <welcomeIntro>Üdvözöljük a Synaptics mutatóeszköz illesztőprogram telepítőjében. Ez a program telepíti a Synaptics mutatóeszköz illesztőprogramját a számítógépére. </welcomeIntro>
+      <eulaHeaderTitle>A licencszerződés feltételeinek áttekintése</eulaHeaderTitle>
+      <eulaYesButton>Elfogadom ezt a szerződést</eulaYesButton>
+      <eulaNoButton>Nem fogadom el ezt a szerződést</eulaNoButton>
+      <installHeaderTitle>Kérem várjon, amíg a Telepítő befejezi az illesztőprogram telepítését.</installHeaderTitle>
+      <finishTitle>A telepítés befejeződött</finishTitle>
+      <finishText>A telepítő befejezte a Synaptics mutatóeszköz illesztőprogram telepítését.</finishText>
+      <eula type="txt" path="Eula040eHUN.tx_"/>
+    </language>
+
+    <!--  Danish  --> 
+  <language code="0x0406">
+  <dpinstTitle>Installation af Synaptics pegeredskab driveren</dpinstTitle> 
+  <welcomeTitle>Velkommen</welcomeTitle> 
+  <welcomeIntro>Velkommen til installationsprogrammet for Synaptics pegeredskab drivere. Dette program vil installere Synaptics pegeredskab driveren på din computer.</welcomeIntro>
+    <eulaHeaderTitle>Gennemse licensaftalens vilkår</eulaHeaderTitle>
+    <eulaYesButton>Jeg accepterer denne aftale</eulaYesButton>
+    <eulaNoButton>Jeg accepterer ikke denne aftale</eulaNoButton>
+    <installHeaderTitle>Vent venligst mens installationsprogrammet udfører driverinstallationen.</installHeaderTitle> 
+  <finishTitle>Installationen er udført</finishTitle> 
+  <finishText>Installationsprogrammet har udført installation af Synaptics pegeredskab driveren.</finishText>
+    <eula type="txt" path="Eula0406DAN.tx_"/>
+  </language>
+
+   <!--  Dutch--> 
+ <language code="0x0413">
+  <dpinstTitle>Installatie van het Synaptics\naanwijsapparaat-stuurprogramma</dpinstTitle> 
+  <welcomeTitle>Welkom</welcomeTitle> 
+  <welcomeIntro>Welkom bij het installatieprogramma voor het Synaptics aanwijsapparaat-stuurprogramma. Met dit programma installeert u het Synaptics aanwijsapparaat-stuurprogramma op uw computer.</welcomeIntro>
+   <eulaHeaderTitle>Lees de voorwaarden van de licentieovereenkomst door</eulaHeaderTitle>
+   <eulaYesButton>Ik aanvaard deze overeenkomst</eulaYesButton>
+   <eulaNoButton>Ik aanvaard deze overeenkomst niet</eulaNoButton>
+   <installHeaderTitle>De installatie van het stuurprogramma wordt voltooid. Even geduld a.u.b.</installHeaderTitle> 
+  <finishTitle>De installatie is voltooid</finishTitle> 
+  <finishText>De installatie van het Synaptics aanwijsapparaat-stuurprogramma is voltooid.</finishText>
+   <eula type="txt" path="Eula0413NLD.tx_"/>
+ </language>
+
+
+    <!--  Finnish --> 
+ <language code="0x040B">
+  <dpinstTitle>Synaptics osoitinlaite -ohjaimen asennus</dpinstTitle> 
+  <welcomeTitle>Tervetuloa</welcomeTitle> 
+  <welcomeIntro>Tervetuloa Synaptics osoitinlaite -ohjaimen asennusohjelmaan. Tämä ohjelma asentaa Synaptics osoitinlaite -ohjaimen tietokoneeseesi.</welcomeIntro>
+   <eulaHeaderTitle>Perehdy lisenssisopimuksen ehtoihin</eulaHeaderTitle>
+   <eulaYesButton>Hyväksyn tämän sopimuksen</eulaYesButton>
+   <eulaNoButton>En hyväksy tätä sopimusta</eulaNoButton>
+   <installHeaderTitle>Odota, kunnes asennusohjelma saa ohjaimen asennettua.</installHeaderTitle> 
+  <finishTitle>Asennus on suoritettu</finishTitle> 
+  <finishText>Asennusohjelma on asentanut Synaptics osoitinlaite -ohjaimen.</finishText>
+   <eula type="txt" path="Eula040bFIN.tx_"/>
+ </language>
+
+
+    <!--  French (Neutral)  --> 
+ <language code="0x040C">
+  <dpinstTitle>Installation du dispositif de pointage Synaptics</dpinstTitle> 
+  <welcomeTitle>Bienvenue</welcomeTitle> 
+  <welcomeIntro>Bienvenue dans le programme d'installation du dispositif de pointage de Synaptics. Ce programme installera le dispositif de pointage de Synaptics sur votre ordinateur.</welcomeIntro>
+   <eulaHeaderTitle>Consulter les modalités du contrat de licence</eulaHeaderTitle>
+   <eulaYesButton>J'accepte ce contrat</eulaYesButton>
+   <eulaNoButton>Je n'accepte pas ce contrat</eulaNoButton>
+   <installHeaderTitle>Veuillez attendre que l'installation du pilote soit terminée.</installHeaderTitle> 
+  <finishTitle>Installation terminée</finishTitle> 
+  <finishText>L'installation du dispositif de pointage de Synaptics est terminée.</finishText>
+   <eula type="txt" path="Eula040cFRA.tx_"/>
+ </language>
+
+
+    <!--  German (Neutral) --> 
+  <language code="0x0407">
+  <dpinstTitle>Synaptics Zeigegerät-Treiber: Installation</dpinstTitle> 
+  <welcomeTitle>Willkommen</welcomeTitle> 
+  <welcomeIntro>Willkommen zum Synaptics Zeigegerät Treiber Installationsprogramm. Dieses Programm wird den Synaptics Zeigegerät Treiber auf Ihrem Computer installieren.</welcomeIntro>
+    <eulaHeaderTitle>Lesen Sie die Bedingungen des Lizenzvertrags</eulaHeaderTitle>
+    <eulaYesButton>Ich akzeptiere diesen Vertrag</eulaYesButton>
+    <eulaNoButton>Ich akzeptiere diesen Vertrag nicht</eulaNoButton>
+    <installHeaderTitle>Bitte warten Sie, bis der Treiber vollständig installiert ist.</installHeaderTitle> 
+  <finishTitle>Installation abgeschlossen</finishTitle> 
+  <finishText>Installation des Synaptics Zeigegerät-Treibers abgeschlossen.</finishText>
+    <eula type="txt" path="Eula0407DEU.tx_"/>
+  </language>
+
+
+    <!--  Italian --> 
+  <language code="0x0410">
+  <dpinstTitle>Installazione driver per dispositivo di\npuntamento Synaptics</dpinstTitle> 
+  <welcomeTitle>Benvenuti</welcomeTitle> 
+  <welcomeIntro>Benvenuti nel programma di impostazione del driver per dispositivo di puntamento Synaptics. Questo programma installa il driver per dispositivo di puntamento Synaptics sul computer.</welcomeIntro>
+    <eulaHeaderTitle>Rileggere le condizioni del contratto di licenza</eulaHeaderTitle>
+    <eulaYesButton>Accetto il contratto</eulaYesButton>
+    <eulaNoButton>Non accetto il contratto</eulaNoButton>
+    <installHeaderTitle>Attendere il completamento dell'installazione del driver.</installHeaderTitle> 
+  <finishTitle>Impostazione completata</finishTitle> 
+  <finishText>Il programma di impostazione ha terminato l'installazione del driver per dispositivo di puntamento Synaptics.</finishText>
+    <eula type="txt" path="Eula0410ITA.tx_"/>
+  </language>
+
+
+    <!--  Norwegian (Bokmal) --> 
+  <language code="0x0414">
+  <dpinstTitle>Installering av Synaptics pekeenhet-driver</dpinstTitle> 
+  <welcomeTitle>Velkommen</welcomeTitle> 
+  <welcomeIntro>Dette er installasjonsprogrammet for Synaptics pekeenhet-driveren. Programmet installerer Synaptics pekeenhet-driveren på datamaskinen.</welcomeIntro>
+    <eulaHeaderTitle>Les gjennom vilkårene i lisensavtalen</eulaHeaderTitle>
+    <eulaYesButton>Jeg godtar denne avtalen</eulaYesButton>
+    <eulaNoButton>Jeg godtar ikke denne avtalen</eulaNoButton>
+    <installHeaderTitle>Vent litt mens installasjonsprogrammet avslutter driverinstalleringen.</installHeaderTitle> 
+  <finishTitle>Installasjonen er fullført</finishTitle> 
+  <finishText>Installeringen av Synaptics pekeenhet-driveren er fullført.</finishText>
+    <eula type="txt" path="Eula0414NOR.tx_"/>
+  </language>
+
+
+   <!--  Polish --> 
+ <language code="0x0415">
+  <dpinstTitle>Instalacja sterownika urzšdzenia wskazujšcego Synaptics</dpinstTitle> 
+  <welcomeTitle>Witamy</welcomeTitle> 
+  <welcomeIntro>Witamy w programie instalacyjnym sterownika urzšdzenia wskazujšcego Synaptics. Ten program zainstaluje sterownik urzšdzenia wskazujšcego Synaptics w Twoim komputerze.</welcomeIntro>
+   <eulaHeaderTitle>Zapoznaj się z warunkami umowy licencyjnej</eulaHeaderTitle>
+   <eulaYesButton>Akceptuję tę umowę</eulaYesButton>
+   <eulaNoButton>Nie akceptuję tej umowy</eulaNoButton>
+   <installHeaderTitle>Czekaj. Program instalacyjny kończy instalowanie sterownika.</installHeaderTitle> 
+  <finishTitle>Instalacja zakończona</finishTitle> 
+  <finishText>Program instalacyjny zakończył instalowanie sterownika urzšdzenia wskazujšcego Synaptics.</finishText>
+   <eula type="txt" path="Eula0415PLK.tx_"/>
+ </language>
+
+<!--   Portugese (Brazil) --> 
+  <language code="0x0416">
+  <dpinstTitle>Instalaçăo do driver do Synaptics\nDispositivo Indicador</dpinstTitle> 
+  <welcomeTitle>Bem-vindo</welcomeTitle> 
+  <welcomeIntro>Bem-vindo ao Programa de Instalaçăo do Driver do Synaptics Dispositivo Indicador. Este programa instalará o driver do Synaptics Dispositivo Indicador no seu computador.</welcomeIntro>
+    <eulaHeaderTitle>Revisar os termos do contrato de licença</eulaHeaderTitle>
+    <eulaYesButton>Aceito este contrato</eulaYesButton>
+    <eulaNoButton>Não aceito este contrato</eulaNoButton>
+    <installHeaderTitle>Aguarde um momento enquanto o programa finaliza a instalaçăo do driver.</installHeaderTitle> 
+  <finishTitle>Instalaçăo concluída</finishTitle> 
+  <finishText>O programa concluiu a instalaçăo do driver do Synaptics Dispositivo Indicador.</finishText>
+    <eula type="txt" path="Eula0416PTB.tx_"/>
+  </language>
+
+
+   <!--   Portugese (Portugal) --> 
+  <language code="0x0816">
+  <dpinstTitle>Instalação do Controlador do Synaptics\nDispositivo Indicador</dpinstTitle> 
+  <welcomeTitle>Bem vindo</welcomeTitle> 
+  <welcomeIntro>Bem vindo ao programa de Instalação do Controlador do Synaptics Dispositivo Indicador. Este programa instalará o controlador do Synaptics Dispositivo Indicador no seu computador.</welcomeIntro>
+    <eulaHeaderTitle>Leia os termos do acordo de licença</eulaHeaderTitle>
+    <eulaYesButton>Aceito este acordo</eulaYesButton>
+    <eulaNoButton>Não aceito este acordo</eulaNoButton>
+    <installHeaderTitle>Aguarde até a instalação do controlador estar concluída.</installHeaderTitle> 
+  <finishTitle>Configuração completa</finishTitle> 
+  <finishText>O programa de Configuração terminou a instalação do controlador do Synaptics Dispositivo Indicador.</finishText>
+    <eula type="txt" path="Eula0816PTG.tx_"/>
+  </language>
+
+<!--   Spanish (Neutral) --> 
+  <language code="0x0C0A">
+  <dpinstTitle>Instalación del controlador del TouchPad de Synaptics</dpinstTitle> 
+  <welcomeTitle>Bienvenido</welcomeTitle> 
+  <welcomeIntro>Bienvenido al programa de instalación del controlador del TouchPad de Synaptics. Este programa instalará en su equipo el controlador del TouchPad de Synaptics.</welcomeIntro>
+    <eulaHeaderTitle>Revise los términos del contrato de licencia</eulaHeaderTitle>
+    <eulaYesButton>Acepto este contrato</eulaYesButton>
+    <eulaNoButton>No acepto este contrato</eulaNoButton>
+    <installHeaderTitle>Espere mientras el programa termina de instalar el controlador.</installHeaderTitle> 
+  <finishTitle>Instalación completa</finishTitle> 
+  <finishText>El programa de instalación ha terminado de instalar el controlador del TouchPad de Synaptics.</finishText>
+    <eula type="txt" path="Eula0c0aESP.tx_"/>
+  </language>
+
+<!--   Swedish (Neutral)  --> 
+  <language code="0x041D">
+  <dpinstTitle>Installation av Synaptics pekdon-drivrutin</dpinstTitle> 
+  <welcomeTitle>Välkommen</welcomeTitle> 
+  <welcomeIntro>Välkommen till installationsprogrammet för Synaptics pekdon-drivrutin. Programmet installerar Synaptics pekdon-drivrutin på din dator.</welcomeIntro>
+    <eulaHeaderTitle>Läs igenom villkoren i detta licensavtal</eulaHeaderTitle>
+    <eulaYesButton>Jag godkänner detta avtal</eulaYesButton>
+    <eulaNoButton>Jag godkänner INTE detta avtal</eulaNoButton>
+    <installHeaderTitle>Vänta medan drivrutinen installeras.</installHeaderTitle> 
+  <finishTitle>Installationen är klar</finishTitle> 
+  <finishText>Installationen av Synaptics pekdon-drivrutin är klar.</finishText>
+    <eula type="txt" path="Eula041dSVE.tx_"/>
+  </language>
+
+
+     <!--  Chinese (PRC) --> 
+     <language code="0x0804">
+     <dpinstTitle>Synaptics定点装置驱动器安装程序</dpinstTitle> 
+      <welcomeTitle>欢迎</welcomeTitle> 
+      <welcomeIntro>欢迎进入Synaptics定点装置驱动安装程序。 这个程序将会在您的计算机上安装Synaptics 定点装置驱动。</welcomeIntro>
+       <eulaHeaderTitle>查看许可协议的条款</eulaHeaderTitle>
+       <eulaYesButton>我接受本协议</eulaYesButton>
+       <eulaNoButton>我不接受本协议</eulaNoButton>
+       <installHeaderTitle>正在进行安装, 请稍候。</installHeaderTitle> 
+      <finishTitle>安装完毕</finishTitle> 
+      <finishText>Synaptics定点装置驱动器的安装已经完成。</finishText>
+       <eula type="txt" path="Eula0804CHS.tx_"/>
+     </language>
+
+    <!--  Chinese (Taiwan) --> 
+  <language code="0x0404">
+  <dpinstTitle>Synaptics 指向裝置 驅動程式安裝</dpinstTitle> 
+  <welcomeTitle>歡迎</welcomeTitle> 
+  <welcomeIntro>歡迎蒞臨 Synaptics 指向裝置 驅動程式的設定程式。這個程式可以在電腦上安裝 Synaptics 指向裝置 的驅動程式。</welcomeIntro>
+    <eulaHeaderTitle>檢視許可協定的條款</eulaHeaderTitle>
+    <eulaYesButton>我接受本協定</eulaYesButton>
+    <eulaNoButton>我不接受本協定</eulaNoButton>
+    <installHeaderTitle>請等待設定程式完成驅動程式的安裝。</installHeaderTitle> 
+  <finishTitle>設定完畢</finishTitle> 
+  <finishText>設定程式已經完成 Synaptics 指向裝置 驅動程式的安裝。</finishText>
+    <eula type="txt" path="Eula0404CHT.tx_"/>
+  </language>
+
+    <!--  Arabic --> 
+  <language code="0x0401">
+  <dpinstTitle>تثبيت برنامج تشغيل Synaptics Pointing Device</dpinstTitle> 
+  <welcomeTitle>مرحبًا</welcomeTitle> 
+  <welcomeIntro>مرحبًا بك في برنامج إعداد برنامج تشغيل Synaptics Pointing Device. يعمل هذا البرنامج على تثبيت برنامج تشغيل Synaptics Pointing Device على الكمبيوتر.</welcomeIntro>
+    <eulaHeaderTitle>مراجعة شروط اتفاقية الرخصة</eulaHeaderTitle>
+    <eulaYesButton>أقبل هذه الاتفاقية</eulaYesButton>
+    <eulaNoButton>لا أقبل هذه الاتفاقية</eulaNoButton>
+    <installHeaderTitle>الرجاء الانتظار إلى أن ينتهي برنامج الإعداد من تثبيت برنامج التشغيل.</installHeaderTitle> 
+  <finishTitle>تم الإعداد</finishTitle> 
+  <finishText>انتهى برنامج الإعداد من تثبيت برنامج تشغيل Synaptics Pointing Device.</finishText>
+    <eula type="txt" path="Eula0401ARA.tx_"/>
+  </language>
+
+     <!--  Hebrew --> 
+  <language code="0x040D">
+  <dpinstTitle>התקנת דרייבר התקן ההצבעה של Synaptics.</dpinstTitle> 
+  <welcomeTitle>ברוכים הבאים</welcomeTitle> 
+  <welcomeIntro>ברוכים הבאים לתוכנית ההתקנה דרייבר התקן ההצבעה של Synaptics. תוכנית זו תתקין את דרייבר התקן ההצבעה של Synaptics במחשב שברשותך.</welcomeIntro>
+    <eulaHeaderTitle>קרא את התנאים של הסכם הרישיון</eulaHeaderTitle>
+    <eulaYesButton>אני מקבל את ההסכם</eulaYesButton>
+    <eulaNoButton>אינני מקבל הסכם זה</eulaNoButton>
+    <installHeaderTitle>המתן עד שתוכנית ההתקנה תסיים את התקנת הדרייבר.</installHeaderTitle> 
+  <finishTitle>ההתקנה הסתיימה.</finishTitle> 
+  <finishText>תוכנית ההתקנה סיימה להתקין את דרייבר התקן ההצבעה של Synaptics.</finishText>
+    <eula type="txt" path="Eula040dHEB.tx_"/>
+  </language>
+
+    <!--  Japanese --> 
+  <language code="0x0411">
+  <dpinstTitle>Synaptics ﾎﾟｲﾝﾃｨﾝｸﾞ ﾃﾞﾊﾞｲｽ ﾄﾞﾗｲﾊﾞのｲﾝｽﾄｰﾙ</dpinstTitle> 
+  <welcomeTitle>ようこそ</welcomeTitle> 
+  <welcomeIntro>Synaptics ﾎﾟｲﾝﾃｨﾝｸﾞ ﾃﾞﾊﾞｲｽ ﾄﾞﾗｲﾊﾞ ｾｯﾄｱｯﾌﾟ ﾌﾟﾛｸﾞﾗﾑへようこそ。このﾌﾟﾛｸﾞﾗﾑはｺﾝﾋﾟｭｰﾀに Synaptics ﾎﾟｲﾝﾃｨﾝｸﾞ ﾃﾞﾊﾞｲｽ ﾄﾞﾗｲﾊﾞをｲﾝｽﾄｰﾙします。</welcomeIntro>
+    <eulaHeaderTitle>使用許諾書の条項を確認する</eulaHeaderTitle>
+    <eulaYesButton>同意する</eulaYesButton>
+    <eulaNoButton>同意しない</eulaNoButton>
+    <installHeaderTitle>ﾄﾞﾗｲﾊﾞのｲﾝｽﾄｰﾙが終わるまでお待ちください。</installHeaderTitle> 
+  <finishTitle>ｾｯﾄｱｯﾌﾟ完了</finishTitle> 
+  <finishText>Synaptics ﾎﾟｲﾝﾃｨﾝｸﾞ ﾃﾞﾊﾞｲｽ ﾄﾞﾗｲﾊﾞのｲﾝｽﾄｰﾙが終わりました。</finishText>
+    <eula type="txt" path="Eula0411JPN.tx_"/>
+  </language>
+
+    <!--  Korean  --> 
+  <language code="0x0412">
+  <dpinstTitle>Synaptics 포인팅 장치 드라이버 설치</dpinstTitle> 
+  <welcomeTitle>환영합니다.</welcomeTitle> 
+  <welcomeIntro>Synaptics 터치 패드 드라이버 설치 프로그램의 사용을 환영합니다. 이 프로그램은 Synaptics 터치 패드 드라이버를 사용자의 컴퓨터에 설치합니다.</welcomeIntro>
+    <eulaHeaderTitle>사용권 계약 조건을 검토하십시오</eulaHeaderTitle>
+    <eulaYesButton>계약에 동의합니다</eulaYesButton>
+    <eulaNoButton>계약에 동의하지 않습니다</eulaNoButton>
+    <installHeaderTitle>드라이버의 설치를 끝내는 동안 기다려주십시오.</installHeaderTitle> 
+  <finishTitle>설치 완료</finishTitle> 
+  <finishText>Synaptics 포인팅 장치 드라이버의 설치가 끝났습니다.</finishText>
+    <eula type="txt" path="Eula0412KOR.tx_"/>
+  </language>
+
+<!--  Russian --> 
+  <language code="0x0419">
+  <dpinstTitle>Установка драйвера указывающего устройства Synaptics</dpinstTitle> 
+  <welcomeTitle>Приступая к работе</welcomeTitle> 
+  <welcomeIntro>Вас приветствует программа установки драйвера указывающего устройства Synaptics. Эта программа выполнит установку драйвера указывающего устройства Synaptics на данный компьютер. </welcomeIntro>
+    <eulaHeaderTitle>Ознакомиться с условиями лицензионного соглашения</eulaHeaderTitle>
+    <eulaYesButton>Я принимаю это соглашение</eulaYesButton>
+    <eulaNoButton>Я не принимаю это соглашение</eulaNoButton>
+    <installHeaderTitle>Дождитесь окончания работы программы установки.</installHeaderTitle> 
+  <finishTitle>Установка завершена</finishTitle> 
+  <finishText>Дождитесь окончания работы программы установки.</finishText>
+    <eula type="txt" path="Eula0419RUS.tx_"/>
+  </language>
+
+    <!--  Turkish --> 
+  <language code="0x041F">
+  <dpinstTitle>Synaptics İşaretleme Aygıtı Sürücüsü Yükleme</dpinstTitle> 
+  <welcomeTitle>Hoş Geldiniz</welcomeTitle> 
+  <welcomeIntro>Synaptics İşaretleme Aygıtı Sürücüsü Kur programına hoş geldiniz. Bu program, bilgisayarınıza Synaptics İşaretleme Aygıtı Sürücüsü'nü yükleyecek.</welcomeIntro>
+    <eulaHeaderTitle>Lisans anlaşmasının hükümlerini gözden geçir</eulaHeaderTitle>
+    <eulaYesButton>Bu anlaşmayı kabul ediyorum</eulaYesButton>
+    <eulaNoButton>Bu anlaşmayı kabul etmiyorum</eulaNoButton>
+    <installHeaderTitle>Lütfen, Kur sürücüyü yüklemeyi tamamlayana dek bekleyin.</installHeaderTitle> 
+  <finishTitle>Kur tamamlandı</finishTitle> 
+  <finishText>Kur Synaptics İşaretleme Aygıtı sürücüsünü yüklemeyi tamamladı.</finishText>
+    <eula type="txt" path="Eula041fTRK.tx_"/>
+  </language>
+
+    <icon>SynLogo.ico</icon>
+    <headerPath>SynTP.bmp</headerPath>
+    <legacyMode/>
+    <forceIfDriverIsNotBetter/>
+    <suppressAddRemovePrograms/>
+    <enableNotListedLanguages/>
+
+  </dpinst>

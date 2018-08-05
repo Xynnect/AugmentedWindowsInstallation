@@ -1,0 +1,83 @@
+;==============================================================================
+; [FUJ02E3.INF]
+;  Fujitsu FUJ02E3 Device Driver INF File
+;------------------------------------------------------------------------------
+; All Rights Reserved, Copyright (C) FUJITSU LIMITED. 2003-2009.
+;==============================================================================
+
+
+[Version]
+Signature=$Windows NT$
+Class=System
+CLASSGUID={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%FJPSD%
+DriverVer=06/01/2009,1.20
+CatalogFile=fuj02e3.cat
+
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+
+[SourceDisksNames]
+1 = %FUJ02E3.DiskName%,,,
+
+
+[SourceDisksFiles]
+fuj02e3.sys = 1
+
+
+[Manufacturer]
+%FUJ02E3.Manufacture%=FJPSD,NTamd64
+
+
+[FJPSD.NTamd64]
+%FUJ02E3.DeviceDesc%=FUJ02E3.InstallSet,ACPI\FUJ02E3
+
+
+[FUJ02E3.InstallSet]
+CopyFiles=FUJ02E3.InstallFile.Driver
+AddReg=FUJ02E3.InstallReg.Add
+
+
+[FUJ02E3.InstallSet.NT]
+CopyFiles=FUJ02E3.InstallFile.Driver
+AddReg=FUJ02E3.InstallReg.Add
+
+
+[FUJ02E3.InstallFile.Driver]
+fuj02e3.sys
+
+
+[FUJ02E3.InstallReg.Add]
+HKR,,DevLoader,,*NTKERN
+HKR,,NTMPDriver,,fuj02e3.sys
+
+
+[FUJ02E3.InstallSet.NT.Services]
+AddService=FUJ02E3, 0x00000002, FUJ02E3.AddService
+
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+FUJ02E3.InstallFile.Driver=10,system32\drivers
+
+
+;==============================================================================
+; Strings
+;------------------------------------------------------------------------------
+[FUJ02E3.AddService]
+DisplayName    = %FUJ02E3.DeviceDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\FUJ02E3.sys
+
+;==============================================================================
+; Strings
+;------------------------------------------------------------------------------
+[Strings]
+FJPSD="FUJITSU"
+FUJ02E3.Manufacture="Fujitsu Limited"
+FUJ02E3.DeviceDesc="Fujitsu FUJ02E3 Device Driver"
+FUJ02E3.DiskName="Fujitsu Drivers Disk"

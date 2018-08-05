@@ -1,0 +1,1585 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft FrontPage 5.0">
+<title>Power Saving Utility Manual</title>
+
+<link rel=Stylesheet type="text/css" media=all href=document.css>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-believe-normal-left:yes;}
+h1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.levelnavi, li.levelnavi, div.levelnavi
+	{margin-right:0mm;
+	margin-bottom:2.25pt;
+	margin-left:0mm;
+	font-size:12.0pt;}
+p.message, li.message, div.message
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.navi-bar, li.navi-bar, div.navi-bar
+	{margin-right:0mm;
+	margin-left:-3.75pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bgimg, li.bgimg, div.bgimg
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ptext, li.ptext, div.ptext
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bqtext, li.bqtext, div.bqtext
+	{margin-right:0mm;
+	margin-left:18.75pt;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.h1toc, li.h1toc, div.h1toc
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:15.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pheading1, li.pheading1, div.pheading1
+	{margin-top:1.5pt;
+	margin-right:0mm;
+	margin-bottom:15.0pt;
+	margin-left:-7.5pt;
+	line-height:180%;
+	background:#333399;
+	font-size:18.0pt;
+	font-weight:bold;}
+p.pheading2, li.pheading2, div.pheading2
+	{margin-top:15.0pt;
+	margin-right:0mm;
+	margin-left:-6.0pt;
+	border:none;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pheading3, li.pheading3, div.pheading3
+	{margin-top:3.75pt;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:-2.25pt;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pheading4, li.pheading4, div.pheading4
+	{margin-right:0mm;
+	margin-bottom:0mm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.bullet1, li.bullet1, div.bullet1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bullet2, li.bullet2, div.bullet2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.lead, li.lead, div.lead
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.listmargin, li.listmargin, div.listmargin
+	{margin-right:0mm;
+	margin-left:-15.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pollevel1, li.pollevel1, div.pollevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.pollevel2, li.pollevel2, div.pollevel2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel3, li.ollevel3, div.ollevel3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel4, li.ollevel4, div.ollevel4
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olbody, li.olbody, div.olbody
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olsupple, li.olsupple, div.olsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.olheader, li.olheader, div.olheader
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:aliceblue;
+	border:none;
+	font-size:12.5pt;
+	font-family:"Times New Roman";}
+p.polname, li.polname, div.polname
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.olnamesupple, li.olnamesupple, div.olnamesupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel1, li.pullevel1, div.pullevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel2, li.pullevel2, div.pullevel2
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pullevel3, li.pullevel3, div.pullevel3
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ullevel4, li.ullevel4, div.ullevel4
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ulbody, li.ulbody, div.ulbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ulsupple, li.ulsupple, div.ulsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.boxulbody, li.boxulbody, div.boxulbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.leadul, li.leadul, div.leadul
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.suppleimg, li.suppleimg, div.suppleimg
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.box, li.box, div.box
+	{margin-right:0mm;
+	margin-bottom:11.25pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.boxh1, li.boxh1, div.boxh1
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.boxh1-j, li.boxh1-j, div.boxh1-j
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.boxh2, li.boxh2, div.boxh2
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.pl, li.pl, div.pl
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.plbody, li.plbody, div.plbody
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.plsupple, li.plsupple, div.plsupple
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.tblborder0, li.tblborder0, div.tblborder0
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.tblborder, li.tblborder, div.tblborder
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:7.5pt;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.caption, li.caption, div.caption
+	{margin-top:7.5pt;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:0mm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.thead, li.thead, div.thead
+	{margin-right:0mm;
+	margin-left:0mm;
+	text-align:center;
+	line-height:150%;
+	background:aliceblue;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.note, li.note, div.note
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.colophone, li.colophone, div.colophone
+	{margin-right:357.0pt;
+	margin-left:357.0pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.manualtitle, li.manualtitle, div.manualtitle
+	{margin-right:0mm;
+	margin-left:0mm;
+	line-height:150%;
+	font-size:14.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.colophonenote, li.colophonenote, div.colophonenote
+	{margin-top:.5pt;
+	margin-right:71.4pt;
+	margin-left:71.4pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ins, li.ins, div.ins
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.del, li.del, div.del
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.reverse, li.reverse, div.reverse
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:black;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.blackongray, li.blackongray, div.blackongray
+	{margin-right:0mm;
+	margin-left:0mm;
+	background:#CCCCCC;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel1, li.ollevel1, div.ollevel1
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.ollevel11, li.ollevel11, div.ollevel11
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel12, li.ollevel12, div.ollevel12
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel13, li.ollevel13, div.ollevel13
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel14, li.ollevel14, div.ollevel14
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel15, li.ollevel15, div.ollevel15
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.ollevel16, li.ollevel16, div.ollevel16
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+span.ulbody1
+	{color:black;
+	font-weight:normal;}
+span.olbody1
+	{color:black;
+	font-weight:normal;}
+span.olsupple1
+	{color:black;
+	font-weight:normal;}
+span.ulsupple1
+	{color:black;
+	font-weight:normal;}
+p.ollevel17, li.ollevel17, div.ollevel17
+	{margin-right:0mm;
+	margin-left:0mm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:99.25pt 30.0mm 30.0mm 30.0mm;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ -->
+</style>
+<![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:15.0pt;}
+</style>
+<![endif]>
+<meta name=auther content=Fujitsu>
+</head>
+
+<body lang=JA link=blue vlink=blue style='margin-left:15.0pt;margin-right:7.5pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=right style='margin:0mm;margin-bottom:.0001pt;
+text-align:right;line-height:180%'><a name=pagetop></a><span lang=EN-US
+style='font-family:Arial'><img width=95 height=46 src="images/top_FJ-logo.gif"
+alt="FUJITSU LIMITED" title="FUJITSU LIMITED" border=0></span></p>
+
+<h1 style='margin-top:1.5pt;margin-right:0mm;margin-bottom:15.0pt;margin-left:
+-7.5pt;line-height:180%;background:#333399'><span lang=EN-US style='font-size:
+18.0pt;line-height:180%;font-family:Arial;color:white;letter-spacing:-.2pt'>
+Manuel de l&rsquo;utilitaire &eacute;conomiseur d&rsquo;&eacute;nergie</span></h1>
+
+<p class=MsoNormal style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Avec 
+l'utilitaire &Eacute;conomiseur d&rsquo;&eacute;nergie, vous pouvez ais&eacute;ment mettre votre PC en mode 
+d&rsquo;&eacute;conomie d&rsquo;&eacute;nergie. Ce mode permet de r&eacute;duire la consommation d&rsquo;&eacute;nergie et ainsi d'&eacute;tendre la long&eacute;vit&eacute; de la batterie</span></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><span lang=EN-US
+style='font-size:13.5pt;line-height:180%;font-family:Arial;color:#333399;
+letter-spacing:-.2pt'>Ce que permet l&rsquo;utilitaire &Eacute;conomiseur d&rsquo;&eacute;nergie</span></h2>
+
+</div>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+ <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Vous 
+ pouvez passer du mode d&rsquo;&eacute;conomie d&rsquo;&eacute;nergie au mode normal et vice-versa en 
+ utilisant le bouton &Eacute;conomie d'&eacute;nergie.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'><a href="#wp1216784"><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span lang="EN-US" style="font-family: Arial"><a href="#wp1216784">Aller 
+ aux instructions</a></span></span><span lang=EN-US style='font-family:
+     Arial'> </span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+ <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Pour ce 
+ faire, cliquez sur l'ic&ocirc;ne correspondante situ&eacute;e dans la zone de notification, 
+ dans le coin inf&eacute;rieur droit de l'&eacute;cran.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'><a href="#wp1190547"><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span lang="EN-US" style="font-family: Arial"><a href="#wp1190547">Aller 
+ aux instructions</a></span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+ <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Vous 
+ pouvez param&eacute;trer les r&eacute;gimes de fonctionnement pour chacun des p&eacute;riph&eacute;riques 
+ en mode d'&eacute;conomie d'&eacute;nergie.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'><a href="#wp1192212"><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span lang="EN-US" style="font-family: Arial"><a href="#wp1192212">Aller 
+ aux instructions</a></span></span><span
+     lang=EN-US style='font-family:Arial'> </span></li>
+</ul>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1182222></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'>Configuration de syst&egrave;me n&eacute;cessaire</span></h2>
+
+</div>
+
+<h3 style='margin-top:3.75pt;margin-right:0mm;margin-bottom:0mm;margin-left:
+-2.25pt;margin-bottom:.0001pt;line-height:180%;background:white'><a
+name=wp1181309></a><span lang=EN-US style='font-size:12.0pt;line-height:180%;
+font-family:Arial;color:#333399'>PC</span></h3>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><font face="Arial">
+ S&eacute;rie Fujitsu LifeBook</font></li>
+</ul>
+
+<h3 style='margin-top:3.75pt;margin-right:0mm;margin-bottom:0mm;margin-left:
+-2.25pt;margin-bottom:.0001pt;line-height:180%;background:white'><a
+name=wp1181313></a><span lang=EN-US style='font-size:12.0pt;line-height:180%;
+font-family:Arial;color:#333399'>Syst&eacute;me d'exploitation</span></h3>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 D&eacute;butant</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 &Eacute;dition Familiale de Base</span></span></li> 
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 &Eacute;dition Familiale Sup&eacute;rieure</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 &Eacute;dition Professionnelle</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 &Eacute;dition Entreprise</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows<sup>&reg;</sup> 7 &Eacute;dition Ultime </span></span></li>
+
+
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=IT style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows Vista<sup>&reg;</sup> &Eacute;dition Ultime</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows Vista<sup>&reg;</sup> &Eacute;dition Familiale Premium</span></span><span lang=EN-US
+     style='font-family:Arial'> </span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows Vista<sup>&reg;</sup> &Eacute;dition Familiale basique</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows Vista<sup>&reg;</sup> &Eacute;dition Professionnelle</span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'><span
+     class=ulbody1><span lang=EN-US style='font-family:Arial'>Microsoft<sup>&reg;</sup> Windows Vista<sup>&reg;</sup> &Eacute;dition Entreprise</span></span></li>
+</ul>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1192212></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Param&eacute;trage des r&eacute;gimes de fonctionnement pour chacun des p&eacute;riph&eacute;riques en mode d'&eacute;conomie d'&eacute;nergie</span></h2>
+
+</div>
+
+<p style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Cette 
+configuration vous permet de r&eacute;gler le niveau de luminosit&eacute; de l'&eacute;cran ou de 
+consommation d'&eacute;nergie pour chacun des p&eacute;riph&eacute;riques en mode d'&eacute;conomie 
+d'&eacute;nergie. Elle vous permet &eacute;galement d'afficher ou non un message &agrave; l'&eacute;cran 
+lorsque vous passez d'un mode &agrave; l'autre ou lorsque vous d&eacute;marrez l'ordinateur &agrave; 
+partir du mode d'&eacute;conomie d'&eacute;nergie. Si le p&eacute;riph&eacute;rique ne fonctionne pas 
+correctement, vous pouvez l'initialiser sous ce mode.</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=82 height=28
+  src="images/juuyou.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:#FFFAF7;border:outset #FF3300 1.0pt'
+   bordercolorlight="#FF9933">
+   <tr>
+    <td style='border:inset #FF3300 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=square>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'>
+     <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Seul 
+     un utilisateur poss&eacute;dant des droits d'administrateur peut configurer le 
+     mode d'&eacute;conomie d'&eacute;nergie. Cela n'est pas possible pour un utilisateur aux 
+     droits limit&eacute;s.</span><font face="Arial"> </font></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><b>
+ <span style="font-family: Arial; letter-spacing: -.2pt">Double-cliquez sur 
+ l'ic&ocirc;ne Utilitaire &Eacute;conomiseur d'&eacute;nergie(<img id="wp1196505" alt="Image" hspace="0" src="images/icon1ad.jpg" border="0" width="18" height="18">/<img id="wp1196529" alt="Image" hspace="0" src="images/icon2ae.jpg" border="0" width="18" height="18">) 
+ situ&eacute;e dans la zone de notification, dans le coin inf&eacute;rieur droit de l'&eacute;cran. 
+ La fen&ecirc;tre [Configuration de l'utilitaire &Eacute;conomiseur d'&eacute;nergie] appara&icirc;tra.</span></b></li>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><span style="font-family: Arial; letter-spacing: -.2pt">
+ <b>Param&eacute;trez les r&eacute;gimes de fonctionnement pour chacun des p&eacute;riph&eacute;riques en 
+ mode d'&eacute;conomie d'&eacute;nergie.</b></span></li>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ol style='margin-top:0mm' start=1 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'>
+  <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Cliquez 
+  sur la case [R&eacute;gime en mode d'&eacute;conomie d'&eacute;nergie] du p&eacute;riph&eacute;rique &agrave; 
+  param&eacute;trer.</span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=746 height=527 id=wp1214622
+src="images/Image1_0.jpg" alt=Image></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><br>
+</span><span lang=EN-US style='font-family:Arial;color:black'><img border=0
+width=16 height=26 id=wp1216202 src="images/k108.jpg" alt=Image></span><span
+lang=EN-US style='font-family:Arial;color:#0033CC;letter-spacing:-.2pt'>appara&icirc;t alors sur le c&ocirc;t&eacute; droit de la case s&eacute;lectionn&eacute;e.</span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ol style='margin-top:0mm' start=2 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:2.25pt;
+      line-height:150%'><span class=olbody1><span lang=EN-US style='font-family:
+      Arial'>Cliquez sur </span></span><span lang=EN-US style='font-family:Arial;
+      color:black'><img border=0 width=16 height=26 id=wp1214629
+      src="images/k108af.jpg" alt=Image></span><span lang=EN-US
+      style='font-family:Arial;letter-spacing:-.2pt'> , puis s&eacute;lectionnez un r&eacute;gime en mode 
+      d'&eacute;conomie d'&eacute;nergie.</span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:2.25pt;
+margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+color:#0033CC'><img border=0 width=746 height=527 id=wp1214638
+src="images/Image1.jpg" alt=Image></span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Pr&eacute;cisez si vous souhaitez voir s'afficher un message &agrave; l'&eacute;cran lorsque vous passez d'un mode &agrave; l'autre ou lorsque 
+     vous d&eacute;marrez l'ordinateur &agrave; partir du mode d'&eacute;conomie d'&eacute;nergie.</span></b></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><b><span lang=EN-US
+style='font-family:Arial;color:#0033CC'><img border=0 width=746 height=527
+id=wp1214114 src="images/Image1ag.jpg" alt=Image></span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=1 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Afficher un message lorsque le syst&egrave;me 
+      d&eacute;marre en mode d'&eacute;conomie d'&eacute;nergie&quot;</span></b><span lang=EN-US style='font-family:
+      Arial'> </span></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Si vous 
+cliquez sur</span><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial'> </span></span><span
+lang=EN-US style='font-family:Arial;color:black'><img border=0 width=15
+height=15 id=wp1214104 src="images/xp0128.jpg" alt=Image></span><span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">et 
+l'incorporez dans</span><span
+lang=EN-US style='font-family:Arial;color:black'><span class=ulsupple1>
+</span><img border=0 width=15 height=15 id=wp1214107 src="images/xp0127.jpg"
+alt=Image></span><span class="ulsupple"><font face="Arial">,</font></span><span style="font-family: Arial; color: #0033CC; letter-spacing: -.2pt">
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">les 
+param&egrave;tres de chaque p&eacute;riph&eacute;rique en mode d'&eacute;conomie d'&eacute;nergie s'afficheront 
+lorsque Windows Vista d&eacute;marrera &agrave; partir de ce mode.</span></span><font face="Arial"><br>
+&nbsp;</font></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=2 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Afficher un message de confirmation lors du 
+  passage d'un mode &agrave; un autre.&quot;</span></b></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Si vous 
+cliquez sur</span><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial'> </span></span><span
+lang=EN-US style='font-family:Arial;color:black'>
+<img border=0 width=15
+height=15 id=wp1223080 src="images/xp0128.jpg" alt=Image></span><span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">et 
+l'incorporez dans</span><span
+lang=EN-US style='font-family:Arial;color:black'><span class=ulsupple1>
+</span>
+<img border=0 width=15 height=15 id=wp1223081 src="images/xp0127.jpg"
+alt=Image></span><span class="ulsupple"><font face="Arial">,</font></span><span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC"> 
+les param&egrave;tres (fonctionnalit&eacute;s r&eacute;duites) de chaque p&eacute;riph&eacute;rique en mode 
+d'&eacute;conomie d'&eacute;nergie s'afficheront lors du passage du mode normal au mode 
+d'&eacute;conomie d'&eacute;nergie ; parall&egrave;lement, les param&egrave;tres (restriction des 
+fonctionnalit&eacute;s annul&eacute;e) de chaque p&eacute;riph&eacute;rique en mode normal (&eacute;tat libre) 
+s'afficheront lors du passage du mode d'&eacute;conomie d'&eacute;nergie au mode normal.</span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ol style='margin-top:0mm' start=3 type=1>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><b><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>&quot;Afficher un message lorsque le changement de 
+  mode a &eacute;chou&eacute;.&quot;</span></b></li>
+ </ol>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Si vous 
+cliquez sur</span><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial'> </span></span><span
+lang=EN-US style='font-family:Arial;color:black'>
+<img border=0 width=15
+height=15 id=wp1223082 src="images/xp0128.jpg" alt=Image></span><span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">et 
+l'incorporez dans</span><span
+lang=EN-US style='font-family:Arial;color:black'><span class=ulsupple1>
+</span>
+<img border=0 width=15 height=15 id=wp1223083 src="images/xp0127.jpg"
+alt=Image></span><span class="ulsupple"><font face="Arial">,</font></span><span
+lang=EN-US style='font-family:Arial;color:black'><span class=ulsupple1> </span></span>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">les 
+informations sur le p&eacute;riph&eacute;rique pour lequel le changement de mode a &eacute;chou&eacute; 
+seront affich&eacute;es.</span></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=4 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Cliquez sur le bouton [OK].</span></b><b><span lang=EN-US style='font-family:
+     Arial'> </span></b></li>
+</ol>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+     <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Si le 
+     p&eacute;riph&eacute;rique ne fonctionne pas correctement apr&egrave;s l'avoir remis en mode 
+     normal, faites comme suit :</span></li>
+    </ul>
+    <ul style='margin-top:0mm' type=disc>
+     <ol style='margin-top:0mm' start=1 type=1>
+      <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:
+          1.5pt;line-height:150%'>
+      <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">
+      Cliquez sur le bouton [Initialisation du p&eacute;riph&eacute;rique].</span></li>
+     </ol>
+    </ul>
+    <div>
+    <p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+    1.5pt;margin-left:72.0pt;line-height:150%'>
+    <span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Une 
+    fen&ecirc;tre vous demandant de confirmer le changement appara&icirc;t.</span></p>
+    </div>
+    <ul style='margin-top:0mm' type=disc>
+     <ol style='margin-top:0mm' start=2 type=1>
+      <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:
+          1.5pt;line-height:150%'>
+      <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">
+      Cliquez sur le bouton [OK].</span></li>
+     </ol>
+    </ul>
+    <div>
+    <p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+    1.5pt;margin-left:72.0pt;line-height:150%'>
+    <span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">
+    Chaque p&eacute;riph&eacute;rique est initialis&eacute; ; le mode d'&eacute;conomie d'&eacute;nergie est annul&eacute; 
+    et le p&eacute;riph&eacute;rique d&eacute;sactiv&eacute; est r&eacute;activ&eacute;.</span><span lang=EN-US style='font-family:Arial;color:black'><br>
+    </span><font face="Arial"><span class="olsupple">L'ic&ocirc;ne &Eacute;conomiseur 
+    d'&eacute;nergie de la zone de notification (coin inf&eacute;rieur droit de l'&eacute;cran) 
+    devient
+    <img id="wp1218404" alt="Image" hspace="0" src="../XP_FR/images/icon2al.jpg" border="0" width="18" height="18"> 
+    (Mode normal).</span></font><span lang=EN-US style='font-family:Arial;color:black'><br>
+    </span>
+    <span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">La 
+    fen&ecirc;tre [Configuration de l'utilitaire &Eacute;conomiseur d'&eacute;nergie] se ferme.</span></p>
+    </div>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1217526></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Passage entre mode d'&eacute;conomie d'&eacute;nergie et mode normal</span></h2>
+
+</div>
+
+<p style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Vous 
+pouvez passer du mode d'&eacute;conomie d'&eacute;nergie au mode normal et vice-versa de deux 
+fa&ccedil;ons :</span></p>
+
+<ul type=square>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+ <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">En 
+ appuyant sur le bouton &Eacute;conomie d'&eacute;nergie sur l'ordinateur.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'><a href="#wp1216784"><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span lang="EN-US" style="font-family: Arial"><a href="#wp1216784">Aller 
+ aux instructions</a></span></span></li>
+ <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+ <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">En 
+ cliquant sur l'ic&ocirc;ne correspondante dans la zone de notification, situ&eacute;e dans 
+ le coin inf&eacute;rieur droit de l'&eacute;cran.</span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'><a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'><a href="#wp1190547"><img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span lang="EN-US" style="font-family: Arial"><a href="#wp1190547">Aller 
+ aux instructions</a></span></span><span lang=EN-US
+     style='font-family:Arial'> </span></li>
+</ul>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=82 height=28
+  src="images/juuyou.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:#FFFAF7;border:outset #FF3300 1.0pt'
+   bordercolorlight="#FF9933">
+   <tr>
+    <td style='border:inset #FF3300 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=square>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'>
+     <span style="font-family: Arial; letter-spacing: -.2pt">Seul un utilisateur 
+     poss&eacute;dant des droits d'administrateur peut passer d'un mode &agrave; l'autre. Un 
+     utilisateur aux droits limit&eacute;s ne le pourra pas. </span></li>
+     <li class=MsoNormal style='color:#CC6633;line-height:150%'>
+     <span style="font-family: Arial; letter-spacing: -.2pt">Si un p&eacute;riph&eacute;rique 
+     est en cours d'utilisation, il faut d'abord l'arr&ecirc;ter avant de passer d'un 
+     mode &agrave; l'autre. Dans le cas contraire, il peut &ecirc;tre impossible d'arr&ecirc;ter ce 
+     p&eacute;riph&eacute;rique.</span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=wp1216784></a><span lang=EN-US style='font-size:13.5pt;font-family:
+Arial;color:#333399'>Changement de mode avec le bouton &Eacute;conomie d'&eacute;nergie</span></h2>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><b><span lang=EN-US style='font-family:Arial;letter-spacing:
+     -.2pt'>Appuyez sur le bouton Instantan&eacute; / &Eacute;conomie d'&eacute;nergie.
+<br>
+     </span></b><b><span lang=EN-US style='font-family:Arial'><br>
+Consultez le guide d'utilisation du syst&egrave;me pour conna&icirc;tre l'emplacement de ce bouton.</span></b></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><font face="Arial">
+<span class="olsupple">Si vous avez param&eacute;tr&eacute; le syst&egrave;me pour qu'il affiche un 
+message lors du changement de mode conform&eacute;ment &agrave;</span></font><span class=olsupple1><span style='font-family:Arial'> </span></span><span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'>
+<a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'>
+<a href="#wp1192212">
+<img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span></span><span class=olsupple1><span
+lang=EN-US style='font-family:Arial'> <a href="#wp1192212">&quot;Param&eacute;trage du 
+r&eacute;gime de fonctionnement pour chacun des p&eacute;riph&eacute;riques en mode d'&eacute;conomie 
+d'&eacute;nergie&quot;</a>, </span></span><font face="Arial"><span class="olsupple">le 
+message de confirmation suivant appara&icirc;tra.</span></font></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:8.25pt;margin-right:0mm;margin-bottom:
+1.5pt;margin-left:36.0pt;line-height:150%'><b><span lang=EN-US
+style='font-family:Arial;color:#0033CC'><img border=0 width=525 height=407
+id=wp1193157 src="images/Image2.jpg" alt=Image></span></b></p>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:36.0pt'>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+    2.25pt;margin-left:36.0pt;text-indent:-18.0pt;line-height:150%'><span
+    lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:Symbol;
+    color:#0033CC'>&middot;</span><span lang=EN-US style='font-size:7.0pt;
+    line-height:150%;color:#0033CC'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span><font face="Arial"><span class="ulbody">Si vous cliquez sur
+    <img id="wp1215335" alt="Image" hspace="0" src="../XP_FR/images/xp0127am.jpg" border="0" width="15" height="15"> 
+    pour &laquo; Afficher un message de confirmation lorsque le changement de mode est 
+    effectu&eacute;. &raquo; et l'incorporez dans
+    <img id="wp1215338" alt="Image" hspace="0" src="../XP_FR/images/xp0128an.jpg" border="0" width="15" height="15">, 
+    cette fen&ecirc;tre n'appara&icirc;tra plus par la suite.</span></font></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><font face="Arial"><span class="olbody">Cliquez sur le 
+ bouton [OK].</span></font></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><font face="Arial"><span class="olsupple">
+Un voyant indiquant la progression du passage entre modes appara&icirc;t.</span></font></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=476 height=78 id=wp1203256
+src="images/Image5.jpg" alt=Image></span></b></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Lorsque 
+le changement est termin&eacute;, l'ic&ocirc;ne situ&eacute;e dans la zone de notification (coin 
+inf&eacute;rieur droit de l'&eacute;cran) se modifie :</span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ul style='margin-top:0mm' type=disc>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'>
+  <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Lors du 
+  passage du mode d'&eacute;conomie d'&eacute;nergie au mode normal :</span><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'> </span><span
+      lang=EN-US style='font-family:Arial;color:black'><img border=0 width=18
+      height=18 id=wp1206039 src="images/icon1ao.jpg" alt=Image><span
+      class=ulbody1>-&gt; </span><img border=0 width=18 height=18 id=wp1203264
+      src="images/icon2ap.jpg" alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'>
+  <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Lors du 
+  passage du mode normal au mode d'&eacute;conomie d'&eacute;nergie :</span><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'> </span><span
+      lang=EN-US style='font-family:Arial;color:black'><img border=0 width=18
+      height=18 id=wp1206050 src="images/icon2aq.jpg" alt=Image><span
+      class=ulbody1>-&gt; </span><img border=0 width=18 height=18 id=wp1206032
+      src="images/icon1ar.jpg" alt=Image></span></li>
+ </ul>
+</ol>
+
+<h2><a name=wp1190547></a><span lang=EN-US style='font-size:13.5pt;font-family:
+Arial;color:#333399'>Changement de mode avec l'ic&ocirc;ne de la zone de notification 
+(coin inf&eacute;rieur droit de l'&eacute;cran)</span></h2>
+
+<ol style='margin-top:0mm' start=1 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><span style="font-family: Arial; letter-spacing: -.2pt">
+ <b>Cliquez sur l'ic&ocirc;ne de la zone de notification (coin inf&eacute;rieur droit de 
+ l'&eacute;cran).</b></span><ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'><SPAN lang=EN-US style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Lors du 
+passage du mode normal au mode d'&eacute;conomie d'&eacute;nergie : cliquez sur</SPAN> </span><span lang=EN-US style='font-family:Arial;color:black'><img
+      border=0 width=18 height=18 id=wp1207304 src="images/icon2as.jpg"
+      alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>Lors du passage du mode d'&eacute;conomie d'&eacute;nergie au mode normal : cliquez sur </span><span lang=EN-US style='font-family:Arial;color:black'><img
+      border=0 width=18 height=18 id=wp1207311 src="images/icon1at.jpg"
+      alt=Image></span></li>
+ </ul>
+</ol>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:8.25pt;margin-bottom:1.5pt;
+     line-height:150%'><span style="font-family: Arial; letter-spacing: -.2pt">
+ <b>Dans le menu qui s'affiche, s&eacute;lectionnez les &eacute;l&eacute;ments suivants :</b></span><ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>Lors du passage du mode normal au mode d'&eacute;conomie d'&eacute;nergie :
+</span></li>
+ </ul>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><font face="Arial"><span class="ulsupple">S&eacute;lectionnez</span></font><span class=ulsupple1><span
+lang=EN-US style='font-family:Arial'> </span></span>
+<span style="font-family: Arial; color: #0033CC; letter-spacing: -.2pt">&quot;<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Passage 
+au mode d'&eacute;conomie d'&eacute;nergie.</span><span style='font-family:Arial;color:#0033CC;letter-spacing:-.2pt'>&quot;</span></span></p>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'>&nbsp;</p>
+
+</div>
+
+<ol style='margin-top:0mm' start=2 type=1>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>Lors du passage du mode d'&eacute;conomie d'&eacute;nergie au mode normal :
+</span></li>
+ </ul>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC;letter-spacing:-.2pt'>&nbsp;</span><font face="Arial"><span class="ulsupple">S&eacute;lectionnez
+</span></font>
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">&quot;Passage 
+au mode normal<span style='font-family:
+Arial;color:#0033CC;letter-spacing:-.2pt'>&quot;</span></span></p>
+
+<p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+2.25pt;margin-left:72.0pt;line-height:150%'>&nbsp;</p>
+
+</div>
+
+<div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:0mm;
+     margin-bottom:.0001pt;line-height:150%'><b><span lang=EN-US
+     style='font-family:Arial;letter-spacing:-.2pt'>Si </span></b>
+ <font face="Arial"><span class="olsupple">vous avez param&eacute;tr&eacute; le syst&egrave;me pour 
+ qu'il affiche un message lors du changement de mode conform&eacute;ment &agrave;</span></font><span
+     class=olsupple1><span style='font-family:Arial'>  </span></span>
+ <span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'>
+ <a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'>
+ <a href="#wp1192212">
+ <img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span></span><span
+     class=olsupple1><span lang=EN-US style='font-family:Arial'>
+ <a href="#wp1192212">&quot;Param&eacute;trage du r&eacute;gime de fonctionnement pour chacun des 
+ p&eacute;riph&eacute;riques en mode d'&eacute;conomie d'&eacute;nergie&quot;</a>,  </span></span>
+ <font face="Arial"><span class="olsupple">le message de confirmation suivant 
+ appara&icirc;tra</span></font><span
+     class=olsupple1><span lang=EN-US style='font-family:Arial'>.</span></span></li>
+</ol>
+
+</div>
+
+<div>
+
+<ol style='margin-top:0mm' start=4 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:0mm;
+     margin-bottom:.0001pt;line-height:150%'><b><span lang=EN-US
+     style='font-family:Arial'><img border=0 width=525 height=407 id=wp1193224
+     src="images/Image2au.jpg" alt=Image></span></b></li>
+</ol>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:36.0pt'>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <p class=MsoNormal style='margin-top:2.25pt;margin-right:0mm;margin-bottom:
+    2.25pt;margin-left:36.0pt;text-indent:-18.0pt;line-height:150%'><span
+    lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:Symbol;
+    color:#0033CC'>&middot;</span><span lang=EN-US style='font-size:7.0pt;
+    line-height:150%;color:#0033CC'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span><font face="Arial"><span class="ulbody">Si vous cliquez sur</span></font><span class=ulbody1><span lang=EN-US style='font-family:Arial'> </span></span><span lang=EN-US style='font-family:Arial;
+    color:black'><img border=0 width=15 height=15 id=wp1223078
+    src="images/xp0127am.jpg" alt=Image></span><font face="Arial"><span class="ulbody">pour 
+    &laquo; Afficher un message de confirmation lorsque le changement de mode est 
+    effectu&eacute;. &raquo; et l'incorporez dans</span></font><span lang=EN-US style='font-family:Arial;
+    color:black'><span class=ulbody1> </span><img
+    border=0 width=15 height=15 id=wp1223079 src="images/xp0128an.jpg"
+    alt=Image></span><font face="Arial"><span class="ulbody">, cette fen&ecirc;tre 
+    n'appara&icirc;tra plus par la suite.</span></font></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <li class=MsoNormal style='color:#0033CC;margin-top:0mm;margin-bottom:1.5pt;
+     line-height:150%'><font face="Arial"><span class="olbody">Cliquez sur le 
+ bouton [OK].</span></font></li>
+</ol>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><font face="Arial"><span class="olsupple">
+Un voyant indiquant la progression du passage entre modes appara&icirc;t.</span></font></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><img border=0 width=476 height=78 id=wp1206261
+src="images/Image5az.jpg" alt=Image></span></b></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:1.5pt;
+margin-left:36.0pt;line-height:150%'><span lang=EN-US style='font-family:
+Arial;color:#0033CC'><b><br>
+</b></span><b>
+<span style="letter-spacing: -.2pt; font-family: Arial; color: #0033CC">
+<span style="font-family: Arial; letter-spacing: -.2pt; color: #0033CC">Lorsque 
+le changement est termin&eacute;, l'ic&ocirc;ne situ&eacute;e dans la zone de notification (coin 
+inf&eacute;rieur droit de l'&eacute;cran) se modifie</span>:</span></b></p>
+
+</div>
+
+<ol style='margin-top:0mm' start=3 type=1>
+ <ul style='margin-top:0mm' type=square>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'>
+  <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Lors du 
+  passage du mode d'&eacute;conomie d'&eacute;nergie au mode normal </span><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>: </span><span
+      lang=EN-US style='font-family:Arial;color:black'><img border=0 width=18
+      height=18 id=wp1207318 src="images/icon1ay.jpg" alt=Image><span
+      class=ulbody1>-&gt; </span><img border=0 width=18 height=18 id=wp1207321
+      src="images/icon2az.jpg" alt=Image></span></li>
+  <li class=MsoNormal style='color:#0033CC;margin-top:2.25pt;margin-bottom:
+      2.25pt;line-height:150%'>
+  <span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Lors du 
+  passage du mode normal au mode d'&eacute;conomie d'&eacute;nergie</span><span lang=EN-US style='font-family:Arial;
+      letter-spacing:-.2pt'>: </span><span
+      lang=EN-US style='font-family:Arial;color:black'><img border=0 width=18
+      height=18 id=wp1207325 src="images/icon2ba.jpg" alt=Image><span
+      class=ulbody1>-&gt; </span><img border=0 width=18 height=18 id=wp1207328
+      src="images/icon1bb.jpg" alt=Image></span></li>
+ </ul>
+</ol>
+
+<h2><a name=wp1195541></a><span lang=EN-US style='font-size:13.5pt;font-family:
+Arial;color:#333399'>En cas d'&eacute;chec du changement de mode</span></h2>
+
+<p style='line-height:180%'><font face="Arial">Si vous avez param&eacute;tr&eacute; le syst&egrave;me 
+pour qu'il affiche un message lors du changement de mode conform&eacute;ment &agrave;</font><span lang=EN-US style='font-family:Arial'>
+<a href="#wp1192212">&quot;Param&eacute;trage du r&eacute;gime de fonctionnement pour chacun des 
+p&eacute;riph&eacute;riques en mode d'&eacute;conomie d'&eacute;nergie&quot;</a>,  </span><font face="Arial">le 
+message de confirmation suivant appara&icirc;tra. Lorsque le message s'affiche, vous 
+pouvez v&eacute;rifier les informations sur le p&eacute;riph&eacute;rique qui pose probl&egrave;me.<br>
+Apr&egrave;s avoir confirm&eacute; le contenu, cliquez sur [OK].</font></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=525 height=406
+id=wp1222931 src="images/Image4.jpg" alt=Image></span></p>
+
+</div>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+     <font face="Arial"><span class="ulbody">Si vous cliquez sur</span></font><span
+         class=ulbody1><span lang=EN-US style='font-family:Arial'> </span></span><span
+         lang=EN-US style='font-family:Arial;color:black'><img border=0
+         width=15 height=15 id=wp1222936 src="images/xp0127bc.jpg" alt=Image></span><font face="Arial"><span class="ulbody">pour 
+     &laquo; Afficher un message lorsque le changement de mode a &eacute;chou&eacute;. &raquo; et 
+     l'incorporez dans</span></font><span
+         lang=EN-US style='font-family:Arial;color:black'><span
+         class=ulbody1> </span><img border=0 width=15 height=15
+         id=wp1222939 src="images/xp0128bd.jpg" alt=Image><span class=ulbody1>,
+         
+         </span></span><font face="Arial"><span class="ulbody">cette fen&ecirc;tre 
+     n'appara&icirc;tra plus par la suite bien que le changement de mode ait &eacute;chou&eacute;</span></font><span
+         lang=EN-US style='font-family:Arial;color:black'><span class=ulbody1>.</span></span></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<p style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Si le 
+changement de mode est op&eacute;r&eacute; alors qu'un p&eacute;riph&eacute;rique (ex. lecteur mixte S, 
+lecteur CD/DVD) est en cours d'utilisation, le message suivant risque 
+d'appara&icirc;tre </span><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'>:</span></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=490 height=182
+id=wp1223077 src="images/OSERROR.jpg" alt=Image></span></p>
+
+</div>
+
+<p style='line-height:180%'><font face="Arial">Le cas &eacute;ch&eacute;ant, cliquez sur le 
+bouton [OK].</font></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1218589></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'>Si le PC d&eacute;marre en mode d'&eacute;conomie d'&eacute;nergie</span></h2>
+
+</div>
+
+<p style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Si vous 
+arr&ecirc;tez</span><span lang=EN-US style='font-family:Arial;
+letter-spacing:-.2pt'> Windows Vista </span>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">en mode 
+d'&eacute;conomie d'&eacute;nergie, le syst&egrave;me red&eacute;marrera dans ce m&ecirc;me mode et une fen&ecirc;tre 
+affichant les fonctionnalit&eacute;s limit&eacute;es pour chaque p&eacute;riph&eacute;rique appara&icirc;tra.</span></p>
+
+<div>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+lang=EN-US style='font-family:Arial'><img border=0 width=525 height=407
+id=wp1220843 src="images/Image6.jpg" alt=Image></span></p>
+
+</div>
+
+<p style='line-height:180%'><font face="Arial">Apr&egrave;s avoir confirm&eacute; le contenu, 
+cliquez sur [OK].</font></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td valign=bottom style='padding:0mm 0mm 0mm 0mm'>
+  <p class=MsoNormal style='margin-top:3.75pt;margin-right:0mm;margin-bottom:
+  0mm;margin-left:0mm;margin-bottom:.0001pt;line-height:180%'><span lang=EN-US
+  style='font-family:Arial'><img border=0 width=85 height=26
+  src="images/point.gif" alt=Image title=Image></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:0mm 0mm 0mm 0mm'>
+  <table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0
+   style='background:aliceblue;border:outset #333399 1.0pt'
+   bordercolorlight="#0066FF">
+   <tr>
+    <td style='border:inset #333399 1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+    <ul type=disc>
+     <li class=MsoNormal style='color:#0033CC;line-height:150%'>
+     <font face="Arial"><span class="ulbody">Si vous cliquez sur</span></font><span
+         class=ulbody1><span lang=EN-US style='font-family:Arial'> </span></span><span
+         lang=EN-US style='font-family:Arial;color:black'><img border=0
+         width=15 height=15 id=wp1220438 src="images/xp0127be.jpg" alt=Image></span><font face="Arial"><span class="ulbody"> 
+     pour &laquo; Afficher un message de confirmation lorsque le syst&egrave;me d&eacute;marre en 
+     mode d'&eacute;conomie d'&eacute;nergie. &raquo; et l'incorporez dans</span></font><span
+         lang=EN-US style='font-family:Arial;color:black'><span
+         class=ulbody1> </span><img border=0 width=15
+         height=15 id=wp1220429 src="images/xp0128bf.jpg" alt=Image></span><font face="Arial"><span class="ulbody">, 
+     cette fen&ecirc;tre n'appara&icirc;tra plus par la suite, bien que vous d&eacute;marriez 
+     Windows Vista en mode d'&eacute;conomie d'&eacute;nergie.</span></font></li>
+    </ul>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal></p>
+  </td>
+ </tr>
+</table>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1191366></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399;letter-spacing:-.2pt'><B><SPAN lang=EN-US style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Ic&ocirc;ne de 
+la zone de notification (coin inf&eacute;rieur droit de l'&eacute;cran)</SPAN></B></span></h2>
+
+</div>
+
+<div style='margin-top:7.5pt'>
+
+<p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'>
+<span style="font-size: 11.0pt; font-family: Arial; color: #3366CC">&Agrave; propos de 
+l'ic&ocirc;ne de la zone de notification (coin inf&eacute;rieur droit de l'&eacute;cran).</span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=1 cellpadding=0 width="100%"
+ style='width:100.0%;border:solid windowtext 1.0pt'>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:aliceblue;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=thead><font face="Arial">Ic&ocirc;ne</font></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:aliceblue;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=thead><font face="Arial">Description</font><span lang=EN-US style='font-family:Arial'> </span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+  id=wp1196663 src="images/icon1.jpg" alt=Image></span></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p style='line-height:180%'><font face="Arial">Le PC est en mode d'&eacute;conomie 
+  d'&eacute;nergie</font><span lang=EN-US style='font-family:Arial'>.</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:1.0pt'>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-family:Arial'><img border=0 width=18 height=18
+  id=wp1192322 src="images/icon2.jpg" alt=Image></span></p>
+  </td>
+  <td style='border:solid windowtext 1.0pt;background:white;padding:3.0pt 3.0pt 3.0pt 3.0pt;
+  height:1.0pt'>
+  <font face="Arial">Le PC est en mode normal.</font></td>
+ </tr>
+</table>
+
+</div>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1200773></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'><FONT face=Arial>Mises en garde</FONT></span></h2>
+
+</div>
+
+<ul class="pullevel1">
+  <li><span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Bien 
+  qu'il soit possible d'utiliser un PC avec des comptes d'utilisateur multiples, 
+  le mode d'&eacute;conomie d'&eacute;nergie offre une seule configuration possible par 
+  ordinateur. Ainsi, si un autre utilisateur ouvre une session sur l'ordinateur 
+  avec un compte diff&eacute;rent en mode d'&eacute;conomie d'&eacute;nergie, le syst&egrave;me continue 
+  dans le m&ecirc;me mode.</span> </li>
+  <li><span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Le 
+  passage d'un mode &agrave; l'autre ne peut &ecirc;tre effectu&eacute; que selon les instructions 
+  fournies dans le pr&eacute;sent manuel. Le fait de mettre le PC en veille/reprise/veille 
+  prolong&eacute;e ou en r&eacute;initialisation/d&eacute;connexion ne changera jamais 
+  automatiquement le mode de consommation d'&eacute;nergie actuel.</span> </li>
+  <li><span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Si 
+  la condition mat&eacute;rielle est modifi&eacute;e intentionnellement pendant ou apr&egrave;s le 
+  changement de mode, le logiciel ne r&eacute;initialise pas les param&egrave;tres mat&eacute;riels.</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-top:0mm;margin-right:0mm;margin-bottom:0mm;
+margin-left:36.0pt;margin-bottom:.0001pt;line-height:150%'>
+<span
+     class=ulbody1><span lang=EN-US style='font-family:Verdana'>
+<a
+     href="file:///F:/TEST/VISTA/Manual.html#wp1216784"><span style='font-family:Arial;text-decoration:
+     none'>
+<a href="#wp1217526">
+<img border=0 width=16 height=13 src="images/alow_jumplink.gif"
+     alt=Image title=Image></a></span></a></span><span style="font-family: Arial" lang="en-us"><a href="#wp1217526">Aller aux instructions</a></span></span></p>
+
+<div style='border-top:none;border-left:solid #0033CC 6.0pt;border-bottom:solid #0033CC 1.0pt;
+border-right:none;padding:0mm 0mm 2.0pt 6.0pt;margin-left:-6.0pt'>
+
+<h2 style='margin-top:15.0pt;line-height:180%'><a name=wp1212041></a><span
+lang=EN-US style='font-size:13.5pt;line-height:180%;font-family:Arial;
+color:#333399'>Marques de commerce et droits d'auteur</span></h2>
+
+</div>
+
+<p style='line-height:180%'>
+<span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">Microsoft 
+et Windows Vista sont des marques d&eacute;pos&eacute;es de la soci&eacute;t&eacute; Microsoft aux 
+&Eacute;tats-Unis et/ou dans d'autres pays.</span><font face="Arial"><br>
+L'utilitaire &Eacute;conomiseur d'&eacute;nergie est un nom de produit de la soci&eacute;t&eacute; Fujitsu 
+Limited.<br>
+</font><span lang="EN-US" style="FONT-FAMILY: Arial; LETTER-SPACING: -0.2pt">
+Tous les autres noms d'entreprise ou de produits mentionn&eacute;s dans les pr&eacute;sentes 
+sont des marques de commerce ou des marques d&eacute;pos&eacute;es de leurs propri&eacute;taires 
+respectifs. </span></p>
+
+<p align=right style='text-align:right;line-height:180%'><span lang=EN-US
+style='font-family:Arial'><a href="#pagetop"><span style='text-decoration:none'><img
+border=0 width=14 height=14 src="images/alow_top.gif" alt=Image title=Image></span></a></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%'>
+ <tr style='height:.75pt'>
+  <td width="100%" colspan=2 style='width:100.0%;background:mediumblue;
+  padding:0mm 0mm 0mm 0mm;height:.75pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:180%'><span
+  lang=EN-US style='font-size:1.0pt;line-height:180%;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='height:5.25pt'>
+  <td width="100%" colspan=2 style='width:100.0%;padding:0mm 0mm 0mm 0mm;
+  height:5.25pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='height:7.5pt'>
+  <td style='padding:0mm 0mm 0mm 0mm;height:7.5pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+  <td style='padding:0mm 0mm 0mm 0mm;height:7.5pt'>
+  <p class=MsoNormal align=right style='margin:0mm;margin-bottom:.0001pt;
+  text-align:right;line-height:180%'><span lang=EN-US style='font-size:8.0pt;
+  line-height:180%;font-family:Verdana'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:3.0pt'>
+  <td width="100%" colspan=2 style='width:100.0%;padding:0mm 0mm 0mm 0mm;
+  height:3.0pt'>
+  <div>
+  <p class=MsoNormal style='margin:0mm;margin-bottom:.0001pt;line-height:3.75pt'><span
+  lang=EN-US style='font-size:1.0pt;font-family:Verdana'>&nbsp;</span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+<div style="FONT-SIZE: 90%; COLOR: #000000; TEXT-ALIGN: center">
+  <font face="Arial">Tous droits r&eacute;serv&eacute;s, Copyright&copy; FUJITSU LIMITED 2005-2010</font></div>
+
+<p class=MsoNormal align=center style='margin:0mm;margin-bottom:.0001pt;
+text-align:center;line-height:180%'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

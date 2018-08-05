@@ -1,0 +1,425 @@
+2017-07-19  19:13:39,259 : ________
+2017-07-19  19:13:39,264 : Starte W10Privacy v.2.4.1.0 im Gui-Modus
+2017-07-19  19:13:39,270 : W10Privacy wurde über den Benutzer <Fallar> gestartet.
+2017-07-19  19:13:39,275 : Administrativer Kontext erkannt, es können auch systemspezifische Einstellungen angepasst werden.
+2017-07-19  19:13:39,451 : Beginne die Ermittlung der Aufgaben...
+2017-07-19  19:13:39,814 : Ermittlung der Aufgaben abgeschlossen.
+2017-07-19  19:13:39,819 : Beginne die Ermittlung der System-Apps...
+2017-07-19  19:13:41,695 : Ermittlung der System-Apps abgeschlossen.
+2017-07-19  19:13:41,699 : Beginne die Ermittlung der Benutzer-Apps...
+2017-07-19  19:13:43,998 : Ermittlung der Benutzer-Apps abgeschlossen.
+2017-07-19  19:13:44,003 : Beginne die Ermittlung der Firewall-Regeln...
+2017-07-19  19:13:44,618 : Ermittlung der Firewall-Regeln abgeschlossen.
+2017-07-19  19:13:50,860 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2017-07-19  19:13:51,552 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2017-07-19  19:19:22,138 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo\Enabled -> 0
+2017-07-19  19:19:22,147 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost\EnableWebContentEvaluation -> 0
+2017-07-19  19:19:22,156 : Setze Registry-Key HKEY_CURRENT_USER\Control Panel\International\User Profile\HttpAcceptLanguageOptOut -> 1
+2017-07-19  19:19:22,166 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}\Value -> Deny
+2017-07-19  19:19:22,175 : Setze Registry-Key HKCU64\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{E5323777-F976-4f5b-9B55-B94699C46E44}\Value -> Deny
+2017-07-19  19:19:22,183 : Setze Registry-Key HKCU64\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{2EEF81BE-33FA-4800-9670-1CD474972C3F}\Value -> Deny
+2017-07-19  19:19:22,191 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings\AcceptedPrivacyPolicy -> 0
+2017-07-19  19:19:22,196 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\RestrictImplicitTextCollection -> 1
+2017-07-19  19:19:22,202 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings\RestrictImplicitInkCollection -> 1
+2017-07-19  19:19:22,206 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore\HarvestContacts -> 0
+2017-07-19  19:19:22,214 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{C1D23ACC-752B-43E5-8448-8D0E519CD6D6}\Value -> Deny
+2017-07-19  19:19:22,221 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{D89823BA-7180-4B81-B50C-7E471E6121A3}\Value -> Deny
+2017-07-19  19:19:22,229 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{8BC668CF-7728-45BD-93F8-CF2B3B41D7AB}\Value -> Deny
+2017-07-19  19:19:22,237 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{9231CB4C-BF57-4AF3-8C55-FDA7BFCC04C5}\Value -> Deny
+2017-07-19  19:19:22,244 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{992AFA70-6F47-4148-B3E9-3003349C1548}\Value -> Deny
+2017-07-19  19:19:22,255 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{A8804298-2D5F-42E3-9531-9C8C39EB29CE}\Value -> Deny
+2017-07-19  19:19:22,263 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\LooselyCoupled\Value -> Deny
+2017-07-19  19:19:22,270 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules\NumberOfSIUFInPeriod -> 0
+2017-07-19  19:19:22,278 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection\AllowTelemetry -> 1
+2017-07-19  19:19:22,283 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack\DiagTrackAuthorization -> 7
+2017-07-19  19:19:22,292 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Privacy\TailoredExperiencesWithDiagnosticDataEnabled -> 0
+2017-07-19  19:19:22,299 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{2297E4E2-5DBE-466D-A12B-0F8286F0D9CA}\Value -> Deny
+2017-07-19  19:19:22,306 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SystemPaneSuggestionsEnabled -> 0
+2017-07-19  19:19:22,315 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Personalization\NoLockScreenCamera -> 1
+2017-07-19  19:19:22,322 : Setze Registry-Key HKLM\SYSTEM\ControlSet001\Control\WMI\AutoLogger\AutoLogger-Diagtrack-Listener\Start -> 0
+2017-07-19  19:19:22,327 : Setze Registry-Key HKLM\SYSTEM\CurrentControlSet\Control\WMI\AutoLogger\AutoLogger-Diagtrack-Listener\Start -> 0
+2017-07-19  19:19:22,335 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows\AppCompat\DisableInventory -> 1
+2017-07-19  19:19:22,342 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows\CredUI\DisablePasswordReveal -> 1
+2017-07-19  19:19:22,350 : Setze Registry-Key HKLM\Software\Policies\Microsoft\WMDRM\DisableOnline -> 1
+2017-07-19  19:19:22,357 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet\SpyNetReporting -> 0
+2017-07-19  19:19:22,365 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet\SubmitSamplesConsent -> 2
+2017-07-19  19:19:22,372 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\MRT\DontReportInfectionInformation -> 1
+2017-07-19  19:19:22,378 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\Windows\CurrentVersion\SmartGlass\UserAuthPolicy -> 0
+2017-07-19  19:19:22,385 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{52079E78-A92B-413F-B213-E8FE35712E72}\Value -> Deny
+2017-07-19  19:19:22,392 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{7D7E8402-7C54-4821-A34E-AEEFD62DED93}\Value -> Deny
+2017-07-19  19:19:22,419 : Host-Eintrag <0.0.0.0> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,426 : Host-Eintrag <a.rad.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,432 : Host-Eintrag <a.ads1.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,439 : Host-Eintrag <a.ads2.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,445 : Host-Eintrag <a.ads2.msads.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,452 : Host-Eintrag <ac3.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,458 : Host-Eintrag <ad.doubleclick.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,463 : Host-Eintrag <adnexus.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,469 : Host-Eintrag <adnxs.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,474 : Host-Eintrag <ads.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,480 : Host-Eintrag <ads1.msads.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,485 : Host-Eintrag <ads1.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,491 : Host-Eintrag <aidps.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,496 : Host-Eintrag <aka-cdn-ns.adtech.de> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,502 : Host-Eintrag <a-msedge.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,507 : Host-Eintrag <apps.skype.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,513 : Host-Eintrag <az361816.vo.msecnd.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,518 : Host-Eintrag <az512334.vo.msecnd.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,523 : Host-Eintrag <b.rad.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,529 : Host-Eintrag <b.ads2.msads.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,535 : Host-Eintrag <b.ads1.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,541 : Host-Eintrag <bingads.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,547 : Host-Eintrag <bs.serving-sys.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,553 : Host-Eintrag <c.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,559 : Host-Eintrag <c.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,565 : Host-Eintrag <cdn.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,571 : Host-Eintrag <cds26.ams9.msecn.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,577 : Host-Eintrag <choice.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,583 : Host-Eintrag <choice.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,589 : Host-Eintrag <compatexchange.cloudapp.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,595 : Host-Eintrag <corp.sts.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,601 : Host-Eintrag <corpext.msitadfs.glbdns2.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,607 : Host-Eintrag <cs1.wpc.v0cdn.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,614 : Host-Eintrag <db3aqu.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,621 : Host-Eintrag <df.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,627 : Host-Eintrag <diagnostics.support.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,633 : Host-Eintrag <ec.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,639 : Host-Eintrag <feedback.microsoft-hohm.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,646 : Host-Eintrag <feedback.search.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,652 : Host-Eintrag <feedback.windows.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,658 : Host-Eintrag <flex.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,664 : Host-Eintrag <g.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,670 : Host-Eintrag <h1.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,676 : Host-Eintrag <h2.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,683 : Host-Eintrag <i1.services.social.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,689 : Host-Eintrag <i1.services.social.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,695 : Host-Eintrag <lb1.www.ms.akadns.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,701 : Host-Eintrag <live.rads.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,707 : Host-Eintrag <m.adnxs.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,713 : Host-Eintrag <m.hotmail.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,719 : Host-Eintrag <msftncsi.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,725 : Host-Eintrag <msnbot-65-55-108-23.search.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,731 : Host-Eintrag <msntest.serving-sys.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,737 : Host-Eintrag <oca.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,743 : Host-Eintrag <oca.telemetry.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,749 : Host-Eintrag <onesettings-bn2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,755 : Host-Eintrag <onesettings-cy2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,760 : Host-Eintrag <onesettings-db5.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,766 : Host-Eintrag <onesettings-hk2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,772 : Host-Eintrag <pre.footprintpredict.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,780 : Host-Eintrag <preview.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,786 : Host-Eintrag <pricelist.skype.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,794 : Host-Eintrag <rad.live.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,800 : Host-Eintrag <rad.msn.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,806 : Host-Eintrag <redir.metaservices.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,811 : Host-Eintrag <reports.wes.df.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,817 : Host-Eintrag <s.gateway.messenger.live.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,823 : Host-Eintrag <s0.2mdn.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,829 : Host-Eintrag <schemas.microsoft.akadns.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,835 : Host-Eintrag <secure.adnxs.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,841 : Host-Eintrag <secure.flashtalking.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,847 : Host-Eintrag <services.wes.df.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,852 : Host-Eintrag <settings.data.glbdns2.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,858 : Host-Eintrag <settings-sandbox.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,864 : Host-Eintrag <settings-win.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,870 : Host-Eintrag <sO.2mdn.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,876 : Host-Eintrag <sqm.df.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,881 : Host-Eintrag <sqm.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,887 : Host-Eintrag <sqm.telemetry.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,893 : Host-Eintrag <ssw.live.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,900 : Host-Eintrag <static.2mdn.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,906 : Host-Eintrag <statsfe1.ws.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,913 : Host-Eintrag <statsfe2.update.microsoft.com.akadns.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,919 : Host-Eintrag <statsfe2.ws.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,926 : Host-Eintrag <survey.watson.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,933 : Host-Eintrag <telecommand.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,939 : Host-Eintrag <telecommand.telemetry.microsoft.com.nsat­c.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,946 : Host-Eintrag <telecommand.telemetry.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,952 : Host-Eintrag <telemetry.appex.bing.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,959 : Host-Eintrag <telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,965 : Host-Eintrag <telemetry.urs.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,971 : Host-Eintrag <ui.skype.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,977 : Host-Eintrag <v10.vortex-win.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,983 : Host-Eintrag <v10.vortex-win.data.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,989 : Host-Eintrag <view.atdmt.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:22,995 : Host-Eintrag <vortex.data.glbdns2.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,001 : Host-Eintrag <vortex.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,007 : Host-Eintrag <vortex.data.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,014 : Host-Eintrag <vortex-bn2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,019 : Host-Eintrag <vortex-cy2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,025 : Host-Eintrag <vortex-db5.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,032 : Host-Eintrag <vortex-hk2.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,038 : Host-Eintrag <vortex-sandbox.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,044 : Host-Eintrag <vortex-win.data.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,050 : Host-Eintrag <vortex-win.data.metron.live.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,056 : Host-Eintrag <watson.live.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,063 : Host-Eintrag <watson.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,069 : Host-Eintrag <watson.ppe.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,075 : Host-Eintrag <watson.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,081 : Host-Eintrag <watson.telemetry.microsoft.com.nsatc.net> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,087 : Host-Eintrag <wes.df.telemetry.microsoft.com> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,284 : Host-Eintrag <reports.wes.df.telemetry.microsoft.com > noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,295 : Host-Eintrag <sqm.telemetry.microsoft.com.nsatc.net > noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,329 : Host-Eintrag <wes.df.telemetry.microsoft.comnet> noch nicht in HOSTS vorhanden, wird nun hinzugefügt.
+2017-07-19  19:19:23,608 : Firewallregel <Block-Microsoft-IPs-used-for-telemetry-data-delivery-LIGHT-1> wird hinzugefügt.
+2017-07-19  19:19:23,715 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search\AllowCortana -> 0
+2017-07-19  19:19:23,722 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search\AllowSearchToUseLocation -> 0
+2017-07-19  19:19:23,731 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search\ConnectedSearchUseWeb -> 0
+2017-07-19  19:19:23,738 : Setze Registry-Key HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\BingSearchEnabled -> 0
+2017-07-19  19:19:23,746 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\features\S-1-5-21-610887398-479621023-1732825362-1001\FeatureStates -> 316
+2017-07-19  19:19:23,753 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\features\S-1-5-21-610887398-479621023-1732825362-1001\SocialNetworks\ABCH\OptInStatus -> 0
+2017-07-19  19:19:23,760 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\features\S-1-5-21-610887398-479621023-1732825362-1001\SocialNetworks\ABCH-SKYPE\OptInStatus -> 0
+2017-07-19  19:19:23,767 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\features\S-1-5-21-610887398-479621023-1732825362-1001\SocialNetworks\FACEBOOK\OptInStatus -> 0
+2017-07-19  19:19:23,774 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\LaunchTo -> 1
+2017-07-19  19:19:23,782 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C} -> 0
+2017-07-19  19:19:23,789 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt -> 0
+2017-07-19  19:19:23,796 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Hidden -> 1
+2017-07-19  19:19:23,804 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowSuperHidden -> 1
+2017-07-19  19:19:23,811 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SmartScreenEnabled -> Off
+2017-07-19  19:19:23,819 : Setze Registry-Key HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics\IconVerticalSpacing -> -1150
+2017-07-19  19:19:23,828 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Personalization\NoLockScreen -> 1
+2017-07-19  19:19:23,835 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowSyncProviderNotifications -> 0
+2017-07-19  19:19:23,843 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DiagTrack\Start -> 4
+2017-07-19  19:19:23,850 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\diagnosticshub.standardcollector.service\Start -> 4
+2017-07-19  19:19:23,857 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmwappushservice\Start -> 4
+2017-07-19  19:19:23,864 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DoSvc\Start -> 4
+2017-07-19  19:19:23,871 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc\Start -> 4
+2017-07-19  19:19:23,878 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WbioSrvc\Start -> 4
+2017-07-19  19:19:23,885 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware -> 1
+2017-07-19  19:19:23,890 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableBehaviorMonitoring -> 1
+2017-07-19  19:19:23,895 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableOnAccessProtection -> 1
+2017-07-19  19:19:23,900 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableScanOnRealtimeEnable -> 1
+2017-07-19  19:19:23,907 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Main\DoNotTrack -> 1
+2017-07-19  19:19:23,915 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\PhishingFilter\EnabledV9 -> 0
+2017-07-19  19:19:23,922 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\FlipAhead\FPEnabled -> 0
+2017-07-19  19:19:23,930 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Main\Cookies -> 1
+2017-07-19  19:19:23,938 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Privacy\EnableEncryptedMediaExtensions -> 0
+2017-07-19  19:19:23,945 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\HideNewEdgeButton -> 1
+2017-07-19  19:19:23,953 : Setze Registry-Key HKCU64\SOFTWARE\Classes\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\System.IsPinnedToNameSpaceTree -> 0
+2017-07-19  19:19:23,963 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableLibrariesDefaultSaveToOneDrive -> 1
+2017-07-19  19:19:23,968 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableFileSync -> 1
+2017-07-19  19:19:23,973 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableMeteredNetworkFileSync -> 0
+2017-07-19  19:19:23,978 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableFileSyncNGSC -> 1
+2017-07-19  19:19:23,986 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\OneDrive\DisablePersonalSync -> 1
+2017-07-19  19:19:23,994 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\Windows\CurrentVersion\ActionCenter\Quick Actions\All\SystemSettings_Launcher_QuickNote\Type -> 0
+2017-07-19  19:19:24,003 : Aufgabe <Microsoft Compatibility Appraiser> wird nun deaktiviert!
+2017-07-19  19:19:24,075 : Aufgabe <ProgramDataUpdater> wird nun deaktiviert!
+2017-07-19  19:19:24,150 : Aufgabe <Proxy> wird nun deaktiviert!
+2017-07-19  19:19:24,220 : Aufgabe <Consolidator> wird nun deaktiviert!
+2017-07-19  19:19:24,295 : Aufgabe <KernelCeipTask> wird nun deaktiviert!
+2017-07-19  19:19:24,362 : Aufgabe <UsbCeip> wird nun deaktiviert!
+2017-07-19  19:19:24,431 : Aufgabe <Microsoft-Windows-DiskDiagnosticDataCollector> wird nun deaktiviert!
+2017-07-19  19:19:24,537 : Aufgabe <DmClient> wird nun deaktiviert!
+2017-07-19  19:19:24,619 : Aufgabe <FamilySafetyMonitor> wird nun deaktiviert!
+2017-07-19  19:19:24,688 : Aufgabe <WinSAT> wird nun deaktiviert!
+2017-07-19  19:19:24,759 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate -> 1
+2017-07-19  19:19:24,769 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\UxOption -> 1
+2017-07-19  19:19:24,777 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\DeferUpgrade -> 1
+2017-07-19  19:19:24,785 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Biometrics\Enabled -> 0
+2017-07-19  19:19:24,793 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\System\AllowBlockingAppsAtShutdown -> 0
+2017-07-19  19:19:24,801 : Setze Registry-Key HKEY_CURRENT_USER\Control Panel\Desktop\AutoEndTasks -> 1
+2017-07-19  19:19:24,809 : Setze Registry-Key HKLM64\SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction\Enable -> N
+2017-07-19  19:19:24,819 : Setze Registry-Key HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl\DisplayParameters -> 1
+2017-07-19  19:19:24,827 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme -> 0
+2017-07-19  19:19:24,836 : Firewallregel <AADBrokerPlugin> wird hinzugefügt.
+2017-07-19  19:19:24,925 : Firewallregel <AccountsControl> wird hinzugefügt.
+2017-07-19  19:19:25,034 : Firewallregel <BioEnrollment> wird hinzugefügt.
+2017-07-19  19:19:25,124 : Firewallregel <LockApp> wird hinzugefügt.
+2017-07-19  19:19:25,215 : Firewallregel <AssignedAccessLockApp> wird hinzugefügt.
+2017-07-19  19:19:25,306 : Firewallregel <SearchCortana> wird hinzugefügt.
+2017-07-19  19:19:25,404 : Firewallregel <XboxGame> wird hinzugefügt.
+2017-07-19  19:19:25,502 : Firewallregel <ParentalControls> wird hinzugefügt.
+2017-07-19  19:19:25,593 : Firewallregel <BackgroundTaskHost> wird hinzugefügt.
+2017-07-19  19:19:25,683 : Firewallregel <DownloadUploadHost> wird hinzugefügt.
+2017-07-19  19:19:25,773 : Firewallregel <MalwareProtectionCommandLineUtility> wird hinzugefügt.
+2017-07-19  19:19:25,870 : Firewallregel <WindowsToolUninstallMaliciousSoftware> wird hinzugefügt.
+2017-07-19  19:19:25,976 : Firewallregel <ProblemReporting> wird hinzugefügt.
+2017-07-19  19:19:26,069 : Firewallregel <Aktivierungsclient> wird hinzugefügt.
+2017-07-19  19:19:26,159 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.3DBuilder_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,167 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.BingNews_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,175 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.BingWeather_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,183 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Getstarted_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,190 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,199 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,206 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Office.OneNote_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,214 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.People_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,222 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Windows.Photos_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,231 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsAlarms_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,239 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsCalculator_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,246 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,254 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,261 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.XboxApp_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,269 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.ZuneMusic_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,277 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.ZuneVideo_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,284 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsCamera_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,292 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsMaps_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,299 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Messaging_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,309 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Office.Sway_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,317 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\windows.immersivecontrolpanel_cw5n1h2txyewy\DisabledByUser -> 1
+2017-07-19  19:19:26,324 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,335 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,344 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,354 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Windows.ContactSupport_cw5n1h2txyewy\DisabledByUser -> 1
+2017-07-19  19:19:26,363 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.PPIProjection_cw5n1h2txyewy\DisabledByUser -> 1
+2017-07-19  19:19:26,373 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.OneConnect_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,382 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MSPaint_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,390 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Microsoft3DViewer_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,397 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\DisabledByUser -> 1
+2017-07-19  19:19:26,428 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.WindowsStore_8wekyb3d8bbwe\DisabledByUser -> 1
+2017-07-19  19:19:26,435 : Entferne Benutzerapp <Microsoft.3DBuilder> (PackageName:Microsoft.3DBuilder_14.1.1302.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:28,882 : Entferne Benutzerapp <Microsoft.BingNews> (PackageName:Microsoft.BingNews_4.21.1434.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:30,272 : Entferne Benutzerapp <Microsoft.BingWeather> (PackageName:Microsoft.BingWeather_4.20.1102.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:31,610 : Entferne Benutzerapp <Microsoft.Getstarted> (PackageName:Microsoft.Getstarted_5.10.1441.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:32,894 : Entferne Benutzerapp <Microsoft.MicrosoftOfficeHub> (PackageName:Microsoft.MicrosoftOfficeHub_17.8312.7601.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:34,146 : Entferne Benutzerapp <Microsoft.MicrosoftSolitaireCollection> (PackageName:Microsoft.MicrosoftSolitaireCollection_3.16.6200.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:35,415 : Entferne Benutzerapp <Microsoft.Office.OneNote> (PackageName:Microsoft.Office.OneNote_17.8366.57611.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:36,690 : Entferne Benutzerapp <Microsoft.People> (PackageName:Microsoft.People_10.2.1451.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:37,971 : Entferne Benutzerapp <Microsoft.Windows.Photos> (PackageName:Microsoft.Windows.Photos_2017.18062.13720.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:39,330 : Entferne Benutzerapp <Microsoft.WindowsAlarms> (PackageName:Microsoft.WindowsAlarms_10.1706.1531.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:40,650 : Entferne Benutzerapp <Microsoft.WindowsCalculator> (PackageName:Microsoft.WindowsCalculator_10.1706.1602.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:41,917 : Entferne Benutzerapp <microsoft.windowscommunicationsapps> (PackageName:microsoft.windowscommunicationsapps_17.8241.41275.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:43,274 : Entferne Benutzerapp <Microsoft.WindowsSoundRecorder> (PackageName:Microsoft.WindowsSoundRecorder_10.1706.1561.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:44,547 : Entferne Benutzerapp <Microsoft.XboxApp> (PackageName:Microsoft.XboxApp_30.31.1001.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:45,847 : Entferne Benutzerapp <Microsoft.ZuneMusic> (PackageName:Microsoft.ZuneMusic_10.17054.15411.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:47,157 : Entferne Benutzerapp <Microsoft.ZuneVideo> (PackageName:Microsoft.ZuneVideo_10.17054.14711.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:48,456 : Entferne Benutzerapp <Microsoft.WindowsCamera> (PackageName:Microsoft.WindowsCamera_2017.308.50.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:49,756 : Entferne Benutzerapp <Microsoft.WindowsMaps> (PackageName:Microsoft.WindowsMaps_5.1705.1391.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:51,059 : Entferne Benutzerapp <Microsoft.Messaging> (PackageName:Microsoft.Messaging_3.26.24002.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:52,432 : Entferne Benutzerapp <Microsoft.Office.Sway> (PackageName:Microsoft.Office.Sway_17.8269.45191.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:53,745 : Entferne Benutzerapp <Microsoft.WindowsFeedbackHub> (PackageName:Microsoft.WindowsFeedbackHub_1.1704.1603.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:55,073 : Entferne Benutzerapp <Microsoft.OneConnect> (PackageName:Microsoft.OneConnect_2.1704.952.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:56,337 : Entferne Benutzerapp <Microsoft.MSPaint> (PackageName:Microsoft.MSPaint_2.1707.1017.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:57,610 : Entferne Benutzerapp <Microsoft.MicrosoftStickyNotes> (PackageName:Microsoft.MicrosoftStickyNotes_1.8.0.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:19:58,881 : Entferne Benutzerapp <Microsoft.Microsoft3DViewer> (PackageName:Microsoft.Microsoft3DViewer_1.1705.3039.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:00,123 : Entferne Benutzerapp <Microsoft.Wallet> (PackageName:Microsoft.Wallet_1.0.16328.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:01,362 : Entferne Benutzerapp <Microsoft.DesktopAppInstaller> (PackageName:Microsoft.DesktopAppInstaller_1.0.10332.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:02,607 : Entferne Benutzerapp <Microsoft.XboxIdentityProvider> (PackageName:Microsoft.XboxIdentityProvider_11.29.23003.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:04,061 : Entferne Benutzerapp <Microsoft.XboxSpeechToTextOverlay> (PackageName:Microsoft.XboxSpeechToTextOverlay_1.14.2002.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:05,323 : Entferne Benutzerapp <Microsoft.StorePurchaseApp> (PackageName:Microsoft.StorePurchaseApp_11705.1706.15001.0_x64__8wekyb3d8bbwe)...
+2017-07-19  19:20:06,570 : Entferne Systemapp <Microsoft.3DBuilder> (PackageName:Microsoft.3DBuilder_14.1.1302.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:07,898 : Entferne Systemapp <Microsoft.BingWeather> (PackageName:Microsoft.BingWeather_4.20.1102.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:09,017 : Entferne Systemapp <Microsoft.Getstarted> (PackageName:Microsoft.Getstarted_5.10.1441.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:10,070 : Entferne Systemapp <Microsoft.MicrosoftOfficeHub> (PackageName:Microsoft.MicrosoftOfficeHub_2017.613.326.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:11,019 : Entferne Systemapp <Microsoft.MicrosoftSolitaireCollection> (PackageName:Microsoft.MicrosoftSolitaireCollection_3.16.6200.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:13,089 : Entferne Systemapp <Microsoft.Office.OneNote> (PackageName:Microsoft.Office.OneNote_2015.8366.57611.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:14,731 : Entferne Systemapp <Microsoft.People> (PackageName:Microsoft.People_2017.526.111.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:15,717 : Entferne Systemapp <Microsoft.SkypeApp> (PackageName:Microsoft.SkypeApp_11.19.820.0_neutral_~_kzf8qxf38zg5c)...
+2017-07-19  19:20:17,489 : Entferne Systemapp <Microsoft.Windows.Photos> (PackageName:Microsoft.Windows.Photos_2017.18062.13720.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:18,597 : Entferne Systemapp <Microsoft.WindowsAlarms> (PackageName:Microsoft.WindowsAlarms_2017.603.108.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:19,673 : Entferne Systemapp <Microsoft.WindowsCalculator> (PackageName:Microsoft.WindowsCalculator_2017.609.2124.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:20,752 : Entferne Systemapp <microsoft.windowscommunicationsapps> (PackageName:microsoft.windowscommunicationsapps_2015.8241.41275.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:23,341 : Entferne Systemapp <Microsoft.WindowsSoundRecorder> (PackageName:Microsoft.WindowsSoundRecorder_2017.605.2103.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:24,441 : Entferne Systemapp <Microsoft.XboxApp> (PackageName:Microsoft.XboxApp_30.31.1001.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:25,492 : Entferne Systemapp <Microsoft.ZuneMusic> (PackageName:Microsoft.ZuneMusic_2019.17054.15411.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:26,523 : Entferne Systemapp <Microsoft.ZuneVideo> (PackageName:Microsoft.ZuneVideo_2019.17054.14711.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:27,524 : Entferne Systemapp <Microsoft.WindowsCamera> (PackageName:Microsoft.WindowsCamera_2017.308.50.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:28,565 : Entferne Systemapp <Microsoft.WindowsMaps> (PackageName:Microsoft.WindowsMaps_2017.519.1645.0_neutral_~_8wekyb3d8bbwe)...
+2017-07-19  19:20:30,325 : Beginne die Ermittlung der Aufgaben...
+2017-07-19  19:20:30,666 : Ermittlung der Aufgaben abgeschlossen.
+2017-07-19  19:20:30,671 : Beginne die Ermittlung der System-Apps...
+2017-07-19  19:20:32,379 : Ermittlung der System-Apps abgeschlossen.
+2017-07-19  19:20:32,384 : Beginne die Ermittlung der Benutzer-Apps...
+2017-07-19  19:20:33,360 : Ermittlung der Benutzer-Apps abgeschlossen.
+2017-07-19  19:20:33,365 : Beginne die Ermittlung der Firewall-Regeln...
+2017-07-19  19:20:33,685 : Ermittlung der Firewall-Regeln abgeschlossen.
+2017-07-19  19:20:38,447 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2017-07-19  19:20:39,071 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2017-07-19  19:23:14,937 : Aufgabe <Windows Defender Cache Maintenance> wird nun deaktiviert!
+2017-07-19  19:23:15,029 : Aufgabe <Windows Defender Cleanup> wird nun deaktiviert!
+2017-07-19  19:23:15,115 : Aufgabe <Windows Defender Scheduled Scan> wird nun deaktiviert!
+2017-07-19  19:23:15,198 : Aufgabe <Windows Defender Verification> wird nun deaktiviert!
+2017-07-19  19:23:15,334 : Beginne die Ermittlung der Aufgaben...
+2017-07-19  19:23:15,750 : Ermittlung der Aufgaben abgeschlossen.
+2017-07-19  19:23:15,755 : Beginne die Ermittlung der System-Apps...
+2017-07-19  19:23:17,468 : Ermittlung der System-Apps abgeschlossen.
+2017-07-19  19:23:17,474 : Beginne die Ermittlung der Benutzer-Apps...
+2017-07-19  19:23:18,430 : Ermittlung der Benutzer-Apps abgeschlossen.
+2017-07-19  19:23:18,435 : Beginne die Ermittlung der Firewall-Regeln...
+2017-07-19  19:23:18,767 : Ermittlung der Firewall-Regeln abgeschlossen.
+2017-07-19  19:23:23,545 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2017-07-19  19:23:24,191 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2017-07-19  19:24:09,223 : W10Privacy wird beendet.
+2017-07-19  19:29:52,350 : ________
+2017-07-19  19:29:52,353 : Starte W10Privacy v.2.4.1.0 im Gui-Modus
+2017-07-19  19:29:52,356 : W10Privacy wurde über den Benutzer <Fallar> gestartet.
+2017-07-19  19:29:52,358 : Administrativer Kontext erkannt, es können auch systemspezifische Einstellungen angepasst werden.
+2017-07-19  19:29:52,508 : Beginne die Ermittlung der Aufgaben...
+2017-07-19  19:29:52,806 : Ermittlung der Aufgaben abgeschlossen.
+2017-07-19  19:29:52,807 : Beginne die Ermittlung der System-Apps...
+2017-07-19  19:29:54,364 : Ermittlung der System-Apps abgeschlossen.
+2017-07-19  19:29:54,366 : Beginne die Ermittlung der Benutzer-Apps...
+2017-07-19  19:29:55,490 : Ermittlung der Benutzer-Apps abgeschlossen.
+2017-07-19  19:29:55,492 : Beginne die Ermittlung der Firewall-Regeln...
+2017-07-19  19:29:55,854 : Ermittlung der Firewall-Regeln abgeschlossen.
+2017-07-19  19:30:00,703 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2017-07-19  19:30:01,370 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2017-07-19  19:31:04,414 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost\EnableWebContentEvaluation -> 0
+2017-07-19  19:31:04,419 : Setze Registry-Key HKEY_CURRENT_USER\Control Panel\International\User Profile\HttpAcceptLanguageOptOut -> 1
+2017-07-19  19:31:04,424 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\lfsvc\Service\Configuration\Status -> 0
+2017-07-19  19:31:04,426 : Setze Registry-Key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc\Service\Configuration\Status -> 0
+2017-07-19  19:31:04,430 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}\Value -> Deny
+2017-07-19  19:31:04,433 : Setze Registry-Key HKCU64\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{E5323777-F976-4f5b-9B55-B94699C46E44}\Value -> Deny
+2017-07-19  19:31:04,437 : Setze Registry-Key HKCU64\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{2EEF81BE-33FA-4800-9670-1CD474972C3F}\Value -> Deny
+2017-07-19  19:31:04,442 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{D89823BA-7180-4B81-B50C-7E471E6121A3}\Value -> Deny
+2017-07-19  19:31:04,445 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{8BC668CF-7728-45BD-93F8-CF2B3B41D7AB}\Value -> Deny
+2017-07-19  19:31:04,449 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{9231CB4C-BF57-4AF3-8C55-FDA7BFCC04C5}\Value -> Deny
+2017-07-19  19:31:04,452 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{992AFA70-6F47-4148-B3E9-3003349C1548}\Value -> Deny
+2017-07-19  19:31:04,457 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{A8804298-2D5F-42E3-9531-9C8C39EB29CE}\Value -> Deny
+2017-07-19  19:31:04,461 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\LooselyCoupled\Value -> Deny
+2017-07-19  19:31:04,465 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection\AllowTelemetry -> 1
+2017-07-19  19:31:04,466 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack\DiagTrackAuthorization -> 7
+2017-07-19  19:31:04,470 : Setze Registry-Key HKLM\Software\Policies\Microsoft\WMDRM\DisableOnline -> 1
+2017-07-19  19:31:04,474 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet\SpyNetReporting -> 0
+2017-07-19  19:31:04,478 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet\SubmitSamplesConsent -> 2
+2017-07-19  19:31:04,483 : Setze Registry-Key HKLM\SOFTWARE\Policies\Microsoft\MRT\DontReportInfectionInformation -> 1
+2017-07-19  19:31:04,487 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{52079E78-A92B-413F-B213-E8FE35712E72}\Value -> Deny
+2017-07-19  19:31:04,491 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{7D7E8402-7C54-4821-A34E-AEEFD62DED93}\Value -> Deny
+2017-07-19  19:31:04,495 : Setze Registry-Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Start_TrackProgs -> 1
+2017-07-19  19:31:04,501 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware -> 1
+2017-07-19  19:31:04,503 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableBehaviorMonitoring -> 1
+2017-07-19  19:31:04,504 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableOnAccessProtection -> 1
+2017-07-19  19:31:04,506 : Setze Registry-Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection\DisableScanOnRealtimeEnable -> 1
+2017-07-19  19:31:04,509 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\PhishingFilter\EnabledV9 -> 0
+2017-07-19  19:31:04,513 : Setze Registry-Key HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Privacy\EnableEncryptedMediaExtensions -> 0
+2017-07-19  19:31:04,517 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableLibrariesDefaultSaveToOneDrive -> 1
+2017-07-19  19:31:04,519 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableFileSync -> 1
+2017-07-19  19:31:04,520 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableMeteredNetworkFileSync -> 0
+2017-07-19  19:31:04,522 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\Onedrive\DisableFileSyncNGSC -> 1
+2017-07-19  19:31:04,527 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate -> 1
+2017-07-19  19:31:04,531 : Setze Registry-Key HKLM64\SOFTWARE\Policies\Microsoft\Biometrics\Enabled -> 0
+2017-07-19  19:31:04,582 : Beginne die Ermittlung der Aufgaben...
+2017-07-19  19:31:04,901 : Ermittlung der Aufgaben abgeschlossen.
+2017-07-19  19:31:04,902 : Beginne die Ermittlung der System-Apps...
+2017-07-19  19:31:06,488 : Ermittlung der System-Apps abgeschlossen.
+2017-07-19  19:31:06,489 : Beginne die Ermittlung der Benutzer-Apps...
+2017-07-19  19:31:07,527 : Ermittlung der Benutzer-Apps abgeschlossen.
+2017-07-19  19:31:07,529 : Beginne die Ermittlung der Firewall-Regeln...
+2017-07-19  19:31:07,830 : Ermittlung der Firewall-Regeln abgeschlossen.
+2017-07-19  19:31:13,399 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2017-07-19  19:31:14,148 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2017-07-19  19:31:19,155 : W10Privacy wird beendet.
+2018-08-01  16:41:22,684 : ________
+2018-08-01  16:41:22,699 : Starte W10Privacy v.2.4.1.0 im Gui-Modus
+2018-08-01  16:41:22,699 : W10Privacy wurde über den Benutzer <Fallar> gestartet.
+2018-08-01  16:41:22,699 : Administrativer Kontext erkannt, es können auch systemspezifische Einstellungen angepasst werden.
+2018-08-01  16:41:23,028 : Beginne die Ermittlung der Aufgaben...
+2018-08-01  16:41:23,481 : Ermittlung der Aufgaben abgeschlossen.
+2018-08-01  16:41:23,481 : Beginne die Ermittlung der System-Apps...
+2018-08-01  16:41:25,309 : Ermittlung der System-Apps abgeschlossen.
+2018-08-01  16:41:25,325 : Beginne die Ermittlung der Benutzer-Apps...
+2018-08-01  16:41:26,841 : Ermittlung der Benutzer-Apps abgeschlossen.
+2018-08-01  16:41:26,841 : Beginne die Ermittlung der Firewall-Regeln...
+2018-08-01  16:41:27,231 : Ermittlung der Firewall-Regeln abgeschlossen.
+2018-08-01  16:41:31,997 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2018-08-01  16:41:32,326 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2018-08-01  16:41:57,926 : Beginne die Ermittlung der Aufgaben...
+2018-08-01  16:41:58,410 : Ermittlung der Aufgaben abgeschlossen.
+2018-08-01  16:41:58,410 : Beginne die Ermittlung der System-Apps...
+2018-08-01  16:42:00,082 : Ermittlung der System-Apps abgeschlossen.
+2018-08-01  16:42:00,098 : Beginne die Ermittlung der Benutzer-Apps...
+2018-08-01  16:42:00,911 : Ermittlung der Benutzer-Apps abgeschlossen.
+2018-08-01  16:42:00,911 : Beginne die Ermittlung der Firewall-Regeln...
+2018-08-01  16:42:01,207 : Ermittlung der Firewall-Regeln abgeschlossen.
+2018-08-01  16:42:06,005 : Beginne die Ermittlung der Namen der System-Apps für die Firewall-Regeln...
+2018-08-01  16:42:06,333 : Ermittlung der Namen der System-Apps für die Firewall-Regeln abgeschlossen.
+2018-08-01  16:42:29,133 : W10Privacy wird beendet.
